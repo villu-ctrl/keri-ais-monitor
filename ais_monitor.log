@@ -28,3 +28,13 @@
 2025-10-30 11:29:09,921 - WARNING - BREACH: M 40 (MMSI 276002240) in restricted area
 2025-10-30 11:29:09,959 - INFO - Exported GeoJSON to out (trails: 637)
 2025-10-30 11:29:17,761 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [CH2PR16CA0010.namprd16.prod.outlook.com 2025-10-30T11:29:17.760Z 08DE16EB26F68CDF]')
+2025-10-30 11:42:27,286 - INFO - Loaded geofence: piiratud_test
+2025-10-30 11:42:27,286 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 11:42:27,286 - INFO - --- Starting check ---
+2025-10-30 11:42:27,286 - INFO - Fetching vessel metadata...
+2025-10-30 11:42:28,718 - INFO - Loaded metadata for 17628 vessels
+2025-10-30 11:42:28,720 - INFO - Fetching AIS data...
+2025-10-30 11:42:29,486 - INFO - Found 641 vessels in Gulf of Finland
+2025-10-30 11:42:29,509 - WARNING - BREACH: M 40 (MMSI 276002240) in restricted area
+2025-10-30 11:42:29,552 - INFO - Exported GeoJSON to out (trails: 640)
+2025-10-30 11:42:37,058 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the request did not meet the criteria to be authenticated successfully. Contact your administrator. [CH0PR03CA0334.namprd03.prod.outlook.com 2025-10-30T11:42:28.856Z 08DE16B726ED6170]')
