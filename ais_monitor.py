@@ -437,4 +437,3 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
-
