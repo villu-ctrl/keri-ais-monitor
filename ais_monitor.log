@@ -132,3 +132,12 @@
 2025-10-30 14:58:29,546 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR03CA0146.namprd03.prod.outlook.com 2025-10-30T14:58:29.551Z 08DE16AB848E329C]')
 2025-10-30 14:58:37,684 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR13CA0085.namprd13.prod.outlook.com 2025-10-30T14:58:35.806Z 08DE16AD1320FA7C]')
 2025-10-30 14:58:48,205 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [BY1P220CA0022.NAMP220.PROD.OUTLOOK.COM 2025-10-30T14:58:53.141Z 08DE17973DA74857]')
+2025-10-30 15:31:12,538 - INFO - Loaded geofence: piiratud_test
+2025-10-30 15:31:12,539 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 15:31:12,539 - INFO - --- Starting check ---
+2025-10-30 15:31:12,539 - INFO - Fetching vessel metadata...
+2025-10-30 15:31:13,516 - INFO - Loaded metadata for 17629 vessels
+2025-10-30 15:31:13,519 - INFO - Fetching AIS data...
+2025-10-30 15:31:14,286 - INFO - Found 207 vessels in Gulf of Finland
+2025-10-30 15:31:14,319 - INFO - Exported GeoJSON to out (trails: 213)
+2025-10-30 15:31:14,320 - INFO - No breaches detected
