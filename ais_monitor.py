@@ -26,6 +26,7 @@ CONFIG = {
     'ais_url': 'https://meri.digitraffic.fi/api/ais/v1/locations',
     'vessels_url': 'https://meri.digitraffic.fi/api/ais/v1/vessels',
     'bbox': {'latmin': 59.0, 'latmax': 60.5, 'lonmin': 24.0, 'lonmax': 27.0},
+    'max_age_minutes': 10,  # Only show vessels with data from last 10 minutes
     'email': {
         'smtp_server': 'smtp.office365.com',
         'smtp_port': 587,
@@ -148,6 +149,13 @@ def fetch_vessels():
                     continue
                 
                 mmsi = props.get('mmsi', 0)
+                timestamp = props.get('timestamp', 0)
+                
+                # Filter: only vessels with recent data
+                if timestamp:
+                    age_minutes = (time.time() - timestamp / 1000) / 60
+                    if age_minutes > CONFIG['max_age_minutes']:
+                        continue
                 
                 # Get name from metadata if available, otherwise use API name
                 vessel_name = props.get('name')
