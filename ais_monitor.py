@@ -31,7 +31,7 @@ CONFIG = {
         'smtp_port': 587,
         'sender': 'villu.kikas@taltech.ee',
         'recipient': 'villu.kikas@taltech.ee',
-        'password': os.environ.get('AIS_EMAIL_PASSWORD', '6kimalaneT'),
+        'password': os.environ.get('AIS_EMAIL_PASSWORD', ''),
         'cooldown_hours': 1
     },
     'export_dir': 'out',
@@ -437,3 +437,4 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
+
