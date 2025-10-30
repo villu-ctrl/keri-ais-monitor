@@ -192,3 +192,14 @@
 2025-10-30 17:18:27,649 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area
 2025-10-30 17:18:27,668 - INFO - Exported GeoJSON to out (trails: 215)
 2025-10-30 17:18:36,356 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR03CA0067.namprd03.prod.outlook.com 2025-10-30T17:18:16.996Z 08DE15CB2E7C1196]')
+2025-10-30 17:38:06,575 - INFO - Loaded geofence: piiratud_test
+2025-10-30 17:38:06,576 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 17:38:06,576 - INFO - --- Starting check ---
+2025-10-30 17:38:06,576 - INFO - Fetching vessel metadata...
+2025-10-30 17:38:07,354 - INFO - Loaded metadata for 17629 vessels
+2025-10-30 17:38:07,357 - INFO - Fetching AIS data...
+2025-10-30 17:38:08,089 - INFO - Found 196 vessels in Gulf of Finland
+2025-10-30 17:38:08,104 - INFO - Saved positions, cleaned 205 old records
+2025-10-30 17:38:08,105 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area
+2025-10-30 17:38:08,123 - INFO - Exported GeoJSON to out (trails: 215)
+2025-10-30 17:38:15,170 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [BN9PR03CA0573.namprd03.prod.outlook.com 2025-10-30T17:38:05.354Z 08DE178CF947A55C]')
