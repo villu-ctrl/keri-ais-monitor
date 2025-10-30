@@ -85,3 +85,14 @@
 2025-10-30 13:56:45,080 - INFO - Saved positions, cleaned 638 old records
 2025-10-30 13:56:45,117 - INFO - Exported GeoJSON to out (trails: 647)
 2025-10-30 13:56:45,118 - INFO - No breaches detected
+2025-10-30 14:13:52,058 - INFO - Loaded geofence: piiratud_test
+2025-10-30 14:13:52,059 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 14:13:52,059 - INFO - --- Starting check ---
+2025-10-30 14:13:52,059 - INFO - Fetching vessel metadata...
+2025-10-30 14:13:53,135 - INFO - Loaded metadata for 17628 vessels
+2025-10-30 14:13:53,137 - INFO - Fetching AIS data...
+2025-10-30 14:13:53,295 - INFO - Found 203 vessels in Gulf of Finland
+2025-10-30 14:13:53,310 - INFO - Saved positions, cleaned 637 old records
+2025-10-30 14:13:53,312 - WARNING - BREACH: TORNEDALEN (MMSI 255620000) in restricted area
+2025-10-30 14:13:53,343 - INFO - Exported GeoJSON to out (trails: 646)
+2025-10-30 14:14:00,900 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [CH0PR03CA0424.namprd03.prod.outlook.com 2025-10-30T14:13:56.834Z 08DE17486763E900]')
