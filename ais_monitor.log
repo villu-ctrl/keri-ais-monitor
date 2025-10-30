@@ -383,3 +383,16 @@
 2025-10-30 22:26:48,049 - INFO - Exported GeoJSON to out (trails: 205)
 2025-10-30 22:26:55,703 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [DS7PR03CA0253.namprd03.prod.outlook.com 2025-10-30T22:26:55.704Z 08DE1507139082BC]')
 2025-10-30 22:27:02,981 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [DM6PR17CA0022.namprd17.prod.outlook.com 2025-10-30T22:27:01.672Z 08DE17420A910C1B]')
+2025-10-30 22:41:16,128 - INFO - Loaded geofence: piiratud_test
+2025-10-30 22:41:16,129 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 22:41:16,129 - INFO - --- Starting check ---
+2025-10-30 22:41:16,129 - INFO - Fetching vessel metadata...
+2025-10-30 22:41:17,296 - INFO - Loaded metadata for 17630 vessels
+2025-10-30 22:41:17,299 - INFO - Fetching AIS data...
+2025-10-30 22:41:18,070 - INFO - Found 193 vessels in Gulf of Finland
+2025-10-30 22:41:18,084 - INFO - Saved positions, cleaned 194 old records
+2025-10-30 22:41:18,086 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area
+2025-10-30 22:41:18,088 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area
+2025-10-30 22:41:18,108 - INFO - Exported GeoJSON to out (trails: 204)
+2025-10-30 22:41:25,913 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [DM6PR08CA0003.namprd08.prod.outlook.com 2025-10-30T22:41:27.557Z 08DE17AA12562D79]')
+2025-10-30 22:41:33,016 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [DM6PR02CA0078.namprd02.prod.outlook.com 2025-10-30T22:41:34.434Z 08DE17987B45B7ED]')
