@@ -117,3 +117,18 @@
 2025-10-30 14:47:06,092 - WARNING - BREACH: TORNEDALEN (MMSI 255620000) in restricted area
 2025-10-30 14:47:06,107 - INFO - Exported GeoJSON to out (trails: 216)
 2025-10-30 14:47:14,757 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR03CA0060.namprd03.prod.outlook.com 2025-10-30T14:47:05.828Z 08DE1694461D598A]')
+2025-10-30 14:58:18,169 - INFO - Loaded geofence: piiratud_test
+2025-10-30 14:58:18,170 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-30 14:58:18,170 - INFO - --- Starting check ---
+2025-10-30 14:58:18,170 - INFO - Fetching vessel metadata...
+2025-10-30 14:58:19,447 - INFO - Loaded metadata for 17629 vessels
+2025-10-30 14:58:19,449 - INFO - Fetching AIS data...
+2025-10-30 14:58:20,000 - INFO - Found 208 vessels in Gulf of Finland
+2025-10-30 14:58:20,017 - INFO - Saved positions, cleaned 642 old records
+2025-10-30 14:58:20,019 - WARNING - BREACH: CONTSHIPS STELLAR (MMSI 210195000) in restricted area
+2025-10-30 14:58:20,020 - WARNING - BREACH: TORNEDALEN (MMSI 255620000) in restricted area
+2025-10-30 14:58:20,021 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area
+2025-10-30 14:58:20,036 - INFO - Exported GeoJSON to out (trails: 211)
+2025-10-30 14:58:29,546 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR03CA0146.namprd03.prod.outlook.com 2025-10-30T14:58:29.551Z 08DE16AB848E329C]')
+2025-10-30 14:58:37,684 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [SJ0PR13CA0085.namprd13.prod.outlook.com 2025-10-30T14:58:35.806Z 08DE16AD1320FA7C]')
+2025-10-30 14:58:48,205 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, the user credentials were incorrect. [BY1P220CA0022.NAMP220.PROD.OUTLOOK.COM 2025-10-30T14:58:53.141Z 08DE17973DA74857]')
