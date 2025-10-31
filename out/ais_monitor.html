@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>AIS Monitor - Gulf of Finland</title>
+  <title>AIS Monitor - Gulf of Finland, Keri || Data from DigiTraffic.fi || Copilot+ & GitHub</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -79,7 +79,7 @@
 </head>
 <body>
   <header>
-    <h1>AIS Monitor - Gulf of Finland, Keri || Data from DigiTraffic.fi || Copilot+ & GitHub</h1>
+    <h1>AIS Monitor - Gulf of Finland, Keri | DigiTraffic.fi | Copilot+ & GitHub</h1>
     <div id="status">Loading...</div>
   </header>
   
@@ -262,9 +262,18 @@
         trailsLayer.clearLayers().addData(trails);
         vesselsLayer.clearLayers().addData(vessels);
         
-        lastUpdate = new Date();
+        // Find most recent vessel timestamp to show actual data age
+        let newestTimestamp = 0;
+        vessels.features.forEach(f => {
+          const ts = parseInt(f.properties.timestamp);
+          if (ts > newestTimestamp) newestTimestamp = ts;
+        });
+        
+        const dataTime = new Date(newestTimestamp);
+        const dataAge = Math.round((Date.now() - newestTimestamp) / 60000); // minutes
+        
         document.getElementById('status').textContent = 
-          `${vessels.features.length} vessels, ${trails.features.length} trails - Updated ${lastUpdate.toLocaleTimeString()}`;
+          `${vessels.features.length} vessels, ${trails.features.length} trails | Data: ${dataTime.toLocaleTimeString()} (${dataAge}m ago)`;
         
         // Fit bounds on first load
         if (vessels.features.length > 0 && !map._loaded) {
@@ -285,5 +294,3 @@
   </script>
 </body>
 </html>
-
-
