@@ -33,7 +33,8 @@ CONFIG = {
         'sender': 'villukikas@gmail.com',  # Change to your Gmail
         'recipient': 'villu.kikas@taltech.ee',  # Keep this as recipient
         'password': os.environ.get('AIS_EMAIL_PASSWORD', ''),
-        'cooldown_hours': 1
+        'cooldown_hours': 1,
+        'min_speed_knots': 0.2  # Don't alert for stationary/anchored vessels
     },
     'export_dir': 'out',
     'check_interval_seconds': 300,
@@ -303,12 +304,17 @@ def build_trails():
     return {'type': 'FeatureCollection', 'features': features}
 
 def check_geofence(vessels, polygon):
-    """Return vessels inside polygon"""
+    """Return vessels inside polygon with speed above threshold"""
     breaches = []
+    min_speed = CONFIG['email']['min_speed_knots']
+    
     for v in vessels:
         if polygon.contains(Point(v.lon, v.lat)):
-            breaches.append(v)
-            logging.warning(f"BREACH: {v.name} (MMSI {v.mmsi}) in restricted area")
+            if v.sog < min_speed:
+                logging.info(f"SKIP: {v.name} (MMSI {v.mmsi}) in area but stationary (speed: {v.sog} knots)")
+            else:
+                breaches.append(v)
+                logging.warning(f"BREACH: {v.name} (MMSI {v.mmsi}) in restricted area (speed: {v.sog} knots)")
     return breaches
 
 _alert_cache = {}
