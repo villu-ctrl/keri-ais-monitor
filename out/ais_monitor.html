@@ -61,6 +61,20 @@
       height: 3px;
       margin-right: 8px;
     }
+    
+    .timestamp-tooltip {
+      background: rgba(255, 102, 0, 0.9);
+      border: 1px solid #fff;
+      color: white;
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 3px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    
+    .timestamp-tooltip::before {
+      border-top-color: rgba(255, 102, 0, 0.9);
+    }
   </style>
 </head>
 <body>
@@ -81,8 +95,12 @@
       <span>Trails (3h)</span>
     </div>
     <div class="legend-item">
+      <div class="legend-color" style="background: #ff6600; height: 4px;"></div>
+      <span>Trail Highlight (click vessel)</span>
+    </div>
+    <div class="legend-item">
       <div class="legend-color" style="background: #0066ff; border-radius: 50%; width: 10px; height: 10px;"></div>
-      <span>Vessels</span>
+      <span>Vessels (click to highlight trail)</span>
     </div>
   </div>
   
@@ -104,6 +122,10 @@
       }
     }).addTo(map);
     
+    let trailsData = null;
+    let highlightedTrail = null;
+    let timestampMarkers = L.layerGroup().addTo(map);
+    
     let trailsLayer = L.geoJSON(null, {
       style: {
         color: '#888888',
@@ -111,6 +133,62 @@
         opacity: 0.6
       }
     }).addTo(map);
+    
+    function highlightTrail(mmsi) {
+      // Clear previous highlight
+      if (highlightedTrail) {
+        map.removeLayer(highlightedTrail);
+        highlightedTrail = null;
+      }
+      timestampMarkers.clearLayers();
+      
+      if (!trailsData || !mmsi) return;
+      
+      // Find trail for this MMSI
+      const trail = trailsData.features.find(f => f.properties.mmsi === mmsi);
+      if (!trail) return;
+      
+      // Highlight trail
+      highlightedTrail = L.geoJSON(trail, {
+        style: {
+          color: '#ff6600',
+          weight: 4,
+          opacity: 0.9
+        }
+      }).addTo(map);
+      
+      // Add timestamp markers every 15 minutes
+      const coords = trail.geometry.coordinates;
+      const startTime = new Date(trail.properties.start);
+      const endTime = new Date(trail.properties.end);
+      const totalMinutes = (endTime - startTime) / 60000;
+      const intervalMinutes = 15;
+      
+      if (totalMinutes > intervalMinutes && coords.length > 2) {
+        const step = Math.floor(coords.length / (totalMinutes / intervalMinutes));
+        
+        for (let i = 0; i < coords.length; i += step) {
+          if (i >= coords.length) break;
+          
+          const [lon, lat] = coords[i];
+          const time = new Date(startTime.getTime() + (i / coords.length) * totalMinutes * 60000);
+          
+          const marker = L.circleMarker([lat, lon], {
+            radius: 4,
+            fillColor: '#ff6600',
+            color: '#fff',
+            weight: 1,
+            fillOpacity: 0.9
+          }).bindTooltip(time.toLocaleTimeString(), { 
+            permanent: false,
+            direction: 'top',
+            className: 'timestamp-tooltip'
+          });
+          
+          timestampMarkers.addLayer(marker);
+        }
+      }
+    }
     
     let vesselsLayer = L.geoJSON(null, {
       pointToLayer: (feature, latlng) => {
@@ -126,6 +204,11 @@
       onEachFeature: (feature, layer) => {
         const p = feature.properties;
         const mmsi = p.mmsi;
+        
+        layer.on('click', () => {
+          highlightTrail(mmsi);
+        });
+        
         layer.bindPopup(`
           <div style="min-width: 200px;">
             <h3 style="margin: 0 0 10px 0; color: #0066cc;">${p.name}</h3>
@@ -136,7 +219,7 @@
               <tr><td><b>Heading:</b></td><td>${p.heading} deg</td></tr>
             </table>
             <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #eee;">
-              <a href="https://www.marinetraffic.com/en/ais/details/ships/${mmsi}" target="_blank">MarineTraffic</a> · 
+              <a href="https://www.marinetraffic.com/en/ais/details/ships/${mmsi}" target="_blank">MarineTraffic</a> Â· 
               <a href="https://www.vesselfinder.com/?mmsi=${mmsi}" target="_blank">VesselFinder</a>
             </div>
           </div>
@@ -156,6 +239,7 @@
         ]);
         
         restrictedLayer.clearLayers().addData(restricted);
+        trailsData = trails; // Store for highlighting
         trailsLayer.clearLayers().addData(trails);
         vesselsLayer.clearLayers().addData(vessels);
         
