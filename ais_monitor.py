@@ -28,10 +28,10 @@ CONFIG = {
     'bbox': {'latmin': 59.0, 'latmax': 60.5, 'lonmin': 24.0, 'lonmax': 27.0},
     'max_age_minutes': 10,  # Only show vessels with data from last 10 minutes (uses timestampExternal)
     'email': {
-        'smtp_server': 'smtp.office365.com',
+        'smtp_server': 'smtp.gmail.com',
         'smtp_port': 587,
-        'sender': 'villu.kikas@taltech.ee',
-        'recipient': 'villu.kikas@taltech.ee',
+        'sender': 'villukikas@gmail.com',  # Change to your Gmail
+        'recipient': 'villu.kikas@taltech.ee',  # Keep this as recipient
         'password': os.environ.get('AIS_EMAIL_PASSWORD', ''),
         'cooldown_hours': 1
     },
