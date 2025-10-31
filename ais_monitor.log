@@ -526,3 +526,15 @@
 2025-10-31 04:49:40,192 - INFO - Exported GeoJSON to out (trails: 191)
 2025-10-31 04:49:47,951 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [CH0PR13CA0029.namprd13.prod.outlook.com 2025-10-31T04:49:44.431Z 08DE176C07B37DAA]')
 2025-10-31 04:49:55,082 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [CH5P222CA0021.NAMP222.PROD.OUTLOOK.COM 2025-10-31T04:49:49.947Z 08DE177CE34A86D5]')
+2025-10-31 05:10:41,967 - INFO - Loaded geofence: piiratud_test
+2025-10-31 05:10:41,968 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-31 05:10:41,968 - INFO - --- Starting check ---
+2025-10-31 05:10:41,968 - INFO - Fetching vessel metadata...
+2025-10-31 05:10:43,159 - INFO - Loaded metadata for 17631 vessels
+2025-10-31 05:10:43,162 - INFO - Fetching AIS data...
+2025-10-31 05:10:43,789 - INFO - Found 182 vessels in Gulf of Finland
+2025-10-31 05:10:43,800 - WARNING - BREACH: RADUGA LYON (MMSI 210149000) in restricted area
+2025-10-31 05:10:43,801 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area
+2025-10-31 05:10:43,815 - INFO - Exported GeoJSON to out (trails: 191)
+2025-10-31 05:10:53,296 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [BLAPR03CA0096.namprd03.prod.outlook.com 2025-10-31T05:10:53.292Z 08DE1478785CC885]')
+2025-10-31 05:11:02,163 - ERROR - Email error: (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [MN2PR06CA0020.namprd06.prod.outlook.com 2025-10-31T05:10:59.320Z 08DE180FC5EC981C]')
