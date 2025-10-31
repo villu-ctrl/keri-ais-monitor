@@ -1255,3 +1255,14 @@
 2025-10-31 22:10:43,416 - WARNING - BREACH: SAANA (MMSI 230706000) in restricted area (speed: 7.4 knots)
 2025-10-31 22:10:43,439 - INFO - Exported GeoJSON to out (trails: 196)
 2025-10-31 22:10:44,961 - INFO - Alert sent for MMSI 230706000
+2025-10-31 22:31:20,372 - INFO - Loaded geofence: piiratud_test
+2025-10-31 22:31:20,373 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-10-31 22:31:20,373 - INFO - --- Starting check ---
+2025-10-31 22:31:20,373 - INFO - Fetching vessel metadata...
+2025-10-31 22:31:21,481 - INFO - Loaded metadata for 17634 vessels
+2025-10-31 22:31:21,483 - INFO - Fetching AIS data...
+2025-10-31 22:31:22,239 - INFO - Found 188 vessels in Gulf of Finland
+2025-10-31 22:31:22,253 - INFO - Saved positions, cleaned 375 old records
+2025-10-31 22:31:22,255 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-10-31 22:31:22,278 - INFO - Exported GeoJSON to out (trails: 194)
+2025-10-31 22:31:22,278 - INFO - No breaches detected
