@@ -3,7 +3,7 @@ name: AIS Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 
 permissions:
   contents: write
@@ -39,3 +39,4 @@ jobs:
             git commit -m "Update AIS data - $(date -u +"%Y-%m-%d %H:%M UTC")"
             git push
           fi
+
