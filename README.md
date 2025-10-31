@@ -4,12 +4,12 @@ Automated AIS (Automatic Identification System) monitoring for vessels entering 
 
 ## Features
 
-- ?? Monitors ALL vessels in Gulf of Finland
-- ?? Geofence breach detection
-- ?? Email alerts via Office365
-- ??? Interactive Leaflet map with vessel trails
-- ?? 3-hour position history tracking
-- ? Runs automatically every 5 minutes via GitHub Actions
+- Monitors ALL vessels in Gulf of Finland
+- Geofence breach detection
+- Email alerts via Office365
+- Interactive Leaflet map with vessel trails
+- 3-hour position history tracking
+- Runs automatically every 5 minutes via GitHub Actions
 
 ## Files
 
@@ -104,3 +104,4 @@ CONFIG = {
 ## License
 
 MIT License
+
