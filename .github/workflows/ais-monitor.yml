@@ -3,7 +3,7 @@ name: AIS Monitor
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'  # Every 5 minutes (GitHub's minimum for scheduled workflows)
 
 permissions:
   contents: write
@@ -35,9 +35,13 @@ jobs:
           git config user.email 'actions@github.com'
           git add -A out/
           git add ais_monitor.log ais_trails.db || true
+          # Always commit and push (even if data identical, forces GitHub Pages refresh)
           if ! git diff --staged --quiet; then
             git commit -m "Update AIS data - $(date -u +"%Y-%m-%d %H:%M UTC")"
-            git push
+          else
+            # Touch a timestamp file to force commit
+            echo "$(date -u +"%Y-%m-%d %H:%M:%S UTC")" > out/.timestamp
+            git add out/.timestamp
+            git commit -m "Update AIS data - $(date -u +"%Y-%m-%d %H:%M UTC")"
           fi
-
-
+          git push
