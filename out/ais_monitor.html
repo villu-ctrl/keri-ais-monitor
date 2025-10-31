@@ -135,9 +135,13 @@
     }).addTo(map);
     
     function highlightTrail(mmsi) {
-      // Clear previous highlight
+      // Clear previous highlight - CRITICAL for preventing memory leaks
       if (highlightedTrail) {
-        map.removeLayer(highlightedTrail);
+        try {
+          map.removeLayer(highlightedTrail);
+        } catch (e) {
+          console.warn('Error removing highlighted trail:', e);
+        }
         highlightedTrail = null;
       }
       timestampMarkers.clearLayers();
@@ -157,7 +161,7 @@
         }
       }).addTo(map);
       
-      // Add timestamp markers every 15 minutes
+      // Add timestamp markers every 15 minutes (max 12 markers = 3 hours)
       const coords = trail.geometry.coordinates;
       const startTime = new Date(trail.properties.start);
       const endTime = new Date(trail.properties.end);
@@ -165,9 +169,11 @@
       const intervalMinutes = 15;
       
       if (totalMinutes > intervalMinutes && coords.length > 2) {
-        const step = Math.floor(coords.length / (totalMinutes / intervalMinutes));
+        const step = Math.max(1, Math.floor(coords.length / (totalMinutes / intervalMinutes)));
+        const maxMarkers = 12; // Safety limit: prevent excessive markers
+        let markerCount = 0;
         
-        for (let i = 0; i < coords.length; i += step) {
+        for (let i = 0; i < coords.length && markerCount < maxMarkers; i += step) {
           if (i >= coords.length) break;
           
           const [lon, lat] = coords[i];
@@ -186,6 +192,7 @@
           });
           
           timestampMarkers.addLayer(marker);
+          markerCount++;
         }
       }
     }
@@ -231,12 +238,17 @@
     
     async function loadData() {
       try {
-        // Clear highlighted trail and timestamp markers before refresh
+        // Clear highlighted trail and timestamp markers before refresh - CRITICAL for memory management
         if (highlightedTrail) {
           map.removeLayer(highlightedTrail);
           highlightedTrail = null;
         }
+        const clearedMarkers = timestampMarkers.getLayers().length;
         timestampMarkers.clearLayers();
+        
+        if (clearedMarkers > 0) {
+          console.log(`Cleared ${clearedMarkers} timestamp markers on refresh`);
+        }
         
         const t = Date.now();
         const [restricted, trails, vessels] = await Promise.all([
