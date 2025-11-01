@@ -1923,3 +1923,15 @@
 2025-11-01 13:55:48,609 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-01 13:55:48,630 - INFO - Exported GeoJSON to out (trails: 201)
 2025-11-01 13:55:48,630 - INFO - No breaches detected
+2025-11-01 14:10:06,230 - INFO - Loaded geofence: piiratud_test
+2025-11-01 14:10:06,231 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-01 14:10:06,231 - INFO - --- Starting check ---
+2025-11-01 14:10:06,231 - INFO - Fetching vessel metadata...
+2025-11-01 14:10:07,372 - INFO - Loaded metadata for 17638 vessels
+2025-11-01 14:10:07,377 - INFO - Fetching AIS data...
+2025-11-01 14:10:08,343 - INFO - Found 187 vessels in Gulf of Finland
+2025-11-01 14:10:08,359 - INFO - Saved positions, cleaned 187 old records
+2025-11-01 14:10:08,360 - WARNING - BREACH: CARELIE (MMSI 230048000) in restricted area (speed: 10.7 knots)
+2025-11-01 14:10:08,361 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-01 14:10:08,383 - INFO - Exported GeoJSON to out (trails: 199)
+2025-11-01 14:10:09,907 - INFO - Alert sent for MMSI 230048000
