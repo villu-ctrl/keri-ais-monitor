@@ -3527,3 +3527,17 @@
 2025-11-02 22:30:37,073 - INFO - Alert sent for MMSI 212179000
 2025-11-02 22:30:38,024 - INFO - Alert sent for MMSI 230685000
 2025-11-02 22:30:39,148 - INFO - Alert sent for MMSI 209657000
+2025-11-02 22:40:37,769 - INFO - Loaded geofence: piiratud_test
+2025-11-02 22:40:37,769 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-02 22:40:37,769 - INFO - --- Starting check ---
+2025-11-02 22:40:37,769 - INFO - Fetching vessel metadata...
+2025-11-02 22:40:38,940 - INFO - Loaded metadata for 17639 vessels
+2025-11-02 22:40:38,942 - INFO - Fetching AIS data...
+2025-11-02 22:40:39,981 - INFO - Found 181 vessels in Gulf of Finland
+2025-11-02 22:40:39,994 - INFO - Saved positions, cleaned 182 old records
+2025-11-02 22:40:39,995 - WARNING - BREACH: SWE-TRADER (MMSI 212179000) in restricted area (speed: 11.3 knots)
+2025-11-02 22:40:39,995 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-02 22:40:39,997 - WARNING - BREACH: RADUGA ELECTRON (MMSI 209657000) in restricted area (speed: 8.3 knots)
+2025-11-02 22:40:40,019 - INFO - Exported GeoJSON to out (trails: 194)
+2025-11-02 22:40:40,825 - INFO - Alert sent for MMSI 212179000
+2025-11-02 22:40:41,522 - INFO - Alert sent for MMSI 209657000
