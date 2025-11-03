@@ -350,7 +350,7 @@ Speed: {vessel.sog} knots
 Course: {vessel.cog} degrees
 
 MarineTraffic: https://www.marinetraffic.com/en/ais/details/ships/mmsi:{vessel.mmsi}
-VesselFinder: https://www.vesselfinder.com/vessels?mmsi={vessel.mmsi}
+VesselFinder: https://www.vesselfinder.com/?mmsi={vessel.mmsi}
 
 ---
 Automated AIS Monitor
@@ -451,3 +451,4 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
+
