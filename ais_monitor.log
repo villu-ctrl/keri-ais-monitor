@@ -4260,3 +4260,14 @@
 2025-11-03 18:30:40,622 - WARNING - BREACH: ATLAS (MMSI 276809000) in restricted area (speed: 9.0 knots)
 2025-11-03 18:30:40,640 - INFO - Exported GeoJSON to out (trails: 199)
 2025-11-03 18:30:41,666 - INFO - Alert sent for MMSI 276809000
+2025-11-03 18:47:40,940 - INFO - Loaded geofence: piiratud_test
+2025-11-03 18:47:40,941 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-03 18:47:40,941 - INFO - --- Starting check ---
+2025-11-03 18:47:40,941 - INFO - Fetching vessel metadata...
+2025-11-03 18:47:42,100 - INFO - Loaded metadata for 17643 vessels
+2025-11-03 18:47:42,103 - INFO - Fetching AIS data...
+2025-11-03 18:47:43,094 - INFO - Found 183 vessels in Gulf of Finland
+2025-11-03 18:47:43,107 - INFO - Saved positions, cleaned 187 old records
+2025-11-03 18:47:43,108 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-03 18:47:43,128 - INFO - Exported GeoJSON to out (trails: 199)
+2025-11-03 18:47:43,128 - INFO - No breaches detected
