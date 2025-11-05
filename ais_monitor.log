@@ -6303,3 +6303,13 @@
 2025-11-05 21:37:48,606 - WARNING - BREACH: ANDREA (MMSI 246140000) in restricted area (speed: 8.1 knots)
 2025-11-05 21:37:48,626 - INFO - Exported GeoJSON to out (trails: 207)
 2025-11-05 21:37:49,784 - INFO - Alert sent for MMSI 246140000
+2025-11-05 21:44:28,452 - INFO - Loaded geofence: piiratud_test
+2025-11-05 21:44:28,452 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-05 21:44:28,452 - INFO - --- Starting check ---
+2025-11-05 21:44:28,453 - INFO - Fetching vessel metadata...
+2025-11-05 21:44:29,449 - INFO - Loaded metadata for 17653 vessels
+2025-11-05 21:44:29,451 - INFO - Fetching AIS data...
+2025-11-05 21:44:30,186 - INFO - Found 197 vessels in Gulf of Finland
+2025-11-05 21:44:30,197 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-05 21:44:30,221 - INFO - Exported GeoJSON to out (trails: 208)
+2025-11-05 21:44:30,221 - INFO - No breaches detected
