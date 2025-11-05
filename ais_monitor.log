@@ -5831,3 +5831,14 @@
 2025-11-05 10:42:04,152 - WARNING - BREACH: VALDAY (MMSI 305094000) in restricted area (speed: 9.7 knots)
 2025-11-05 10:42:04,172 - INFO - Exported GeoJSON to out (trails: 206)
 2025-11-05 10:42:05,978 - INFO - Alert sent for MMSI 305094000
+2025-11-05 10:52:29,951 - INFO - Loaded geofence: piiratud_test
+2025-11-05 10:52:29,952 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-05 10:52:29,952 - INFO - --- Starting check ---
+2025-11-05 10:52:29,952 - INFO - Fetching vessel metadata...
+2025-11-05 10:52:30,877 - INFO - Loaded metadata for 17652 vessels
+2025-11-05 10:52:30,879 - INFO - Fetching AIS data...
+2025-11-05 10:52:31,852 - INFO - Found 197 vessels in Gulf of Finland
+2025-11-05 10:52:31,866 - INFO - Saved positions, cleaned 375 old records
+2025-11-05 10:52:31,866 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-05 10:52:31,886 - INFO - Exported GeoJSON to out (trails: 207)
+2025-11-05 10:52:31,887 - INFO - No breaches detected
