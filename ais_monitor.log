@@ -5742,3 +5742,15 @@
 2025-11-05 08:27:50,341 - WARNING - BREACH: SILVA (MMSI 255806247) in restricted area (speed: 10.2 knots)
 2025-11-05 08:27:50,362 - INFO - Exported GeoJSON to out (trails: 199)
 2025-11-05 08:27:51,565 - INFO - Alert sent for MMSI 255806247
+2025-11-05 08:49:21,440 - INFO - Loaded geofence: piiratud_test
+2025-11-05 08:49:21,441 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-05 08:49:21,441 - INFO - --- Starting check ---
+2025-11-05 08:49:21,441 - INFO - Fetching vessel metadata...
+2025-11-05 08:49:22,936 - INFO - Loaded metadata for 17652 vessels
+2025-11-05 08:49:22,939 - INFO - Fetching AIS data...
+2025-11-05 08:49:24,016 - INFO - Found 194 vessels in Gulf of Finland
+2025-11-05 08:49:24,026 - INFO - Saved positions, cleaned 381 old records
+2025-11-05 08:49:24,027 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-05 08:49:24,029 - WARNING - BREACH: SILVA (MMSI 255806247) in restricted area (speed: 10.2 knots)
+2025-11-05 08:49:24,046 - INFO - Exported GeoJSON to out (trails: 202)
+2025-11-05 08:49:25,026 - INFO - Alert sent for MMSI 255806247
