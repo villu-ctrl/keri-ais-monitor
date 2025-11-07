@@ -7940,3 +7940,15 @@
 2025-11-07 15:53:00,864 - INFO - Found 190 vessels in Gulf of Finland
 2025-11-07 15:53:00,899 - INFO - Exported GeoJSON to out (trails: 204)
 2025-11-07 15:53:00,899 - INFO - No breaches detected
+2025-11-07 15:59:51,765 - INFO - Loaded geofence: piiratud_test
+2025-11-07 15:59:51,766 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-07 15:59:51,766 - INFO - --- Starting check ---
+2025-11-07 15:59:51,766 - INFO - Fetching vessel metadata...
+2025-11-07 15:59:52,911 - INFO - Loaded metadata for 17670 vessels
+2025-11-07 15:59:52,914 - INFO - Fetching AIS data...
+2025-11-07 15:59:53,603 - INFO - Found 192 vessels in Gulf of Finland
+2025-11-07 15:59:53,614 - WARNING - BREACH: FEED RANA (MMSI 257035870) in restricted area (speed: 10.3 knots)
+2025-11-07 15:59:53,616 - WARNING - BREACH: VEGA (MMSI 276832000) in restricted area (speed: 9.6 knots)
+2025-11-07 15:59:53,636 - INFO - Exported GeoJSON to out (trails: 204)
+2025-11-07 15:59:54,633 - INFO - Alert sent for MMSI 257035870
+2025-11-07 15:59:55,465 - INFO - Alert sent for MMSI 276832000
