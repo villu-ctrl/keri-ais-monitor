@@ -8352,3 +8352,15 @@
 2025-11-07 22:58:15,788 - WARNING - BREACH: PRIMA VIKING (MMSI 230011000) in restricted area (speed: 10.6 knots)
 2025-11-07 22:58:15,810 - INFO - Exported GeoJSON to out (trails: 198)
 2025-11-07 22:58:17,325 - INFO - Alert sent for MMSI 230011000
+2025-11-07 23:16:01,047 - INFO - Loaded geofence: piiratud_test
+2025-11-07 23:16:01,047 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-07 23:16:01,047 - INFO - --- Starting check ---
+2025-11-07 23:16:01,048 - INFO - Fetching vessel metadata...
+2025-11-07 23:16:02,420 - INFO - Loaded metadata for 17671 vessels
+2025-11-07 23:16:02,423 - INFO - Fetching AIS data...
+2025-11-07 23:16:03,413 - INFO - Found 186 vessels in Gulf of Finland
+2025-11-07 23:16:03,429 - INFO - Saved positions, cleaned 186 old records
+2025-11-07 23:16:03,430 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-07 23:16:03,431 - WARNING - BREACH: PRIMA VIKING (MMSI 230011000) in restricted area (speed: 10.5 knots)
+2025-11-07 23:16:03,454 - INFO - Exported GeoJSON to out (trails: 197)
+2025-11-07 23:16:04,232 - INFO - Alert sent for MMSI 230011000
