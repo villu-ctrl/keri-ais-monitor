@@ -7963,3 +7963,16 @@
 2025-11-07 16:24:57,307 - WARNING - BREACH: FEED RANA (MMSI 257035870) in restricted area (speed: 10.4 knots)
 2025-11-07 16:24:57,329 - INFO - Exported GeoJSON to out (trails: 205)
 2025-11-07 16:24:59,099 - INFO - Alert sent for MMSI 257035870
+2025-11-07 16:42:53,296 - INFO - Loaded geofence: piiratud_test
+2025-11-07 16:42:53,297 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-07 16:42:53,297 - INFO - --- Starting check ---
+2025-11-07 16:42:53,297 - INFO - Fetching vessel metadata...
+2025-11-07 16:42:54,487 - INFO - Loaded metadata for 17670 vessels
+2025-11-07 16:42:54,490 - INFO - Fetching AIS data...
+2025-11-07 16:42:55,322 - INFO - Found 192 vessels in Gulf of Finland
+2025-11-07 16:42:55,336 - INFO - Saved positions, cleaned 194 old records
+2025-11-07 16:42:55,336 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.0 knots)
+2025-11-07 16:42:55,336 - WARNING - BREACH: FEED RANA (MMSI 257035870) in restricted area (speed: 10.3 knots)
+2025-11-07 16:42:55,358 - INFO - Exported GeoJSON to out (trails: 204)
+2025-11-07 16:42:56,866 - INFO - Alert sent for MMSI 276810000
+2025-11-07 16:42:58,144 - INFO - Alert sent for MMSI 257035870
