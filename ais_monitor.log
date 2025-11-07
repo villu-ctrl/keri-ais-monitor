@@ -7952,3 +7952,14 @@
 2025-11-07 15:59:53,636 - INFO - Exported GeoJSON to out (trails: 204)
 2025-11-07 15:59:54,633 - INFO - Alert sent for MMSI 257035870
 2025-11-07 15:59:55,465 - INFO - Alert sent for MMSI 276832000
+2025-11-07 16:24:54,998 - INFO - Loaded geofence: piiratud_test
+2025-11-07 16:24:54,998 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-07 16:24:54,998 - INFO - --- Starting check ---
+2025-11-07 16:24:54,998 - INFO - Fetching vessel metadata...
+2025-11-07 16:24:56,534 - INFO - Loaded metadata for 17670 vessels
+2025-11-07 16:24:56,536 - INFO - Fetching AIS data...
+2025-11-07 16:24:57,292 - INFO - Found 193 vessels in Gulf of Finland
+2025-11-07 16:24:57,306 - INFO - Saved positions, cleaned 190 old records
+2025-11-07 16:24:57,307 - WARNING - BREACH: FEED RANA (MMSI 257035870) in restricted area (speed: 10.4 knots)
+2025-11-07 16:24:57,329 - INFO - Exported GeoJSON to out (trails: 205)
+2025-11-07 16:24:59,099 - INFO - Alert sent for MMSI 257035870
