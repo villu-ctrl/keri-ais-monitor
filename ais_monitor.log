@@ -9062,3 +9062,13 @@
 2025-11-08 15:29:58,597 - INFO - Found 188 vessels in Gulf of Finland
 2025-11-08 15:29:58,633 - INFO - Exported GeoJSON to out (trails: 199)
 2025-11-08 15:29:58,634 - INFO - No breaches detected
+2025-11-08 15:38:51,299 - INFO - Loaded geofence: piiratud_test
+2025-11-08 15:38:51,299 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-08 15:38:51,299 - INFO - --- Starting check ---
+2025-11-08 15:38:51,299 - INFO - Fetching vessel metadata...
+2025-11-08 15:38:52,569 - INFO - Loaded metadata for 17675 vessels
+2025-11-08 15:38:52,571 - INFO - Fetching AIS data...
+2025-11-08 15:38:53,301 - INFO - Found 191 vessels in Gulf of Finland
+2025-11-08 15:38:53,311 - WARNING - BREACH: ECO LEVANT (MMSI 228467900) in restricted area (speed: 11.8 knots)
+2025-11-08 15:38:53,334 - INFO - Exported GeoJSON to out (trails: 199)
+2025-11-08 15:38:54,825 - INFO - Alert sent for MMSI 228467900
