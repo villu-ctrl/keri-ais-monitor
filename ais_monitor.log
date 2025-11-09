@@ -9894,3 +9894,14 @@
 2025-11-09 09:42:24,204 - INFO - Found 195 vessels in Gulf of Finland
 2025-11-09 09:42:24,243 - INFO - Exported GeoJSON to out (trails: 205)
 2025-11-09 09:42:24,243 - INFO - No breaches detected
+2025-11-09 09:49:17,279 - INFO - Loaded geofence: piiratud_test
+2025-11-09 09:49:17,280 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-09 09:49:17,280 - INFO - --- Starting check ---
+2025-11-09 09:49:17,280 - INFO - Fetching vessel metadata...
+2025-11-09 09:49:18,510 - INFO - Loaded metadata for 17681 vessels
+2025-11-09 09:49:18,512 - INFO - Fetching AIS data...
+2025-11-09 09:49:19,564 - INFO - Found 197 vessels in Gulf of Finland
+2025-11-09 09:49:19,574 - INFO - Saved positions, cleaned 182 old records
+2025-11-09 09:49:19,574 - WARNING - BREACH: VARMLAND (MMSI 255806444) in restricted area (speed: 9.5 knots)
+2025-11-09 09:49:19,597 - INFO - Exported GeoJSON to out (trails: 205)
+2025-11-09 09:49:20,594 - INFO - Alert sent for MMSI 255806444
