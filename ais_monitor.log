@@ -10714,3 +10714,14 @@
 2025-11-09 23:47:20,823 - WARNING - BREACH: POLARIS (MMSI 230961000) in restricted area (speed: 7.7 knots)
 2025-11-09 23:47:20,846 - INFO - Exported GeoJSON to out (trails: 192)
 2025-11-09 23:47:22,457 - INFO - Alert sent for MMSI 230961000
+2025-11-09 23:53:59,473 - INFO - Loaded geofence: piiratud_test
+2025-11-09 23:53:59,474 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-09 23:53:59,474 - INFO - --- Starting check ---
+2025-11-09 23:53:59,474 - INFO - Fetching vessel metadata...
+2025-11-09 23:54:00,788 - INFO - Loaded metadata for 17684 vessels
+2025-11-09 23:54:00,791 - INFO - Fetching AIS data...
+2025-11-09 23:54:01,762 - INFO - Found 180 vessels in Gulf of Finland
+2025-11-09 23:54:01,778 - INFO - Saved positions, cleaned 184 old records
+2025-11-09 23:54:01,778 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-09 23:54:01,803 - INFO - Exported GeoJSON to out (trails: 192)
+2025-11-09 23:54:01,803 - INFO - No breaches detected
