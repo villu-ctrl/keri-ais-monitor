@@ -9728,3 +9728,13 @@
 2025-11-09 06:42:44,843 - INFO - Saved positions, cleaned 177 old records
 2025-11-09 06:42:44,864 - INFO - Exported GeoJSON to out (trails: 202)
 2025-11-09 06:42:44,865 - INFO - No breaches detected
+2025-11-09 06:52:43,630 - INFO - Loaded geofence: piiratud_test
+2025-11-09 06:52:43,630 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-09 06:52:43,630 - INFO - --- Starting check ---
+2025-11-09 06:52:43,631 - INFO - Fetching vessel metadata...
+2025-11-09 06:52:44,882 - INFO - Loaded metadata for 17681 vessels
+2025-11-09 06:52:44,885 - INFO - Fetching AIS data...
+2025-11-09 06:52:45,932 - INFO - Found 182 vessels in Gulf of Finland
+2025-11-09 06:52:45,943 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-09 06:52:45,963 - INFO - Exported GeoJSON to out (trails: 203)
+2025-11-09 06:52:45,964 - INFO - No breaches detected
