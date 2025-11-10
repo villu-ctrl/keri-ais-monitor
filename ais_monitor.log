@@ -10808,3 +10808,18 @@
 2025-11-10 05:16:40,645 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-10 05:16:40,665 - INFO - Exported GeoJSON to out (trails: 200)
 2025-11-10 05:16:40,665 - INFO - No breaches detected
+2025-11-10 05:34:50,623 - INFO - Loaded geofence: piiratud_test
+2025-11-10 05:34:50,623 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-10 05:34:50,623 - INFO - --- Starting check ---
+2025-11-10 05:34:50,623 - INFO - Fetching vessel metadata...
+2025-11-10 05:34:51,681 - INFO - Loaded metadata for 17685 vessels
+2025-11-10 05:34:51,683 - INFO - Fetching AIS data...
+2025-11-10 05:34:52,489 - INFO - Found 189 vessels in Gulf of Finland
+2025-11-10 05:34:52,499 - INFO - Saved positions, cleaned 184 old records
+2025-11-10 05:34:52,499 - WARNING - BREACH: ARINA (MMSI 374357000) in restricted area (speed: 2.2 knots)
+2025-11-10 05:34:52,500 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 8.7 knots)
+2025-11-10 05:34:52,501 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area (speed: 19.2 knots)
+2025-11-10 05:34:52,515 - INFO - Exported GeoJSON to out (trails: 198)
+2025-11-10 05:34:54,286 - INFO - Alert sent for MMSI 374357000
+2025-11-10 05:34:55,396 - INFO - Alert sent for MMSI 276810000
+2025-11-10 05:34:56,513 - INFO - Alert sent for MMSI 230685000
