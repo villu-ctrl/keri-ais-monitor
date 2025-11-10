@@ -11267,3 +11267,15 @@
 2025-11-10 16:56:02,283 - INFO - Exported GeoJSON to out (trails: 198)
 2025-11-10 16:56:03,503 - INFO - Alert sent for MMSI 276810000
 2025-11-10 16:56:04,546 - INFO - Alert sent for MMSI 255972000
+2025-11-10 17:12:19,031 - INFO - Loaded geofence: piiratud_test
+2025-11-10 17:12:19,032 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-10 17:12:19,032 - INFO - --- Starting check ---
+2025-11-10 17:12:19,032 - INFO - Fetching vessel metadata...
+2025-11-10 17:12:20,255 - INFO - Loaded metadata for 17686 vessels
+2025-11-10 17:12:20,258 - INFO - Fetching AIS data...
+2025-11-10 17:12:20,646 - INFO - Found 186 vessels in Gulf of Finland
+2025-11-10 17:12:20,658 - INFO - Saved positions, cleaned 191 old records
+2025-11-10 17:12:20,659 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-10 17:12:20,660 - WARNING - BREACH: RADUGA POSEIDON (MMSI 255972000) in restricted area (speed: 7.5 knots)
+2025-11-10 17:12:20,678 - INFO - Exported GeoJSON to out (trails: 195)
+2025-11-10 17:12:21,700 - INFO - Alert sent for MMSI 255972000
