@@ -11945,3 +11945,19 @@
 2025-11-11 10:00:21,698 - INFO - Exported GeoJSON to out (trails: 206)
 2025-11-11 10:00:23,017 - INFO - Alert sent for MMSI 255806081
 2025-11-11 10:00:24,037 - INFO - Alert sent for MMSI 230934000
+2025-11-11 10:27:07,650 - INFO - Loaded geofence: piiratud_test
+2025-11-11 10:27:07,650 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-11 10:27:07,650 - INFO - --- Starting check ---
+2025-11-11 10:27:07,650 - INFO - Fetching vessel metadata...
+2025-11-11 10:27:08,750 - INFO - Loaded metadata for 17688 vessels
+2025-11-11 10:27:08,753 - INFO - Fetching AIS data...
+2025-11-11 10:27:09,429 - INFO - Found 193 vessels in Gulf of Finland
+2025-11-11 10:27:09,444 - INFO - Saved positions, cleaned 201 old records
+2025-11-11 10:27:09,444 - WARNING - BREACH: AHTO-25 (MMSI 276675000) in restricted area (speed: 15.8 knots)
+2025-11-11 10:27:09,445 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-11 10:27:09,446 - WARNING - BREACH: MSC AMY (MMSI 255806081) in restricted area (speed: 10.0 knots)
+2025-11-11 10:27:09,447 - WARNING - BREACH: METEOR (MMSI 230934000) in restricted area (speed: 6.7 knots)
+2025-11-11 10:27:09,467 - INFO - Exported GeoJSON to out (trails: 205)
+2025-11-11 10:27:10,373 - INFO - Alert sent for MMSI 276675000
+2025-11-11 10:27:11,138 - INFO - Alert sent for MMSI 255806081
+2025-11-11 10:27:12,339 - INFO - Alert sent for MMSI 230934000
