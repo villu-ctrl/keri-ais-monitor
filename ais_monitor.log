@@ -12184,3 +12184,13 @@
 2025-11-11 15:55:53,384 - INFO - Found 192 vessels in Gulf of Finland
 2025-11-11 15:55:53,414 - INFO - Exported GeoJSON to out (trails: 205)
 2025-11-11 15:55:53,414 - INFO - No breaches detected
+2025-11-11 16:16:38,387 - INFO - Loaded geofence: piiratud_test
+2025-11-11 16:16:38,388 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-11 16:16:38,388 - INFO - --- Starting check ---
+2025-11-11 16:16:38,388 - INFO - Fetching vessel metadata...
+2025-11-11 16:16:39,501 - INFO - Loaded metadata for 17689 vessels
+2025-11-11 16:16:39,504 - INFO - Fetching AIS data...
+2025-11-11 16:16:39,895 - INFO - Found 186 vessels in Gulf of Finland
+2025-11-11 16:16:39,906 - WARNING - BREACH: ECO MAESTRO (MMSI 256339000) in restricted area (speed: 13.2 knots)
+2025-11-11 16:16:39,930 - INFO - Exported GeoJSON to out (trails: 205)
+2025-11-11 16:16:40,866 - INFO - Alert sent for MMSI 256339000
