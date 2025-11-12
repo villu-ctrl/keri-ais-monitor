@@ -12871,3 +12871,14 @@
 2025-11-12 09:48:43,010 - WARNING - BREACH: ALAND (MMSI 255802540) in restricted area (speed: 9.1 knots)
 2025-11-12 09:48:43,029 - INFO - Exported GeoJSON to out (trails: 208)
 2025-11-12 09:48:43,946 - INFO - Alert sent for MMSI 255802540
+2025-11-12 09:55:59,759 - INFO - Loaded geofence: piiratud_test
+2025-11-12 09:55:59,759 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-12 09:55:59,759 - INFO - --- Starting check ---
+2025-11-12 09:55:59,759 - INFO - Fetching vessel metadata...
+2025-11-12 09:56:01,047 - INFO - Loaded metadata for 17694 vessels
+2025-11-12 09:56:01,049 - INFO - Fetching AIS data...
+2025-11-12 09:56:02,146 - INFO - Found 194 vessels in Gulf of Finland
+2025-11-12 09:56:02,155 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-12 09:56:02,156 - WARNING - BREACH: ALAND (MMSI 255802540) in restricted area (speed: 9.1 knots)
+2025-11-12 09:56:02,175 - INFO - Exported GeoJSON to out (trails: 208)
+2025-11-12 09:56:03,207 - INFO - Alert sent for MMSI 255802540
