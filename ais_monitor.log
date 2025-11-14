@@ -14573,3 +14573,14 @@
 2025-11-14 06:54:09,367 - INFO - Saved positions, cleaned 182 old records
 2025-11-14 06:54:09,387 - INFO - Exported GeoJSON to out (trails: 200)
 2025-11-14 06:54:09,387 - INFO - No breaches detected
+2025-11-14 07:09:48,696 - INFO - Loaded geofence: piiratud_test
+2025-11-14 07:09:48,696 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-14 07:09:48,696 - INFO - --- Starting check ---
+2025-11-14 07:09:48,696 - INFO - Fetching vessel metadata...
+2025-11-14 07:09:49,875 - INFO - Loaded metadata for 17699 vessels
+2025-11-14 07:09:49,878 - INFO - Fetching AIS data...
+2025-11-14 07:09:50,952 - INFO - Found 184 vessels in Gulf of Finland
+2025-11-14 07:09:50,963 - INFO - Saved positions, cleaned 181 old records
+2025-11-14 07:09:50,965 - WARNING - BREACH: ODERBORG (MMSI 244995000) in restricted area (speed: 11.3 knots)
+2025-11-14 07:09:50,982 - INFO - Exported GeoJSON to out (trails: 199)
+2025-11-14 07:09:52,069 - INFO - Alert sent for MMSI 244995000
