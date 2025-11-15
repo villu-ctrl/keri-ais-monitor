@@ -15519,3 +15519,15 @@
 2025-11-15 05:42:20,203 - INFO - Exported GeoJSON to out (trails: 192)
 2025-11-15 05:42:21,489 - INFO - Alert sent for MMSI 304217000
 2025-11-15 05:42:22,591 - INFO - Alert sent for MMSI 276810000
+2025-11-15 05:49:16,026 - INFO - Loaded geofence: piiratud_test
+2025-11-15 05:49:16,026 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-15 05:49:16,026 - INFO - --- Starting check ---
+2025-11-15 05:49:16,026 - INFO - Fetching vessel metadata...
+2025-11-15 05:49:17,403 - INFO - Loaded metadata for 17702 vessels
+2025-11-15 05:49:17,407 - INFO - Fetching AIS data...
+2025-11-15 05:49:18,472 - INFO - Found 182 vessels in Gulf of Finland
+2025-11-15 05:49:18,482 - WARNING - BREACH: KIARA (MMSI 304217000) in restricted area (speed: 11.4 knots)
+2025-11-15 05:49:18,483 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.8 knots)
+2025-11-15 05:49:18,501 - INFO - Exported GeoJSON to out (trails: 193)
+2025-11-15 05:49:19,420 - INFO - Alert sent for MMSI 304217000
+2025-11-15 05:49:20,258 - INFO - Alert sent for MMSI 276810000
