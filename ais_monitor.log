@@ -17294,3 +17294,14 @@
 2025-11-16 17:59:24,958 - WARNING - BREACH: ODERBORG (MMSI 244995000) in restricted area (speed: 8.5 knots)
 2025-11-16 17:59:24,978 - INFO - Exported GeoJSON to out (trails: 190)
 2025-11-16 17:59:25,914 - INFO - Alert sent for MMSI 244995000
+2025-11-16 18:27:42,960 - INFO - Loaded geofence: piiratud_test
+2025-11-16 18:27:42,961 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-16 18:27:42,961 - INFO - --- Starting check ---
+2025-11-16 18:27:42,961 - INFO - Fetching vessel metadata...
+2025-11-16 18:27:44,231 - INFO - Loaded metadata for 17706 vessels
+2025-11-16 18:27:44,234 - INFO - Fetching AIS data...
+2025-11-16 18:27:45,241 - INFO - Found 182 vessels in Gulf of Finland
+2025-11-16 18:27:45,260 - INFO - Saved positions, cleaned 171 old records
+2025-11-16 18:27:45,260 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-16 18:27:45,284 - INFO - Exported GeoJSON to out (trails: 189)
+2025-11-16 18:27:45,284 - INFO - No breaches detected
