@@ -17468,3 +17468,15 @@
 2025-11-16 20:52:49,046 - WARNING - BREACH: HELGOLAND (MMSI 255915625) in restricted area (speed: 8.7 knots)
 2025-11-16 20:52:49,069 - INFO - Exported GeoJSON to out (trails: 191)
 2025-11-16 20:52:49,857 - INFO - Alert sent for MMSI 255915625
+2025-11-16 20:59:24,095 - INFO - Loaded geofence: piiratud_test
+2025-11-16 20:59:24,095 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-16 20:59:24,095 - INFO - --- Starting check ---
+2025-11-16 20:59:24,095 - INFO - Fetching vessel metadata...
+2025-11-16 20:59:25,252 - INFO - Loaded metadata for 17706 vessels
+2025-11-16 20:59:25,255 - INFO - Fetching AIS data...
+2025-11-16 20:59:25,926 - INFO - Found 171 vessels in Gulf of Finland
+2025-11-16 20:59:25,938 - INFO - Saved positions, cleaned 178 old records
+2025-11-16 20:59:25,939 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-16 20:59:25,939 - WARNING - BREACH: HELGOLAND (MMSI 255915625) in restricted area (speed: 8.5 knots)
+2025-11-16 20:59:25,961 - INFO - Exported GeoJSON to out (trails: 189)
+2025-11-16 20:59:26,863 - INFO - Alert sent for MMSI 255915625
