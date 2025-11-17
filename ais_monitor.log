@@ -17910,3 +17910,16 @@
 2025-11-17 09:27:52,512 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-17 09:27:52,530 - INFO - Exported GeoJSON to out (trails: 191)
 2025-11-17 09:27:53,654 - INFO - Alert sent for MMSI 230934000
+2025-11-17 09:44:43,021 - INFO - Loaded geofence: piiratud_test
+2025-11-17 09:44:43,021 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-17 09:44:43,021 - INFO - --- Starting check ---
+2025-11-17 09:44:43,021 - INFO - Fetching vessel metadata...
+2025-11-17 09:44:43,811 - INFO - Loaded metadata for 17707 vessels
+2025-11-17 09:44:43,813 - INFO - Fetching AIS data...
+2025-11-17 09:44:44,860 - INFO - Found 186 vessels in Gulf of Finland
+2025-11-17 09:44:44,873 - WARNING - BREACH: METEOR (MMSI 230934000) in restricted area (speed: 5.9 knots)
+2025-11-17 09:44:44,873 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-17 09:44:44,874 - WARNING - BREACH: EK-STREAM (MMSI 257037270) in restricted area (speed: 10.8 knots)
+2025-11-17 09:44:44,891 - INFO - Exported GeoJSON to out (trails: 193)
+2025-11-17 09:44:46,326 - INFO - Alert sent for MMSI 230934000
+2025-11-17 09:44:47,687 - INFO - Alert sent for MMSI 257037270
