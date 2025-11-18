@@ -18909,3 +18909,15 @@
 2025-11-18 10:16:57,571 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-18 10:16:57,592 - INFO - Exported GeoJSON to out (trails: 205)
 2025-11-18 10:16:58,989 - INFO - Alert sent for MMSI 245882000
+2025-11-18 10:41:48,309 - INFO - Loaded geofence: piiratud_test
+2025-11-18 10:41:48,309 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-18 10:41:48,310 - INFO - --- Starting check ---
+2025-11-18 10:41:48,310 - INFO - Fetching vessel metadata...
+2025-11-18 10:41:49,363 - INFO - Loaded metadata for 17713 vessels
+2025-11-18 10:41:49,366 - INFO - Fetching AIS data...
+2025-11-18 10:41:50,802 - INFO - Found 196 vessels in Gulf of Finland
+2025-11-18 10:41:50,817 - INFO - Saved positions, cleaned 393 old records
+2025-11-18 10:41:50,818 - WARNING - BREACH: BALTIC STAR (MMSI 245882000) in restricted area (speed: 5.0 knots)
+2025-11-18 10:41:50,818 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-18 10:41:50,839 - INFO - Exported GeoJSON to out (trails: 206)
+2025-11-18 10:41:51,982 - INFO - Alert sent for MMSI 245882000
