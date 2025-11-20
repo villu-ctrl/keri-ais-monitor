@@ -20641,3 +20641,14 @@
 2025-11-20 07:42:38,981 - INFO - Saved positions, cleaned 186 old records
 2025-11-20 07:42:39,003 - INFO - Exported GeoJSON to out (trails: 202)
 2025-11-20 07:42:39,003 - INFO - No breaches detected
+2025-11-20 07:49:51,744 - INFO - Loaded geofence: piiratud_test
+2025-11-20 07:49:51,745 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-20 07:49:51,745 - INFO - --- Starting check ---
+2025-11-20 07:49:51,745 - INFO - Fetching vessel metadata...
+2025-11-20 07:49:53,369 - INFO - Loaded metadata for 17720 vessels
+2025-11-20 07:49:53,374 - INFO - Fetching AIS data...
+2025-11-20 07:49:54,233 - INFO - Found 193 vessels in Gulf of Finland
+2025-11-20 07:49:54,249 - INFO - Saved positions, cleaned 187 old records
+2025-11-20 07:49:54,251 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area (speed: 19.0 knots)
+2025-11-20 07:49:54,270 - INFO - Exported GeoJSON to out (trails: 200)
+2025-11-20 07:49:55,953 - INFO - Alert sent for MMSI 230685000
