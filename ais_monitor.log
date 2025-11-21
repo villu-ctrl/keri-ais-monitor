@@ -21596,3 +21596,16 @@
 2025-11-21 07:34:53,398 - WARNING - BREACH: EVA-318 (MMSI 276432000) in restricted area (speed: 10.6 knots)
 2025-11-21 07:34:53,416 - INFO - Exported GeoJSON to out (trails: 199)
 2025-11-21 07:34:54,327 - INFO - Alert sent for MMSI 276432000
+2025-11-21 07:43:58,401 - INFO - Loaded geofence: piiratud_test
+2025-11-21 07:43:58,402 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-21 07:43:58,402 - INFO - --- Starting check ---
+2025-11-21 07:43:58,402 - INFO - Fetching vessel metadata...
+2025-11-21 07:43:59,372 - INFO - Loaded metadata for 17722 vessels
+2025-11-21 07:43:59,375 - INFO - Fetching AIS data...
+2025-11-21 07:44:00,174 - INFO - Found 182 vessels in Gulf of Finland
+2025-11-21 07:44:00,191 - INFO - Saved positions, cleaned 176 old records
+2025-11-21 07:44:00,192 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 8.8 knots)
+2025-11-21 07:44:00,194 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area (speed: 17.0 knots)
+2025-11-21 07:44:00,212 - INFO - Exported GeoJSON to out (trails: 198)
+2025-11-21 07:44:01,043 - INFO - Alert sent for MMSI 276810000
+2025-11-21 07:44:01,856 - INFO - Alert sent for MMSI 230685000
