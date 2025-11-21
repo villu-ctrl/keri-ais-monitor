@@ -22042,3 +22042,14 @@
 2025-11-21 17:11:32,217 - WARNING - BREACH: FL STOROE (MMSI 255802870) in restricted area (speed: 9.8 knots)
 2025-11-21 17:11:32,237 - INFO - Exported GeoJSON to out (trails: 189)
 2025-11-21 17:11:33,247 - INFO - Alert sent for MMSI 255802870
+2025-11-21 17:30:23,234 - INFO - Loaded geofence: piiratud_test
+2025-11-21 17:30:23,235 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-21 17:30:23,235 - INFO - --- Starting check ---
+2025-11-21 17:30:23,235 - INFO - Fetching vessel metadata...
+2025-11-21 17:30:24,386 - INFO - Loaded metadata for 17724 vessels
+2025-11-21 17:30:24,389 - INFO - Fetching AIS data...
+2025-11-21 17:30:25,379 - INFO - Found 172 vessels in Gulf of Finland
+2025-11-21 17:30:25,390 - WARNING - BREACH: FL STOROE (MMSI 255802870) in restricted area (speed: 9.5 knots)
+2025-11-21 17:30:25,390 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-21 17:30:25,410 - INFO - Exported GeoJSON to out (trails: 191)
+2025-11-21 17:30:26,308 - INFO - Alert sent for MMSI 255802870
