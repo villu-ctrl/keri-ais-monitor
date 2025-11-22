@@ -22971,3 +22971,14 @@
 2025-11-22 14:00:06,290 - WARNING - BREACH: RADUGA PROTON (MMSI 209658000) in restricted area (speed: 6.7 knots)
 2025-11-22 14:00:06,307 - INFO - Exported GeoJSON to out (trails: 179)
 2025-11-22 14:00:07,894 - INFO - Alert sent for MMSI 209658000
+2025-11-22 14:19:10,020 - INFO - Loaded geofence: piiratud_test
+2025-11-22 14:19:10,021 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-22 14:19:10,021 - INFO - --- Starting check ---
+2025-11-22 14:19:10,021 - INFO - Fetching vessel metadata...
+2025-11-22 14:19:11,007 - INFO - Loaded metadata for 17729 vessels
+2025-11-22 14:19:11,010 - INFO - Fetching AIS data...
+2025-11-22 14:19:11,968 - INFO - Found 172 vessels in Gulf of Finland
+2025-11-22 14:19:11,979 - INFO - Saved positions, cleaned 168 old records
+2025-11-22 14:19:11,980 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-22 14:19:11,999 - INFO - Exported GeoJSON to out (trails: 180)
+2025-11-22 14:19:12,000 - INFO - No breaches detected
