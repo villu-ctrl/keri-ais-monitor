@@ -23588,3 +23588,15 @@
 2025-11-23 04:39:44,114 - WARNING - BREACH: VAESTERBOTTEN (MMSI 212838000) in restricted area (speed: 9.2 knots)
 2025-11-23 04:39:44,125 - INFO - Exported GeoJSON to out (trails: 168)
 2025-11-23 04:39:45,303 - INFO - Alert sent for MMSI 212838000
+2025-11-23 04:54:50,573 - INFO - Loaded geofence: piiratud_test
+2025-11-23 04:54:50,574 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-23 04:54:50,574 - INFO - --- Starting check ---
+2025-11-23 04:54:50,574 - INFO - Fetching vessel metadata...
+2025-11-23 04:54:51,686 - INFO - Loaded metadata for 17733 vessels
+2025-11-23 04:54:51,689 - INFO - Fetching AIS data...
+2025-11-23 04:54:52,669 - INFO - Found 162 vessels in Gulf of Finland
+2025-11-23 04:54:52,684 - INFO - Saved positions, cleaned 169 old records
+2025-11-23 04:54:52,684 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-23 04:54:52,685 - WARNING - BREACH: VAESTERBOTTEN (MMSI 212838000) in restricted area (speed: 8.6 knots)
+2025-11-23 04:54:52,696 - INFO - Exported GeoJSON to out (trails: 165)
+2025-11-23 04:54:53,669 - INFO - Alert sent for MMSI 212838000
