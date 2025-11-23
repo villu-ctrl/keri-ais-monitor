@@ -23555,3 +23555,15 @@
 2025-11-23 01:53:40,563 - INFO - Exported GeoJSON to out (trails: 171)
 2025-11-23 01:53:41,482 - INFO - Alert sent for MMSI 255972000
 2025-11-23 01:53:42,285 - INFO - Alert sent for MMSI 255802660
+2025-11-23 03:18:36,385 - INFO - Loaded geofence: piiratud_test
+2025-11-23 03:18:36,385 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-23 03:18:36,386 - INFO - --- Starting check ---
+2025-11-23 03:18:36,386 - INFO - Fetching vessel metadata...
+2025-11-23 03:18:37,785 - INFO - Loaded metadata for 17732 vessels
+2025-11-23 03:18:37,788 - INFO - Fetching AIS data...
+2025-11-23 03:18:38,361 - INFO - Found 164 vessels in Gulf of Finland
+2025-11-23 03:18:38,378 - INFO - Saved positions, cleaned 1163 old records
+2025-11-23 03:18:38,379 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-23 03:18:38,380 - WARNING - BREACH: CONTSHIPS STELLAR (MMSI 210195000) in restricted area (speed: 9.4 knots)
+2025-11-23 03:18:38,389 - INFO - Exported GeoJSON to out (trails: 163)
+2025-11-23 03:18:39,556 - INFO - Alert sent for MMSI 210195000
