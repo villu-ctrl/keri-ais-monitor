@@ -25160,3 +25160,15 @@
 2025-11-24 18:17:56,951 - WARNING - BREACH: KREETE (MMSI 305967000) in restricted area (speed: 11.4 knots)
 2025-11-24 18:17:56,971 - INFO - Exported GeoJSON to out (trails: 190)
 2025-11-24 18:17:57,834 - INFO - Alert sent for MMSI 305967000
+2025-11-24 18:47:11,987 - INFO - Loaded geofence: piiratud_test
+2025-11-24 18:47:11,988 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-24 18:47:11,988 - INFO - --- Starting check ---
+2025-11-24 18:47:11,988 - INFO - Fetching vessel metadata...
+2025-11-24 18:47:13,364 - INFO - Loaded metadata for 17743 vessels
+2025-11-24 18:47:13,366 - INFO - Fetching AIS data...
+2025-11-24 18:47:14,926 - INFO - Found 174 vessels in Gulf of Finland
+2025-11-24 18:47:14,940 - INFO - Saved positions, cleaned 352 old records
+2025-11-24 18:47:14,940 - WARNING - BREACH: DOLFIJN (MMSI 305198000) in restricted area (speed: 10.2 knots)
+2025-11-24 18:47:14,941 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-24 18:47:14,959 - INFO - Exported GeoJSON to out (trails: 189)
+2025-11-24 18:47:16,014 - INFO - Alert sent for MMSI 305198000
