@@ -25998,3 +25998,14 @@
 2025-11-25 17:09:54,963 - WARNING - BREACH: EMPIRE (MMSI 245258000) in restricted area (speed: 16.0 knots)
 2025-11-25 17:09:54,979 - INFO - Exported GeoJSON to out (trails: 188)
 2025-11-25 17:09:56,590 - INFO - Alert sent for MMSI 245258000
+2025-11-25 17:32:54,158 - INFO - Loaded geofence: piiratud_test
+2025-11-25 17:32:54,159 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-25 17:32:54,159 - INFO - --- Starting check ---
+2025-11-25 17:32:54,159 - INFO - Fetching vessel metadata...
+2025-11-25 17:32:55,004 - INFO - Loaded metadata for 17751 vessels
+2025-11-25 17:32:55,006 - INFO - Fetching AIS data...
+2025-11-25 17:32:55,957 - INFO - Found 173 vessels in Gulf of Finland
+2025-11-25 17:32:55,973 - INFO - Saved positions, cleaned 179 old records
+2025-11-25 17:32:55,973 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-25 17:32:55,992 - INFO - Exported GeoJSON to out (trails: 187)
+2025-11-25 17:32:55,992 - INFO - No breaches detected
