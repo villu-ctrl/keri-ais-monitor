@@ -28102,3 +28102,15 @@
 2025-11-27 21:58:49,559 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-27 21:58:49,580 - INFO - Exported GeoJSON to out (trails: 192)
 2025-11-27 21:58:49,580 - INFO - No breaches detected
+2025-11-27 22:18:54,877 - INFO - Loaded geofence: piiratud_test
+2025-11-27 22:18:54,877 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-27 22:18:54,877 - INFO - --- Starting check ---
+2025-11-27 22:18:54,877 - INFO - Fetching vessel metadata...
+2025-11-27 22:18:55,696 - INFO - Loaded metadata for 17762 vessels
+2025-11-27 22:18:55,700 - INFO - Fetching AIS data...
+2025-11-27 22:18:56,604 - INFO - Found 179 vessels in Gulf of Finland
+2025-11-27 22:18:56,617 - INFO - Saved positions, cleaned 179 old records
+2025-11-27 22:18:56,618 - WARNING - BREACH: SEA JEWEL (MMSI 353221000) in restricted area (speed: 11.3 knots)
+2025-11-27 22:18:56,619 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-27 22:18:56,640 - INFO - Exported GeoJSON to out (trails: 193)
+2025-11-27 22:18:57,604 - INFO - Alert sent for MMSI 353221000
