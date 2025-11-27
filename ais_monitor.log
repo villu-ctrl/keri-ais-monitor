@@ -27980,3 +27980,15 @@
 2025-11-27 19:59:19,993 - INFO - Exported GeoJSON to out (trails: 196)
 2025-11-27 19:59:21,236 - INFO - Alert sent for MMSI 210021000
 2025-11-27 19:59:23,008 - INFO - Alert sent for MMSI 230685000
+2025-11-27 20:21:12,026 - INFO - Loaded geofence: piiratud_test
+2025-11-27 20:21:12,026 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-27 20:21:12,026 - INFO - --- Starting check ---
+2025-11-27 20:21:12,026 - INFO - Fetching vessel metadata...
+2025-11-27 20:21:12,834 - INFO - Loaded metadata for 17762 vessels
+2025-11-27 20:21:12,836 - INFO - Fetching AIS data...
+2025-11-27 20:21:13,682 - INFO - Found 183 vessels in Gulf of Finland
+2025-11-27 20:21:13,698 - INFO - Saved positions, cleaned 369 old records
+2025-11-27 20:21:13,699 - WARNING - BREACH: DALARNA (MMSI 210021000) in restricted area (speed: 9.7 knots)
+2025-11-27 20:21:13,700 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-27 20:21:13,721 - INFO - Exported GeoJSON to out (trails: 190)
+2025-11-27 20:21:15,130 - INFO - Alert sent for MMSI 210021000
