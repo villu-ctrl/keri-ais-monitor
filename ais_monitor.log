@@ -27361,3 +27361,16 @@
 2025-11-27 05:19:55,773 - INFO - Fetching AIS data...
 2025-11-27 05:19:55,853 - ERROR - Error fetching AIS: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/locations
 2025-11-27 05:19:55,854 - INFO - No vessels found
+2025-11-27 05:39:35,453 - INFO - Loaded geofence: piiratud_test
+2025-11-27 05:39:35,454 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-27 05:39:35,454 - INFO - --- Starting check ---
+2025-11-27 05:39:35,454 - INFO - Fetching vessel metadata...
+2025-11-27 05:39:36,706 - INFO - Loaded metadata for 17758 vessels
+2025-11-27 05:39:36,708 - INFO - Fetching AIS data...
+2025-11-27 05:39:37,572 - INFO - Found 182 vessels in Gulf of Finland
+2025-11-27 05:39:37,588 - INFO - Saved positions, cleaned 168 old records
+2025-11-27 05:39:37,589 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.0 knots)
+2025-11-27 05:39:37,589 - WARNING - BREACH: NORTH (MMSI 249814000) in restricted area (speed: 6.9 knots)
+2025-11-27 05:39:37,604 - INFO - Exported GeoJSON to out (trails: 178)
+2025-11-27 05:39:38,741 - INFO - Alert sent for MMSI 276810000
+2025-11-27 05:39:39,611 - INFO - Alert sent for MMSI 249814000
