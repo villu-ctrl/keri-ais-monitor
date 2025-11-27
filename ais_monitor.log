@@ -27353,3 +27353,11 @@
 2025-11-27 04:58:36,174 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-11-27 04:58:36,187 - INFO - Exported GeoJSON to out (trails: 177)
 2025-11-27 04:58:36,187 - INFO - No breaches detected
+2025-11-27 05:19:55,651 - INFO - Loaded geofence: piiratud_test
+2025-11-27 05:19:55,652 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-27 05:19:55,652 - INFO - --- Starting check ---
+2025-11-27 05:19:55,653 - INFO - Fetching vessel metadata...
+2025-11-27 05:19:55,772 - ERROR - Error fetching vessel metadata: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/vessels
+2025-11-27 05:19:55,773 - INFO - Fetching AIS data...
+2025-11-27 05:19:55,853 - ERROR - Error fetching AIS: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/locations
+2025-11-27 05:19:55,854 - INFO - No vessels found
