@@ -28635,3 +28635,14 @@
 2025-11-28 13:08:53,035 - INFO - Alert sent for MMSI 244770997
 2025-11-28 13:08:53,936 - INFO - Alert sent for MMSI 230685000
 2025-11-28 13:08:55,077 - INFO - Alert sent for MMSI 276832000
+2025-11-28 13:38:17,626 - INFO - Loaded geofence: piiratud_test
+2025-11-28 13:38:17,627 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-28 13:38:17,627 - INFO - --- Starting check ---
+2025-11-28 13:38:17,627 - INFO - Fetching vessel metadata...
+2025-11-28 13:38:18,591 - INFO - Loaded metadata for 17765 vessels
+2025-11-28 13:38:18,594 - INFO - Fetching AIS data...
+2025-11-28 13:38:19,510 - INFO - Found 189 vessels in Gulf of Finland
+2025-11-28 13:38:19,523 - INFO - Saved positions, cleaned 363 old records
+2025-11-28 13:38:19,524 - WARNING - BREACH: LONGEON (MMSI 244770997) in restricted area (speed: 5.8 knots)
+2025-11-28 13:38:19,542 - INFO - Exported GeoJSON to out (trails: 196)
+2025-11-28 13:38:20,605 - INFO - Alert sent for MMSI 244770997
