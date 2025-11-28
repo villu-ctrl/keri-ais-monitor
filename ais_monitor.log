@@ -28672,3 +28672,15 @@
 2025-11-28 13:56:59,041 - INFO - Exported GeoJSON to out (trails: 194)
 2025-11-28 13:57:00,019 - INFO - Alert sent for MMSI 276810000
 2025-11-28 13:57:00,860 - INFO - Alert sent for MMSI 244770997
+2025-11-28 14:15:44,534 - INFO - Loaded geofence: piiratud_test
+2025-11-28 14:15:44,534 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-28 14:15:44,534 - INFO - --- Starting check ---
+2025-11-28 14:15:44,534 - INFO - Fetching vessel metadata...
+2025-11-28 14:15:45,700 - INFO - Loaded metadata for 17766 vessels
+2025-11-28 14:15:45,702 - INFO - Fetching AIS data...
+2025-11-28 14:15:46,890 - INFO - Found 187 vessels in Gulf of Finland
+2025-11-28 14:15:46,904 - INFO - Saved positions, cleaned 182 old records
+2025-11-28 14:15:46,905 - WARNING - BREACH: DOLFIJN (MMSI 305198000) in restricted area (speed: 9.2 knots)
+2025-11-28 14:15:46,905 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-28 14:15:46,923 - INFO - Exported GeoJSON to out (trails: 192)
+2025-11-28 14:16:04,730 - INFO - Alert sent for MMSI 305198000
