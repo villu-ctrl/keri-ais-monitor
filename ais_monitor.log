@@ -28620,3 +28620,18 @@
 2025-11-28 12:33:53,880 - INFO - Saved positions, cleaned 360 old records
 2025-11-28 12:33:53,900 - INFO - Exported GeoJSON to out (trails: 192)
 2025-11-28 12:33:53,901 - INFO - No breaches detected
+2025-11-28 13:08:49,591 - INFO - Loaded geofence: piiratud_test
+2025-11-28 13:08:49,591 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-28 13:08:49,591 - INFO - --- Starting check ---
+2025-11-28 13:08:49,591 - INFO - Fetching vessel metadata...
+2025-11-28 13:08:50,836 - INFO - Loaded metadata for 17765 vessels
+2025-11-28 13:08:50,839 - INFO - Fetching AIS data...
+2025-11-28 13:08:51,946 - INFO - Found 188 vessels in Gulf of Finland
+2025-11-28 13:08:51,957 - INFO - Saved positions, cleaned 538 old records
+2025-11-28 13:08:51,958 - WARNING - BREACH: LONGEON (MMSI 244770997) in restricted area (speed: 6.3 knots)
+2025-11-28 13:08:51,959 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area (speed: 21.0 knots)
+2025-11-28 13:08:51,960 - WARNING - BREACH: VEGA (MMSI 276832000) in restricted area (speed: 9.6 knots)
+2025-11-28 13:08:51,977 - INFO - Exported GeoJSON to out (trails: 193)
+2025-11-28 13:08:53,035 - INFO - Alert sent for MMSI 244770997
+2025-11-28 13:08:53,936 - INFO - Alert sent for MMSI 230685000
+2025-11-28 13:08:55,077 - INFO - Alert sent for MMSI 276832000
