@@ -29655,3 +29655,15 @@
 2025-11-29 13:04:06,917 - WARNING - BREACH: LOTTALAND (MMSI 275504000) in restricted area (speed: 11.0 knots)
 2025-11-29 13:04:06,936 - INFO - Exported GeoJSON to out (trails: 194)
 2025-11-29 13:04:08,404 - INFO - Alert sent for MMSI 275504000
+2025-11-29 13:32:41,728 - INFO - Loaded geofence: piiratud_test
+2025-11-29 13:32:41,728 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-29 13:32:41,728 - INFO - --- Starting check ---
+2025-11-29 13:32:41,729 - INFO - Fetching vessel metadata...
+2025-11-29 13:32:42,785 - INFO - Loaded metadata for 17769 vessels
+2025-11-29 13:32:42,788 - INFO - Fetching AIS data...
+2025-11-29 13:32:43,479 - INFO - Found 185 vessels in Gulf of Finland
+2025-11-29 13:32:43,493 - INFO - Saved positions, cleaned 187 old records
+2025-11-29 13:32:43,493 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-29 13:32:43,494 - WARNING - BREACH: LOTTALAND (MMSI 275504000) in restricted area (speed: 11.1 knots)
+2025-11-29 13:32:43,514 - INFO - Exported GeoJSON to out (trails: 193)
+2025-11-29 13:32:45,507 - INFO - Alert sent for MMSI 275504000
