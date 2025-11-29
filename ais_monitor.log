@@ -29870,3 +29870,15 @@
 2025-11-29 17:27:23,715 - WARNING - BREACH: KRISTA (MMSI 305284000) in restricted area (speed: 10.5 knots)
 2025-11-29 17:27:23,737 - INFO - Exported GeoJSON to out (trails: 196)
 2025-11-29 17:27:25,722 - INFO - Alert sent for MMSI 305284000
+2025-11-29 17:38:01,527 - INFO - Loaded geofence: piiratud_test
+2025-11-29 17:38:01,528 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-29 17:38:01,528 - INFO - --- Starting check ---
+2025-11-29 17:38:01,528 - INFO - Fetching vessel metadata...
+2025-11-29 17:38:02,519 - INFO - Loaded metadata for 17769 vessels
+2025-11-29 17:38:02,521 - INFO - Fetching AIS data...
+2025-11-29 17:38:03,262 - INFO - Found 183 vessels in Gulf of Finland
+2025-11-29 17:38:03,276 - INFO - Saved positions, cleaned 187 old records
+2025-11-29 17:38:03,276 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-11-29 17:38:03,277 - WARNING - BREACH: KRISTA (MMSI 305284000) in restricted area (speed: 10.5 knots)
+2025-11-29 17:38:03,297 - INFO - Exported GeoJSON to out (trails: 196)
+2025-11-29 17:38:04,496 - INFO - Alert sent for MMSI 305284000
