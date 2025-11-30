@@ -30853,3 +30853,14 @@
 2025-11-30 16:25:25,134 - INFO - Saved positions, cleaned 192 old records
 2025-11-30 16:25:25,158 - INFO - Exported GeoJSON to out (trails: 203)
 2025-11-30 16:25:25,158 - INFO - No breaches detected
+2025-11-30 16:42:47,999 - INFO - Loaded geofence: piiratud_test
+2025-11-30 16:42:47,999 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-11-30 16:42:48,000 - INFO - --- Starting check ---
+2025-11-30 16:42:48,000 - INFO - Fetching vessel metadata...
+2025-11-30 16:42:49,260 - INFO - Loaded metadata for 17774 vessels
+2025-11-30 16:42:49,264 - INFO - Fetching AIS data...
+2025-11-30 16:42:50,113 - INFO - Found 185 vessels in Gulf of Finland
+2025-11-30 16:42:50,124 - INFO - Saved positions, cleaned 194 old records
+2025-11-30 16:42:50,125 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.4 knots)
+2025-11-30 16:42:50,146 - INFO - Exported GeoJSON to out (trails: 204)
+2025-11-30 16:42:51,315 - INFO - Alert sent for MMSI 276810000
