@@ -31749,3 +31749,15 @@
 2025-12-01 17:57:24,814 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-01 17:57:24,833 - INFO - Exported GeoJSON to out (trails: 203)
 2025-12-01 17:57:24,833 - INFO - No breaches detected
+2025-12-01 18:28:05,998 - INFO - Loaded geofence: piiratud_test
+2025-12-01 18:28:05,999 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-01 18:28:05,999 - INFO - --- Starting check ---
+2025-12-01 18:28:05,999 - INFO - Fetching vessel metadata...
+2025-12-01 18:28:06,918 - INFO - Loaded metadata for 17775 vessels
+2025-12-01 18:28:06,920 - INFO - Fetching AIS data...
+2025-12-01 18:28:07,759 - INFO - Found 186 vessels in Gulf of Finland
+2025-12-01 18:28:07,772 - INFO - Saved positions, cleaned 192 old records
+2025-12-01 18:28:07,772 - WARNING - BREACH: ECO MAESTRO (MMSI 256339000) in restricted area (speed: 14.4 knots)
+2025-12-01 18:28:07,773 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-01 18:28:07,791 - INFO - Exported GeoJSON to out (trails: 202)
+2025-12-01 18:28:09,026 - INFO - Alert sent for MMSI 256339000
