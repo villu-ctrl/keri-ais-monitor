@@ -31403,3 +31403,15 @@
 2025-12-01 07:45:29,467 - INFO - Exported GeoJSON to out (trails: 201)
 2025-12-01 07:45:30,340 - INFO - Alert sent for MMSI 210561000
 2025-12-01 07:45:31,180 - INFO - Alert sent for MMSI 276810000
+2025-12-01 07:52:45,476 - INFO - Loaded geofence: piiratud_test
+2025-12-01 07:52:45,476 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-01 07:52:45,476 - INFO - --- Starting check ---
+2025-12-01 07:52:45,476 - INFO - Fetching vessel metadata...
+2025-12-01 07:52:46,618 - INFO - Loaded metadata for 17775 vessels
+2025-12-01 07:52:46,621 - INFO - Fetching AIS data...
+2025-12-01 07:52:47,988 - INFO - Found 193 vessels in Gulf of Finland
+2025-12-01 07:52:48,003 - WARNING - BREACH: RADUGA ALTAIR (MMSI 210561000) in restricted area (speed: 7.7 knots)
+2025-12-01 07:52:48,004 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.0 knots)
+2025-12-01 07:52:48,020 - INFO - Exported GeoJSON to out (trails: 202)
+2025-12-01 07:52:48,963 - INFO - Alert sent for MMSI 210561000
+2025-12-01 07:52:49,810 - INFO - Alert sent for MMSI 276810000
