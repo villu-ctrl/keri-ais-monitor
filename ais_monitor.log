@@ -32276,3 +32276,19 @@
 2025-12-02 08:29:52,771 - INFO - Alert sent for MMSI 511101760
 2025-12-02 08:29:53,578 - INFO - Alert sent for MMSI 255620000
 2025-12-02 08:29:54,441 - INFO - Alert sent for MMSI 276809000
+2025-12-02 08:54:17,559 - INFO - Loaded geofence: piiratud_test
+2025-12-02 08:54:17,560 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-02 08:54:17,560 - INFO - --- Starting check ---
+2025-12-02 08:54:17,560 - INFO - Fetching vessel metadata...
+2025-12-02 08:54:18,582 - INFO - Loaded metadata for 17777 vessels
+2025-12-02 08:54:18,584 - INFO - Fetching AIS data...
+2025-12-02 08:54:19,341 - INFO - Found 190 vessels in Gulf of Finland
+2025-12-02 08:54:19,356 - INFO - Saved positions, cleaned 383 old records
+2025-12-02 08:54:19,358 - WARNING - BREACH: ATLAS (MMSI 276809000) in restricted area (speed: 2.0 knots)
+2025-12-02 08:54:19,358 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-02 08:54:19,358 - WARNING - BREACH: SEAWOLF (MMSI 511101760) in restricted area (speed: 3.5 knots)
+2025-12-02 08:54:19,358 - WARNING - BREACH: ECO MAESTRO (MMSI 256339000) in restricted area (speed: 14.4 knots)
+2025-12-02 08:54:19,376 - INFO - Exported GeoJSON to out (trails: 201)
+2025-12-02 08:54:20,532 - INFO - Alert sent for MMSI 276809000
+2025-12-02 08:54:21,599 - INFO - Alert sent for MMSI 511101760
+2025-12-02 08:54:23,049 - INFO - Alert sent for MMSI 256339000
