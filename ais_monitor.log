@@ -33117,3 +33117,15 @@
 2025-12-03 08:26:14,405 - INFO - Alert sent for MMSI 305284000
 2025-12-03 08:26:15,949 - INFO - Alert sent for MMSI 255620000
 2025-12-03 08:26:17,557 - INFO - Alert sent for MMSI 209657000
+2025-12-03 08:50:10,555 - INFO - Loaded geofence: piiratud_test
+2025-12-03 08:50:10,555 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-03 08:50:10,555 - INFO - --- Starting check ---
+2025-12-03 08:50:10,556 - INFO - Fetching vessel metadata...
+2025-12-03 08:50:11,378 - INFO - Loaded metadata for 17783 vessels
+2025-12-03 08:50:11,381 - INFO - Fetching AIS data...
+2025-12-03 08:50:12,264 - INFO - Found 198 vessels in Gulf of Finland
+2025-12-03 08:50:12,281 - INFO - Saved positions, cleaned 394 old records
+2025-12-03 08:50:12,283 - WARNING - BREACH: RADUGA ELECTRON (MMSI 209657000) in restricted area (speed: 6.8 knots)
+2025-12-03 08:50:12,284 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-03 08:50:12,301 - INFO - Exported GeoJSON to out (trails: 207)
+2025-12-03 08:50:13,201 - INFO - Alert sent for MMSI 209657000
