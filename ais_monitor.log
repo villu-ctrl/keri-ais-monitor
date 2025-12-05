@@ -34664,3 +34664,14 @@
 2025-12-05 07:00:51,442 - INFO - Saved positions, cleaned 166 old records
 2025-12-05 07:00:51,460 - INFO - Exported GeoJSON to out (trails: 188)
 2025-12-05 07:00:51,460 - INFO - No breaches detected
+2025-12-05 07:26:29,404 - INFO - Loaded geofence: piiratud_test
+2025-12-05 07:26:29,404 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-05 07:26:29,404 - INFO - --- Starting check ---
+2025-12-05 07:26:29,404 - INFO - Fetching vessel metadata...
+2025-12-05 07:26:30,181 - INFO - Loaded metadata for 17793 vessels
+2025-12-05 07:26:30,183 - INFO - Fetching AIS data...
+2025-12-05 07:26:31,081 - INFO - Found 184 vessels in Gulf of Finland
+2025-12-05 07:26:31,095 - INFO - Saved positions, cleaned 172 old records
+2025-12-05 07:26:31,096 - WARNING - BREACH: CALAMAR (MMSI 209732000) in restricted area (speed: 11.6 knots)
+2025-12-05 07:26:31,113 - INFO - Exported GeoJSON to out (trails: 190)
+2025-12-05 07:26:32,014 - INFO - Alert sent for MMSI 209732000
