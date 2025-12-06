@@ -35417,3 +35417,17 @@
 2025-12-05 23:54:46,639 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-05 23:54:46,661 - INFO - Exported GeoJSON to out (trails: 177)
 2025-12-05 23:54:46,661 - INFO - No breaches detected
+2025-12-06 00:48:35,392 - INFO - Loaded geofence: piiratud_test
+2025-12-06 00:48:35,393 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-06 00:48:35,393 - INFO - --- Starting check ---
+2025-12-06 00:48:35,393 - INFO - Fetching vessel metadata...
+2025-12-06 00:48:36,928 - INFO - Loaded metadata for 17800 vessels
+2025-12-06 00:48:36,931 - INFO - Fetching AIS data...
+2025-12-06 00:48:38,044 - INFO - Found 168 vessels in Gulf of Finland
+2025-12-06 00:48:38,058 - INFO - Saved positions, cleaned 672 old records
+2025-12-06 00:48:38,059 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-06 00:48:38,059 - WARNING - BREACH: SAAREMAA (MMSI 255915626) in restricted area (speed: 9.2 knots)
+2025-12-06 00:48:38,060 - WARNING - BREACH: BALTIC JONGLEUR (MMSI 304028000) in restricted area (speed: 7.7 knots)
+2025-12-06 00:48:38,078 - INFO - Exported GeoJSON to out (trails: 176)
+2025-12-06 00:48:39,710 - INFO - Alert sent for MMSI 255915626
+2025-12-06 00:48:41,567 - INFO - Alert sent for MMSI 304028000
