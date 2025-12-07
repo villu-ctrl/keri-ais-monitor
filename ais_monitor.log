@@ -36650,3 +36650,14 @@
 2025-12-07 06:45:22,744 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-07 06:45:22,763 - INFO - Exported GeoJSON to out (trails: 183)
 2025-12-07 06:45:23,857 - INFO - Alert sent for MMSI 266457000
+2025-12-07 06:55:24,536 - INFO - Loaded geofence: piiratud_test
+2025-12-07 06:55:24,537 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-07 06:55:24,537 - INFO - --- Starting check ---
+2025-12-07 06:55:24,537 - INFO - Fetching vessel metadata...
+2025-12-07 06:55:26,287 - INFO - Loaded metadata for 17806 vessels
+2025-12-07 06:55:26,290 - INFO - Fetching AIS data...
+2025-12-07 06:55:26,958 - INFO - Found 176 vessels in Gulf of Finland
+2025-12-07 06:55:26,968 - WARNING - BREACH: RAMANDA (MMSI 266457000) in restricted area (speed: 12.0 knots)
+2025-12-07 06:55:26,969 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-07 06:55:26,987 - INFO - Exported GeoJSON to out (trails: 183)
+2025-12-07 06:55:27,905 - INFO - Alert sent for MMSI 266457000
