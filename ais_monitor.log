@@ -36532,3 +36532,13 @@
 2025-12-07 02:59:09,565 - WARNING - BREACH: HELIOS (MMSI 276861000) in restricted area (speed: 9.3 knots)
 2025-12-07 02:59:09,575 - INFO - Exported GeoJSON to out (trails: 173)
 2025-12-07 02:59:10,616 - INFO - Alert sent for MMSI 276861000
+2025-12-07 03:56:44,039 - INFO - Loaded geofence: piiratud_test
+2025-12-07 03:56:44,040 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-07 03:56:44,040 - INFO - --- Starting check ---
+2025-12-07 03:56:44,040 - INFO - Fetching vessel metadata...
+2025-12-07 03:56:45,019 - INFO - Loaded metadata for 17806 vessels
+2025-12-07 03:56:45,022 - INFO - Fetching AIS data...
+2025-12-07 03:56:45,840 - INFO - Found 175 vessels in Gulf of Finland
+2025-12-07 03:56:45,857 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-07 03:56:45,872 - INFO - Exported GeoJSON to out (trails: 177)
+2025-12-07 03:56:45,873 - INFO - No breaches detected
