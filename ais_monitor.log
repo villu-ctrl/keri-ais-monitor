@@ -36967,3 +36967,15 @@
 2025-12-07 13:20:41,932 - WARNING - BREACH: HALLAND (MMSI 212536000) in restricted area (speed: 9.5 knots)
 2025-12-07 13:20:41,949 - INFO - Exported GeoJSON to out (trails: 187)
 2025-12-07 13:20:43,456 - INFO - Alert sent for MMSI 212536000
+2025-12-07 13:38:37,636 - INFO - Loaded geofence: piiratud_test
+2025-12-07 13:38:37,637 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-07 13:38:37,637 - INFO - --- Starting check ---
+2025-12-07 13:38:37,637 - INFO - Fetching vessel metadata...
+2025-12-07 13:38:38,908 - INFO - Loaded metadata for 17806 vessels
+2025-12-07 13:38:38,911 - INFO - Fetching AIS data...
+2025-12-07 13:38:39,679 - INFO - Found 177 vessels in Gulf of Finland
+2025-12-07 13:38:39,693 - INFO - Saved positions, cleaned 180 old records
+2025-12-07 13:38:39,694 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-07 13:38:39,695 - WARNING - BREACH: HALLAND (MMSI 212536000) in restricted area (speed: 9.4 knots)
+2025-12-07 13:38:39,712 - INFO - Exported GeoJSON to out (trails: 187)
+2025-12-07 13:38:40,861 - INFO - Alert sent for MMSI 212536000
