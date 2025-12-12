@@ -41522,3 +41522,15 @@
 2025-12-12 22:46:32,799 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-12 22:46:32,825 - INFO - Exported GeoJSON to out (trails: 188)
 2025-12-12 22:46:33,808 - INFO - Alert sent for MMSI 636018490
+2025-12-12 22:53:37,500 - INFO - Loaded geofence: piiratud_test
+2025-12-12 22:53:37,500 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-12 22:53:37,500 - INFO - --- Starting check ---
+2025-12-12 22:53:37,500 - INFO - Fetching vessel metadata...
+2025-12-12 22:53:38,679 - INFO - Loaded metadata for 17836 vessels
+2025-12-12 22:53:38,682 - INFO - Fetching AIS data...
+2025-12-12 22:53:39,650 - INFO - Found 178 vessels in Gulf of Finland
+2025-12-12 22:53:39,663 - INFO - Saved positions, cleaned 178 old records
+2025-12-12 22:53:39,664 - WARNING - BREACH: MSC VANQUISH II (MMSI 636018490) in restricted area (speed: 17.5 knots)
+2025-12-12 22:53:39,665 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-12 22:53:39,684 - INFO - Exported GeoJSON to out (trails: 188)
+2025-12-12 22:53:40,693 - INFO - Alert sent for MMSI 636018490
