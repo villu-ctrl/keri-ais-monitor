@@ -40887,3 +40887,14 @@
 2025-12-12 06:55:46,924 - INFO - Found 197 vessels in Gulf of Finland
 2025-12-12 06:55:46,952 - INFO - Exported GeoJSON to out (trails: 204)
 2025-12-12 06:55:46,952 - INFO - No breaches detected
+2025-12-12 07:17:21,669 - INFO - Loaded geofence: piiratud_test
+2025-12-12 07:17:21,670 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-12 07:17:21,670 - INFO - --- Starting check ---
+2025-12-12 07:17:21,670 - INFO - Fetching vessel metadata...
+2025-12-12 07:17:23,081 - INFO - Loaded metadata for 17832 vessels
+2025-12-12 07:17:23,084 - INFO - Fetching AIS data...
+2025-12-12 07:17:23,736 - INFO - Found 198 vessels in Gulf of Finland
+2025-12-12 07:17:23,750 - INFO - Saved positions, cleaned 190 old records
+2025-12-12 07:17:23,752 - WARNING - BREACH: NORRBOTTEN (MMSI 255624000) in restricted area (speed: 9.5 knots)
+2025-12-12 07:17:23,768 - INFO - Exported GeoJSON to out (trails: 205)
+2025-12-12 07:17:25,222 - INFO - Alert sent for MMSI 255624000
