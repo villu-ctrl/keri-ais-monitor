@@ -42482,3 +42482,15 @@
 2025-12-13 21:52:27,650 - WARNING - BREACH: GEORG ESSBERGER (MMSI 255735000) in restricted area (speed: 8.6 knots)
 2025-12-13 21:52:27,670 - INFO - Exported GeoJSON to out (trails: 175)
 2025-12-13 21:52:29,937 - INFO - Alert sent for MMSI 255735000
+2025-12-13 21:58:56,536 - INFO - Loaded geofence: piiratud_test
+2025-12-13 21:58:56,536 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-13 21:58:56,536 - INFO - --- Starting check ---
+2025-12-13 21:58:56,537 - INFO - Fetching vessel metadata...
+2025-12-13 21:58:57,725 - INFO - Loaded metadata for 17841 vessels
+2025-12-13 21:58:57,727 - INFO - Fetching AIS data...
+2025-12-13 21:58:58,435 - INFO - Found 170 vessels in Gulf of Finland
+2025-12-13 21:58:58,448 - INFO - Saved positions, cleaned 165 old records
+2025-12-13 21:58:58,449 - WARNING - BREACH: LURO (MMSI 244059000) in restricted area (speed: 6.8 knots)
+2025-12-13 21:58:58,450 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-13 21:58:58,470 - INFO - Exported GeoJSON to out (trails: 177)
+2025-12-13 21:59:00,246 - INFO - Alert sent for MMSI 244059000
