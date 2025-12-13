@@ -42435,3 +42435,15 @@
 2025-12-13 21:15:25,078 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-13 21:15:25,098 - INFO - Exported GeoJSON to out (trails: 172)
 2025-12-13 21:15:26,106 - INFO - Alert sent for MMSI 255735000
+2025-12-13 21:29:24,288 - INFO - Loaded geofence: piiratud_test
+2025-12-13 21:29:24,289 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-13 21:29:24,289 - INFO - --- Starting check ---
+2025-12-13 21:29:24,289 - INFO - Fetching vessel metadata...
+2025-12-13 21:29:25,488 - INFO - Loaded metadata for 17841 vessels
+2025-12-13 21:29:25,490 - INFO - Fetching AIS data...
+2025-12-13 21:29:26,640 - INFO - Found 171 vessels in Gulf of Finland
+2025-12-13 21:29:26,664 - INFO - Saved positions, cleaned 165 old records
+2025-12-13 21:29:26,665 - WARNING - BREACH: GEORG ESSBERGER (MMSI 255735000) in restricted area (speed: 8.6 knots)
+2025-12-13 21:29:26,665 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-13 21:29:26,685 - INFO - Exported GeoJSON to out (trails: 174)
+2025-12-13 21:29:28,179 - INFO - Alert sent for MMSI 255735000
