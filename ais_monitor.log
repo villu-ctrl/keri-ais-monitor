@@ -43321,3 +43321,17 @@
 2025-12-14 19:33:45,406 - INFO - Exported GeoJSON to out (trails: 183)
 2025-12-14 19:33:46,601 - INFO - Alert sent for MMSI 230685000
 2025-12-14 19:33:47,677 - INFO - Alert sent for MMSI 209657000
+2025-12-14 19:41:12,646 - INFO - Loaded geofence: piiratud_test
+2025-12-14 19:41:12,647 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-14 19:41:12,647 - INFO - --- Starting check ---
+2025-12-14 19:41:12,647 - INFO - Fetching vessel metadata...
+2025-12-14 19:41:13,684 - INFO - Loaded metadata for 17845 vessels
+2025-12-14 19:41:13,687 - INFO - Fetching AIS data...
+2025-12-14 19:41:14,733 - INFO - Found 175 vessels in Gulf of Finland
+2025-12-14 19:41:14,748 - INFO - Saved positions, cleaned 167 old records
+2025-12-14 19:41:14,749 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-14 19:41:14,750 - WARNING - BREACH: FINBO CARGO (MMSI 230685000) in restricted area (speed: 18.1 knots)
+2025-12-14 19:41:14,751 - WARNING - BREACH: RADUGA ELECTRON (MMSI 209657000) in restricted area (speed: 6.2 knots)
+2025-12-14 19:41:14,768 - INFO - Exported GeoJSON to out (trails: 180)
+2025-12-14 19:41:15,624 - INFO - Alert sent for MMSI 230685000
+2025-12-14 19:41:16,324 - INFO - Alert sent for MMSI 209657000
