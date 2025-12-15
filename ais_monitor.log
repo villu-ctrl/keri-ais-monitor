@@ -43823,3 +43823,14 @@
 2025-12-15 11:00:55,760 - INFO - Exported GeoJSON to out (trails: 195)
 2025-12-15 11:00:56,704 - INFO - Alert sent for MMSI 235869999
 2025-12-15 11:00:57,559 - INFO - Alert sent for MMSI 999999999
+2025-12-15 11:25:22,017 - INFO - Loaded geofence: piiratud_test
+2025-12-15 11:25:22,018 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-15 11:25:22,019 - INFO - --- Starting check ---
+2025-12-15 11:25:22,019 - INFO - Fetching vessel metadata...
+2025-12-15 11:25:22,796 - INFO - Loaded metadata for 17848 vessels
+2025-12-15 11:25:22,799 - INFO - Fetching AIS data...
+2025-12-15 11:25:23,445 - INFO - Found 191 vessels in Gulf of Finland
+2025-12-15 11:25:23,459 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-15 11:25:23,459 - WARNING - BREACH: NATO WARSHIP (MMSI 999999999) in restricted area (speed: 6.7 knots)
+2025-12-15 11:25:23,475 - INFO - Exported GeoJSON to out (trails: 196)
+2025-12-15 11:25:24,409 - INFO - Alert sent for MMSI 999999999
