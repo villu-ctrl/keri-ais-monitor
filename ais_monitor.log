@@ -43772,3 +43772,15 @@
 2025-12-15 09:50:59,357 - WARNING - BREACH: NYLAND (MMSI 210438000) in restricted area (speed: 9.0 knots)
 2025-12-15 09:50:59,372 - INFO - Exported GeoJSON to out (trails: 199)
 2025-12-15 09:51:00,289 - INFO - Alert sent for MMSI 210438000
+2025-12-15 10:00:52,495 - INFO - Loaded geofence: piiratud_test
+2025-12-15 10:00:52,495 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-15 10:00:52,495 - INFO - --- Starting check ---
+2025-12-15 10:00:52,495 - INFO - Fetching vessel metadata...
+2025-12-15 10:00:53,825 - INFO - Loaded metadata for 17847 vessels
+2025-12-15 10:00:53,828 - INFO - Fetching AIS data...
+2025-12-15 10:00:54,818 - INFO - Found 188 vessels in Gulf of Finland
+2025-12-15 10:00:54,832 - INFO - Saved positions, cleaned 193 old records
+2025-12-15 10:00:54,834 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-15 10:00:54,834 - WARNING - BREACH: NYLAND (MMSI 210438000) in restricted area (speed: 9.5 knots)
+2025-12-15 10:00:54,851 - INFO - Exported GeoJSON to out (trails: 198)
+2025-12-15 10:00:55,782 - INFO - Alert sent for MMSI 210438000
