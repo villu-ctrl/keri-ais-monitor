@@ -45527,3 +45527,15 @@
 2025-12-17 17:57:55,812 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-17 17:57:55,832 - INFO - Exported GeoJSON to out (trails: 192)
 2025-12-17 17:57:56,989 - INFO - Alert sent for MMSI 255915979
+2025-12-17 18:29:20,795 - INFO - Loaded geofence: piiratud_test
+2025-12-17 18:29:20,796 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-17 18:29:20,796 - INFO - --- Starting check ---
+2025-12-17 18:29:20,796 - INFO - Fetching vessel metadata...
+2025-12-17 18:29:22,113 - INFO - Loaded metadata for 17858 vessels
+2025-12-17 18:29:22,116 - INFO - Fetching AIS data...
+2025-12-17 18:29:23,100 - INFO - Found 181 vessels in Gulf of Finland
+2025-12-17 18:29:23,112 - INFO - Saved positions, cleaned 186 old records
+2025-12-17 18:29:23,113 - WARNING - BREACH: STEN BERGEN (MMSI 255915979) in restricted area (speed: 10.4 knots)
+2025-12-17 18:29:23,114 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-17 18:29:23,130 - INFO - Exported GeoJSON to out (trails: 193)
+2025-12-17 18:29:24,115 - INFO - Alert sent for MMSI 255915979
