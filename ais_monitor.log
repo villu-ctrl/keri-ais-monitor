@@ -49201,3 +49201,15 @@
 2025-12-21 20:52:26,348 - WARNING - BREACH: NORTH (MMSI 249814000) in restricted area (speed: 13.5 knots)
 2025-12-21 20:52:26,368 - INFO - Exported GeoJSON to out (trails: 188)
 2025-12-21 20:52:28,318 - INFO - Alert sent for MMSI 249814000
+2025-12-21 20:58:56,829 - INFO - Loaded geofence: piiratud_test
+2025-12-21 20:58:56,829 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-21 20:58:56,830 - INFO - --- Starting check ---
+2025-12-21 20:58:56,830 - INFO - Fetching vessel metadata...
+2025-12-21 20:58:57,643 - INFO - Loaded metadata for 17880 vessels
+2025-12-21 20:58:57,645 - INFO - Fetching AIS data...
+2025-12-21 20:58:58,329 - INFO - Found 179 vessels in Gulf of Finland
+2025-12-21 20:58:58,344 - INFO - Saved positions, cleaned 184 old records
+2025-12-21 20:58:58,346 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.1 knots)
+2025-12-21 20:58:58,346 - WARNING - BREACH: NORTH (MMSI 249814000) in restricted area (speed: 13.6 knots)
+2025-12-21 20:58:58,365 - INFO - Exported GeoJSON to out (trails: 187)
+2025-12-21 20:58:59,649 - INFO - Alert sent for MMSI 249814000
