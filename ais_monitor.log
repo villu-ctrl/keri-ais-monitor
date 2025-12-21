@@ -48561,3 +48561,14 @@
 2025-12-21 07:33:00,293 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-21 07:33:00,311 - INFO - Exported GeoJSON to out (trails: 197)
 2025-12-21 07:33:00,311 - INFO - No breaches detected
+2025-12-21 07:42:25,364 - INFO - Loaded geofence: piiratud_test
+2025-12-21 07:42:25,365 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-21 07:42:25,365 - INFO - --- Starting check ---
+2025-12-21 07:42:25,365 - INFO - Fetching vessel metadata...
+2025-12-21 07:42:26,486 - INFO - Loaded metadata for 17876 vessels
+2025-12-21 07:42:26,489 - INFO - Fetching AIS data...
+2025-12-21 07:42:27,245 - INFO - Found 188 vessels in Gulf of Finland
+2025-12-21 07:42:27,259 - WARNING - BREACH: GT DELPHIN (MMSI 305441000) in restricted area (speed: 10.4 knots)
+2025-12-21 07:42:27,260 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-21 07:42:27,284 - INFO - Exported GeoJSON to out (trails: 197)
+2025-12-21 07:42:28,601 - INFO - Alert sent for MMSI 305441000
