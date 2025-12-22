@@ -49837,3 +49837,16 @@
 2025-12-22 16:25:30,608 - INFO - Found 191 vessels in Gulf of Finland
 2025-12-22 16:25:30,642 - INFO - Exported GeoJSON to out (trails: 199)
 2025-12-22 16:25:30,643 - INFO - No breaches detected
+2025-12-22 16:48:00,982 - INFO - Loaded geofence: piiratud_test
+2025-12-22 16:48:00,983 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-22 16:48:00,983 - INFO - --- Starting check ---
+2025-12-22 16:48:00,983 - INFO - Fetching vessel metadata...
+2025-12-22 16:48:02,224 - INFO - Loaded metadata for 17883 vessels
+2025-12-22 16:48:02,227 - INFO - Fetching AIS data...
+2025-12-22 16:48:03,344 - INFO - Found 192 vessels in Gulf of Finland
+2025-12-22 16:48:03,354 - INFO - Saved positions, cleaned 193 old records
+2025-12-22 16:48:03,355 - WARNING - BREACH: THOR (MMSI 219996000) in restricted area (speed: 5.5 knots)
+2025-12-22 16:48:03,356 - WARNING - BREACH: WRANGO (MMSI 276810000) in restricted area (speed: 9.3 knots)
+2025-12-22 16:48:03,382 - INFO - Exported GeoJSON to out (trails: 200)
+2025-12-22 16:48:05,300 - INFO - Alert sent for MMSI 219996000
+2025-12-22 16:48:06,501 - INFO - Alert sent for MMSI 276810000
