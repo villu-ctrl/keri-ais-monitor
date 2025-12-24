@@ -51044,3 +51044,14 @@
 2025-12-24 04:04:37,335 - WARNING - BREACH: TORNEDALEN (MMSI 255620000) in restricted area (speed: 10.6 knots)
 2025-12-24 04:04:37,346 - INFO - Exported GeoJSON to out (trails: 172)
 2025-12-24 04:04:39,206 - INFO - Alert sent for MMSI 255620000
+2025-12-24 04:43:41,898 - INFO - Loaded geofence: piiratud_test
+2025-12-24 04:43:41,899 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-24 04:43:41,899 - INFO - --- Starting check ---
+2025-12-24 04:43:41,899 - INFO - Fetching vessel metadata...
+2025-12-24 04:43:42,842 - INFO - Loaded metadata for 17891 vessels
+2025-12-24 04:43:42,846 - INFO - Fetching AIS data...
+2025-12-24 04:43:43,484 - INFO - Found 171 vessels in Gulf of Finland
+2025-12-24 04:43:43,498 - INFO - Saved positions, cleaned 180 old records
+2025-12-24 04:43:43,500 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-24 04:43:43,510 - INFO - Exported GeoJSON to out (trails: 170)
+2025-12-24 04:43:43,511 - INFO - No breaches detected
