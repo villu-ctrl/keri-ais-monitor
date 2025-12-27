@@ -54726,3 +54726,15 @@
 2025-12-27 03:37:45,805 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-27 03:37:45,818 - INFO - Exported GeoJSON to out (trails: 184)
 2025-12-27 03:37:45,818 - INFO - No breaches detected
+2025-12-27 03:59:58,551 - INFO - Loaded geofence: piiratud_test
+2025-12-27 03:59:58,552 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-27 03:59:58,552 - INFO - --- Starting check ---
+2025-12-27 03:59:58,552 - INFO - Fetching vessel metadata...
+2025-12-27 03:59:59,845 - INFO - Loaded metadata for 17913 vessels
+2025-12-27 03:59:59,848 - INFO - Fetching AIS data...
+2025-12-27 04:00:00,505 - INFO - Found 177 vessels in Gulf of Finland
+2025-12-27 04:00:00,518 - INFO - Saved positions, cleaned 179 old records
+2025-12-27 04:00:00,519 - WARNING - BREACH: MARBURG (MMSI 305978000) in restricted area (speed: 5.9 knots)
+2025-12-27 04:00:00,521 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-27 04:00:00,541 - INFO - Exported GeoJSON to out (trails: 182)
+2025-12-27 04:00:01,570 - INFO - Alert sent for MMSI 305978000
