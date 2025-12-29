@@ -57481,3 +57481,15 @@
 2025-12-28 23:57:53,680 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
 2025-12-28 23:57:53,703 - INFO - Exported GeoJSON to out (trails: 176)
 2025-12-28 23:57:54,881 - INFO - Alert sent for MMSI 304050000
+2025-12-29 00:35:00,861 - INFO - Loaded geofence: piiratud_test
+2025-12-29 00:35:00,862 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2025-12-29 00:35:00,862 - INFO - --- Starting check ---
+2025-12-29 00:35:00,862 - INFO - Fetching vessel metadata...
+2025-12-29 00:35:02,768 - INFO - Loaded metadata for 17915 vessels
+2025-12-29 00:35:02,771 - INFO - Fetching AIS data...
+2025-12-29 00:35:03,787 - INFO - Found 172 vessels in Gulf of Finland
+2025-12-29 00:35:03,802 - INFO - Saved positions, cleaned 511 old records
+2025-12-29 00:35:03,802 - WARNING - BREACH: GRIFTBOR (MMSI 304050000) in restricted area (speed: 9.9 knots)
+2025-12-29 00:35:03,804 - INFO - SKIP: WRANGO (MMSI 276810000) in area but stationary (speed: 0.0 knots)
+2025-12-29 00:35:03,826 - INFO - Exported GeoJSON to out (trails: 173)
+2025-12-29 00:35:05,251 - INFO - Alert sent for MMSI 304050000
