@@ -22,7 +22,7 @@ from shapely.geometry import Point, shape
 
 # Configuration
 CONFIG = {
-    'geofence': 'piiratud_test.geojson',
+    'geofence': 'piiratud.geojson',
     'ais_url': 'https://meri.digitraffic.fi/api/ais/v1/locations',
     'vessels_url': 'https://meri.digitraffic.fi/api/ais/v1/vessels',
     'bbox': {'latmin': 59.0, 'latmax': 60.5, 'lonmin': 24.0, 'lonmax': 27.0},
@@ -451,4 +451,5 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
+
 
