@@ -27,6 +27,9 @@ CONFIG = {
     'vessels_url': 'https://meri.digitraffic.fi/api/ais/v1/vessels',
     'bbox': {'latmin': 59.0, 'latmax': 60.5, 'lonmin': 24.0, 'lonmax': 27.0},
     'max_age_minutes': 10,  # Only show vessels with data from last 10 minutes (uses timestampExternal)
+    'fixed_points': [
+        {'name': 'Keri station', 'lat': 59.7178, 'lon': 25.0164}
+    ],
     'email': {
         'smtp_server': 'smtp.gmail.com',
         'smtp_port': 587,
@@ -371,7 +374,7 @@ Automated AIS Monitor
         return False
 
 def export_geojson(vessels, out_dir):
-    """Write vessels.geojson, trails.geojson and restricted.geojson"""
+    """Write vessels.geojson, trails.geojson, restricted.geojson and fixed_points.geojson"""
     out_dir.mkdir(parents=True, exist_ok=True)
     
     # Current vessels
@@ -398,6 +401,23 @@ def export_geojson(vessels, out_dir):
         (out_dir / 'restricted.geojson').write_text(restricted, encoding='utf-8')
     except Exception as e:
         logging.debug(f"Could not export restricted: {e}")
+    # Fixed points
+    if 'fixed_points' in CONFIG and CONFIG['fixed_points']:
+        fixed_points_fc = {
+            'type': 'FeatureCollection',
+            'features': [
+                {
+                    'type': 'Feature',
+                    'geometry': {'type': 'Point', 'coordinates': [pt['lon'], pt['lat']]},
+                    'properties': {'name': pt['name']}
+                }
+                for pt in CONFIG['fixed_points']
+            ]
+        }
+        (out_dir / 'fixed_points.geojson').write_text(
+            json.dumps(fixed_points_fc, ensure_ascii=False, indent=2),
+            encoding='utf-8'
+        )
     
     logging.info(f"Exported GeoJSON to {out_dir} (trails: {len(trails_fc['features'])})")
 
@@ -451,5 +471,6 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
+
 
 
