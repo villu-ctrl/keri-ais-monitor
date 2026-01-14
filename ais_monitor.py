@@ -409,7 +409,13 @@ def export_geojson(vessels, out_dir):
                 {
                     'type': 'Feature',
                     'geometry': {'type': 'Point', 'coordinates': [pt['lon'], pt['lat']]},
-                    'properties': {'name': pt['name']}
+                    'properties': {
+                        'name': pt['name'],
+                        'title': pt['name'],
+                        'marker-color': '#FFFF00',
+                        'marker-size': 'medium',
+                        'marker-symbol': 'dot'
+                    }
                 }
                 for pt in CONFIG['fixed_points']
             ]
@@ -471,6 +477,7 @@ if __name__ == '__main__':
         run_check(polygon)
     else:
         monitor_loop(polygon)
+
 
 
 
