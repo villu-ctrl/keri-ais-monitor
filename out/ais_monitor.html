@@ -75,6 +75,19 @@
     .timestamp-tooltip::before {
       border-top-color: rgba(255, 102, 0, 0.9);
     }
+    .station-label {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 12px;
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+    
+    .station-label::before {
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -103,7 +116,10 @@
       <span>Vessels (click to highlight trail)</span>
     </div>
   </div>
-  
+  <div class="legend-item">
+      <div class="legend-color" style="background: #FFFF00; border-radius: 50%; width: 10px; height: 10px;"></div>
+      <span>Fixed Stations</span>
+    </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const map = L.map('map').setView([59.7, 25.0], 10);
@@ -196,6 +212,34 @@
         }
       }
     }
+        
+    let fixedPointsLayer = L.geoJSON(null, {
+      pointToLayer: (feature, latlng) => {
+        return L.circleMarker(latlng, {
+          radius: 8,
+          fillColor: '#FFFF00',
+          color: '#000',
+          weight: 2,
+          opacity: 1,
+          fillOpacity: 1
+        });
+      },
+      onEachFeature: (feature, layer) => {
+        const p = feature.properties;
+        layer.bindTooltip(p.name, {
+          permanent: true,
+          direction: 'top',
+          className: 'station-label',
+          offset: [0, -10]
+        });
+        layer.bindPopup(`
+          <div style="min-width: 150px;">
+            <h3 style="margin: 0 0 10px 0; color: #FF8800;">${p.name}</h3>
+            <p style="font-size: 12px; margin: 0;">Fixed monitoring station</p>
+          </div>
+        `);
+      }
+    }).addTo(map);
     
     let vesselsLayer = L.geoJSON(null, {
       pointToLayer: (feature, latlng) => {
@@ -251,16 +295,18 @@
         }
         
         const t = Date.now();
-        const [restricted, trails, vessels] = await Promise.all([
+        const [restricted, trails, vessels, fixedPoints] = await Promise.all([
           fetch(`restricted.geojson?_=${t}`).then(r => r.json()),
           fetch(`trails.geojson?_=${t}`).then(r => r.json()),
-          fetch(`vessels.geojson?_=${t}`).then(r => r.json())
+          fetch(`vessels.geojson?_=${t}`).then(r => r.json()),
+          fetch(`fixed_points.geojson?_=${t}`).then(r => r.json()).catch(() => ({type: 'FeatureCollection', features: []}))
         ]);
         
         restrictedLayer.clearLayers().addData(restricted);
         trailsData = trails; // Store for highlighting
         trailsLayer.clearLayers().addData(trails);
         vesselsLayer.clearLayers().addData(vessels);
+        fixedPointsLayer.clearLayers().addData(fixedPoints);
         
         // Find most recent vessel timestamp to show actual data age
         let newestTimestamp = 0;
@@ -294,6 +340,7 @@
   </script>
 </body>
 </html>
+
 
 
 
