@@ -6,17 +6,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.867033,
-          59.843593
+          25.867158,
+          59.841973
         ]
       },
       "properties": {
         "mmsi": 667001237,
         "name": "BIVOLA",
-        "sog": 0.1,
+        "sog": 0.9,
         "cog": 360.0,
-        "heading": 238,
-        "timestamp": "1779062350329"
+        "heading": 290,
+        "timestamp": "1779066699982"
       }
     },
     {
@@ -24,8 +24,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.623903,
-          60.205865
+          25.623925,
+          60.205842
         ]
       },
       "properties": {
@@ -33,8 +33,8 @@
         "name": "PILOT L147",
         "sog": 0.0,
         "cog": 202.9,
-        "heading": 159,
-        "timestamp": "1779062451238"
+        "heading": 158,
+        "timestamp": "1779066792852"
       }
     },
     {
@@ -42,17 +42,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.493043,
-          60.02424
+          25.493007,
+          60.024238
         ]
       },
       "properties": {
         "mmsi": 538006310,
         "name": "SEAGAS LOYALTY",
-        "sog": 0.0,
-        "cog": 204.2,
+        "sog": 0.1,
+        "cog": 222.0,
         "heading": 280,
-        "timestamp": "1779062446595"
+        "timestamp": "1779066766579"
       }
     },
     {
@@ -60,17 +60,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.013435,
-          59.827852
+          26.014688,
+          59.827103
         ]
       },
       "properties": {
         "mmsi": 314001079,
         "name": "LIMNOS",
-        "sog": 0.1,
-        "cog": 42.6,
-        "heading": 225,
-        "timestamp": "1779062409011"
+        "sog": 4.2,
+        "cog": 322.4,
+        "heading": 269,
+        "timestamp": "1779066791266"
       }
     },
     {
@@ -78,7 +78,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.714095,
+          24.714083,
           59.458807
         ]
       },
@@ -88,7 +88,7 @@
         "sog": 0.0,
         "cog": 0.0,
         "heading": 73,
-        "timestamp": "1779062438537"
+        "timestamp": "1779066748883"
       }
     },
     {
@@ -96,17 +96,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.961897,
-          60.1708
+          24.961903,
+          60.170788
         ]
       },
       "properties": {
         "mmsi": 230938640,
         "name": "INGEBORG",
         "sog": 0.0,
-        "cog": 305.3,
+        "cog": 305.2,
         "heading": 511,
-        "timestamp": "1779062399488"
+        "timestamp": "1779066719169"
       }
     },
     {
@@ -114,7 +114,457 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.981928,
+          26.024273,
+          59.837383
+        ]
+      },
+      "properties": {
+        "mmsi": 305848000,
+        "name": "ARISTO",
+        "sog": 0.1,
+        "cog": 268.0,
+        "heading": 264,
+        "timestamp": "1779066770125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.259708,
+          59.576508
+        ]
+      },
+      "properties": {
+        "mmsi": 305184000,
+        "name": "ROSEBURG",
+        "sog": 10.4,
+        "cog": 64.0,
+        "heading": 62,
+        "timestamp": "1779066791266"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.974588,
+          60.169915
+        ]
+      },
+      "properties": {
+        "mmsi": 230251000,
+        "name": "KONTIO",
+        "sog": 0.1,
+        "cog": 25.2,
+        "heading": 243,
+        "timestamp": "1779066748930"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.554365,
+          60.307845
+        ]
+      },
+      "properties": {
+        "mmsi": 230690000,
+        "name": "LUNNI",
+        "sog": 0.0,
+        "cog": 194.5,
+        "heading": 203,
+        "timestamp": "1779066748169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.923763,
+          60.161298
+        ]
+      },
+      "properties": {
+        "mmsi": 230941190,
+        "name": "S/S TURSO",
+        "sog": 0.0,
+        "cog": 309.5,
+        "heading": 133,
+        "timestamp": "1779066684241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.669595,
+          59.451732
+        ]
+      },
+      "properties": {
+        "mmsi": 276005340,
+        "name": "AHTO-15",
+        "sog": 0.0,
+        "cog": 97.1,
+        "heading": 32,
+        "timestamp": "1779066786561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.488522,
+          59.72676
+        ]
+      },
+      "properties": {
+        "mmsi": 305004300,
+        "name": "LAAR",
+        "sog": 8.6,
+        "cog": 77.4,
+        "heading": 79,
+        "timestamp": "1779066792476"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.81266,
+          59.499998
+        ]
+      },
+      "properties": {
+        "mmsi": 276306000,
+        "name": "IKLA",
+        "sog": 0.0,
+        "cog": 292.8,
+        "heading": 25,
+        "timestamp": "1779066693711"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.069015,
+          59.850712
+        ]
+      },
+      "properties": {
+        "mmsi": 613667000,
+        "name": "MIRADOR",
+        "sog": 0.1,
+        "cog": 183.2,
+        "heading": 353,
+        "timestamp": "1779066671965"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.91337,
+          59.779172
+        ]
+      },
+      "properties": {
+        "mmsi": 210617000,
+        "name": "SALERNO",
+        "sog": 16.1,
+        "cog": 72.9,
+        "heading": 79,
+        "timestamp": "1779066792758"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.962965,
+          60.17617
+        ]
+      },
+      "properties": {
+        "mmsi": 230052800,
+        "name": "EMMA",
+        "sog": 0.0,
+        "cog": 320.3,
+        "heading": 48,
+        "timestamp": "1779066770125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.658797,
+          59.45887
+        ]
+      },
+      "properties": {
+        "mmsi": 304688000,
+        "name": "ARCTIC TRADER",
+        "sog": 0.0,
+        "cog": 186.4,
+        "heading": 511,
+        "timestamp": "1779066615019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.963773,
+          60.460332
+        ]
+      },
+      "properties": {
+        "mmsi": 230942840,
+        "name": "OTAVA",
+        "sog": 0.0,
+        "cog": 192.4,
+        "heading": 186,
+        "timestamp": "1779066782894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.5467,
+          60.297357
+        ]
+      },
+      "properties": {
+        "mmsi": 255892000,
+        "name": "EBERHART ESSBERGER",
+        "sog": 0.0,
+        "cog": 336.2,
+        "heading": 5,
+        "timestamp": "1779066656432"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.157575,
+          59.68324
+        ]
+      },
+      "properties": {
+        "mmsi": 352006699,
+        "name": "BALTIC WHALE",
+        "sog": 12.6,
+        "cog": 73.0,
+        "heading": 73,
+        "timestamp": "1779066786862"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.655715,
+          59.457108
+        ]
+      },
+      "properties": {
+        "mmsi": 276837000,
+        "name": "AGAR",
+        "sog": 0.0,
+        "cog": 302.0,
+        "heading": 511,
+        "timestamp": "1779066768317"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.132413,
+          59.965087
+        ]
+      },
+      "properties": {
+        "mmsi": 636026291,
+        "name": "19 MAYIS",
+        "sog": 11.9,
+        "cog": 255.1,
+        "heading": 256,
+        "timestamp": "1779066789200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.552977,
+          60.309627
+        ]
+      },
+      "properties": {
+        "mmsi": 256764000,
+        "name": "RF STELLA",
+        "sog": 0.0,
+        "cog": 224.6,
+        "heading": 180,
+        "timestamp": "1779066634784"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.765045,
+          59.83609
+        ]
+      },
+      "properties": {
+        "mmsi": 636021942,
+        "name": "ST GEORGE",
+        "sog": 0.0,
+        "cog": 360.0,
+        "heading": 271,
+        "timestamp": "1779066783600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.705748,
+          60.166192
+        ]
+      },
+      "properties": {
+        "mmsi": 230031000,
+        "name": "FURUNOP",
+        "sog": 0.0,
+        "cog": 308.0,
+        "heading": 511,
+        "timestamp": "1779066790793"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.974405,
+          60.170142
+        ]
+      },
+      "properties": {
+        "mmsi": 230252000,
+        "name": "OTSO",
+        "sog": 0.0,
+        "cog": 153.1,
+        "heading": 243,
+        "timestamp": "1779066687699"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.974757,
+          59.843273
+        ]
+      },
+      "properties": {
+        "mmsi": 352002752,
+        "name": "PHOENICIAN-M",
+        "sog": 0.8,
+        "cog": 92.8,
+        "heading": 511,
+        "timestamp": "1779066788134"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.507353,
+          59.791867
+        ]
+      },
+      "properties": {
+        "mmsi": 371426000,
+        "name": "REGULUS",
+        "sog": 12.8,
+        "cog": 254.7,
+        "heading": 255,
+        "timestamp": "1779066785495"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.971525,
+          59.89313
+        ]
+      },
+      "properties": {
+        "mmsi": 311001003,
+        "name": "BALTIC SPRING",
+        "sog": 18.7,
+        "cog": 70.6,
+        "heading": 78,
+        "timestamp": "1779066792235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.686227,
+          59.987988
+        ]
+      },
+      "properties": {
+        "mmsi": 230644000,
+        "name": "LEONARDO",
+        "sog": 7.3,
+        "cog": 65.1,
+        "heading": 67,
+        "timestamp": "1779066789527"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.981932,
           60.14865
         ]
       },
@@ -124,511 +574,7 @@
         "sog": 0.0,
         "cog": 84.3,
         "heading": 203,
-        "timestamp": "1779062368434"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.02396,
-          59.838013
-        ]
-      },
-      "properties": {
-        "mmsi": 305848000,
-        "name": "ARISTO",
-        "sog": 0.0,
-        "cog": 185.6,
-        "heading": 238,
-        "timestamp": "1779062379609"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.655708,
-          59.457107
-        ]
-      },
-      "properties": {
-        "mmsi": 276837000,
-        "name": "AGAR",
-        "sog": 0.0,
-        "cog": 302.0,
-        "heading": 511,
-        "timestamp": "1779062447411"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.974578,
-          60.169897
-        ]
-      },
-      "properties": {
-        "mmsi": 230251000,
-        "name": "KONTIO",
-        "sog": 0.0,
-        "cog": 157.9,
-        "heading": 243,
-        "timestamp": "1779062429338"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.936148,
-          60.472318
-        ]
-      },
-      "properties": {
-        "mmsi": 230695000,
-        "name": "PRIMA KING",
-        "sog": 0.1,
-        "cog": 209.1,
-        "heading": 106,
-        "timestamp": "1779062384348"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.70325,
-          59.457243
-        ]
-      },
-      "properties": {
-        "mmsi": 258763000,
-        "name": "NORNE",
-        "sog": 0.0,
-        "cog": 323.3,
-        "heading": 204,
-        "timestamp": "1779062450814"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.75389,
-          59.867297
-        ]
-      },
-      "properties": {
-        "mmsi": 636026439,
-        "name": "POROS BAY",
-        "sog": 14.0,
-        "cog": 76.2,
-        "heading": 77,
-        "timestamp": "1779062454809"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.669597,
-          59.451737
-        ]
-      },
-      "properties": {
-        "mmsi": 276005340,
-        "name": "AHTO-15",
-        "sog": 0.0,
-        "cog": 97.1,
-        "heading": 31,
-        "timestamp": "1779062446073"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.162238,
-          59.676767
-        ]
-      },
-      "properties": {
-        "mmsi": 305004300,
-        "name": "LAAR",
-        "sog": 8.4,
-        "cog": 71.2,
-        "heading": 72,
-        "timestamp": "1779062450814"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.554208,
-          60.30791
-        ]
-      },
-      "properties": {
-        "mmsi": 230690000,
-        "name": "LUNNI",
-        "sog": 0.0,
-        "cog": 303.5,
-        "heading": 203,
-        "timestamp": "1779062430732"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.06961,
-          59.85072
-        ]
-      },
-      "properties": {
-        "mmsi": 613667000,
-        "name": "MIRADOR",
-        "sog": 0.0,
-        "cog": 207.5,
-        "heading": 343,
-        "timestamp": "1779062386594"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.28468,
-          59.714962
-        ]
-      },
-      "properties": {
-        "mmsi": 210617000,
-        "name": "SALERNO",
-        "sog": 16.1,
-        "cog": 74.1,
-        "heading": 76,
-        "timestamp": "1779062456025"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.962963,
-          60.176172
-        ]
-      },
-      "properties": {
-        "mmsi": 230052800,
-        "name": "EMMA",
-        "sog": 0.0,
-        "cog": 303.6,
-        "heading": 48,
-        "timestamp": "1779062452045"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.658775,
-          59.458852
-        ]
-      },
-      "properties": {
-        "mmsi": 304688000,
-        "name": "ARCTIC TRADER",
-        "sog": 0.0,
-        "cog": 186.4,
-        "heading": 511,
-        "timestamp": "1779062296226"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.963798,
-          60.460308
-        ]
-      },
-      "properties": {
-        "mmsi": 230942840,
-        "name": "OTAVA",
-        "sog": 0.0,
-        "cog": 192.4,
-        "heading": 188,
-        "timestamp": "1779062452907"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.546703,
-          60.297365
-        ]
-      },
-      "properties": {
-        "mmsi": 255892000,
-        "name": "EBERHART ESSBERGER",
-        "sog": 0.0,
-        "cog": 336.2,
-        "heading": 5,
-        "timestamp": "1779062336500"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.812653,
-          59.49999
-        ]
-      },
-      "properties": {
-        "mmsi": 276306000,
-        "name": "IKLA",
-        "sog": 0.0,
-        "cog": 321.0,
-        "heading": 26,
-        "timestamp": "1779062367016"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.552625,
-          60.309653
-        ]
-      },
-      "properties": {
-        "mmsi": 256764000,
-        "name": "RF STELLA",
-        "sog": 0.0,
-        "cog": 267.6,
-        "heading": 180,
-        "timestamp": "1779062307701"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.58875,
-          60.024762
-        ]
-      },
-      "properties": {
-        "mmsi": 636026291,
-        "name": "19 MAYIS",
-        "sog": 11.9,
-        "cog": 279.5,
-        "heading": 281,
-        "timestamp": "1779062457738"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.974405,
-          60.170143
-        ]
-      },
-      "properties": {
-        "mmsi": 230252000,
-        "name": "OTSO",
-        "sog": 0.0,
-        "cog": 245.4,
-        "heading": 243,
-        "timestamp": "1779062367608"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.923775,
-          60.161308
-        ]
-      },
-      "properties": {
-        "mmsi": 230941190,
-        "name": "S/S TURSO",
-        "sog": 0.0,
-        "cog": 215.3,
-        "heading": 132,
-        "timestamp": "1779062364274"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.70576,
-          60.166238
-        ]
-      },
-      "properties": {
-        "mmsi": 230031000,
-        "name": "FURUNOP",
-        "sog": 0.0,
-        "cog": 314.9,
-        "heading": 511,
-        "timestamp": "1779062451594"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.00021,
-          59.85788
-        ]
-      },
-      "properties": {
-        "mmsi": 667001318,
-        "name": "SONA",
-        "sog": 0.3,
-        "cog": 360.0,
-        "heading": 210,
-        "timestamp": "1779062455366"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.97424,
-          59.84348
-        ]
-      },
-      "properties": {
-        "mmsi": 352002752,
-        "name": "PHOENICIAN-M",
-        "sog": 0.1,
-        "cog": 156.7,
-        "heading": 511,
-        "timestamp": "1779062375894"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.004912,
-          59.842853
-        ]
-      },
-      "properties": {
-        "mmsi": 371426000,
-        "name": "REGULUS",
-        "sog": 12.7,
-        "cog": 259.1,
-        "heading": 258,
-        "timestamp": "1779062455838"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.353178,
-          59.813973
-        ]
-      },
-      "properties": {
-        "mmsi": 311001003,
-        "name": "BALTIC SPRING",
-        "sog": 16.0,
-        "cog": 76.4,
-        "heading": 78,
-        "timestamp": "1779062454180"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.411045,
-          59.960747
-        ]
-      },
-      "properties": {
-        "mmsi": 230644000,
-        "name": "LEONARDO",
-        "sog": 7.1,
-        "cog": 84.0,
-        "heading": 86,
-        "timestamp": "1779062449321"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.766248,
-          59.984742
-        ]
-      },
-      "properties": {
-        "mmsi": 273258520,
-        "name": "STANISLAV GOVORUKHIN",
-        "sog": 6.2,
-        "cog": 111.6,
-        "heading": 100,
-        "timestamp": "1779062455132"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.76513,
-          59.836738
-        ]
-      },
-      "properties": {
-        "mmsi": 636021942,
-        "name": "ST GEORGE",
-        "sog": 0.1,
-        "cog": 157.0,
-        "heading": 241,
-        "timestamp": "1779062380831"
+        "timestamp": "1779066689571"
       }
     },
     {
@@ -637,7 +583,7 @@
         "type": "Point",
         "coordinates": [
           24.763285,
-          59.445043
+          59.445048
         ]
       },
       "properties": {
@@ -645,8 +591,8 @@
         "name": "FINLANDIA",
         "sog": 0.0,
         "cog": 246.0,
-        "heading": 249,
-        "timestamp": "1779062280311"
+        "heading": 250,
+        "timestamp": "1779066779204"
       }
     },
     {
@@ -654,7 +600,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.714005,
+          24.703302,
+          59.457268
+        ]
+      },
+      "properties": {
+        "mmsi": 258763000,
+        "name": "NORNE",
+        "sog": 0.0,
+        "cog": 18.9,
+        "heading": 204,
+        "timestamp": "1779066771052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.713997,
           59.462572
         ]
       },
@@ -664,7 +628,7 @@
         "sog": 0.0,
         "cog": 0.0,
         "heading": 42,
-        "timestamp": "1779062458040"
+        "timestamp": "1779066778703"
       }
     },
     {
@@ -672,17 +636,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.04897,
-          59.868458
+          26.048745,
+          59.868415
         ]
       },
       "properties": {
         "mmsi": 667002336,
         "name": "PIERRE",
-        "sog": 0.1,
-        "cog": 19.6,
-        "heading": 328,
-        "timestamp": "1779062453509"
+        "sog": 0.9,
+        "cog": 221.0,
+        "heading": 333,
+        "timestamp": "1779066745532"
       }
     },
     {
@@ -690,8 +654,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.650023,
-          59.462478
+          24.737222,
+          59.453368
+        ]
+      },
+      "properties": {
+        "mmsi": 276014670,
+        "name": "NARGO",
+        "sog": 0.0,
+        "cog": 284.5,
+        "heading": 180,
+        "timestamp": "1779066614780"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.65002,
+          59.462467
         ]
       },
       "properties": {
@@ -700,7 +682,7 @@
         "sog": 0.0,
         "cog": 149.4,
         "heading": 122,
-        "timestamp": "1779062388181"
+        "timestamp": "1779066708950"
       }
     },
     {
@@ -708,17 +690,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.737215,
-          59.453377
+          24.173205,
+          59.443548
         ]
       },
       "properties": {
-        "mmsi": 276014670,
-        "name": "NARGO",
-        "sog": 0.0,
-        "cog": 268.1,
-        "heading": 180,
-        "timestamp": "1779062295992"
+        "mmsi": 276015440,
+        "name": "OILI",
+        "sog": 5.8,
+        "cog": 56.7,
+        "heading": 511,
+        "timestamp": "1779066791964"
       }
     },
     {
@@ -726,17 +708,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.770223,
-          59.444133
+          24.770207,
+          59.444148
         ]
       },
       "properties": {
         "mmsi": 276859000,
         "name": "MYSTAR",
         "sog": 0.0,
-        "cog": 295.4,
+        "cog": 6.9,
         "heading": 205,
-        "timestamp": "1779062415518"
+        "timestamp": "1779066736715"
       }
     },
     {
@@ -744,8 +726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.65144,
-          59.460598
+          24.651425,
+          59.46091
         ]
       },
       "properties": {
@@ -753,8 +735,8 @@
         "name": "ZAANBORG",
         "sog": 0.0,
         "cog": 360.0,
-        "heading": 31,
-        "timestamp": "1779062440092"
+        "heading": 32,
+        "timestamp": "1779066639164"
       }
     },
     {
@@ -762,8 +744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.708045,
-          59.45917
+          24.708068,
+          59.459182
         ]
       },
       "properties": {
@@ -772,7 +754,7 @@
         "sog": 0.0,
         "cog": 360.0,
         "heading": 223,
-        "timestamp": "1779062402141"
+        "timestamp": "1779066540794"
       }
     },
     {
@@ -780,17 +762,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.911692,
-          59.838855
+          25.911822,
+          59.838142
         ]
       },
       "properties": {
         "mmsi": 538007782,
         "name": "CHRISTINA V",
-        "sog": 0.1,
-        "cog": 205.4,
-        "heading": 253,
-        "timestamp": "1779062309987"
+        "sog": 0.6,
+        "cog": 273.3,
+        "heading": 273,
+        "timestamp": "1779066789200"
       }
     },
     {
@@ -798,8 +780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.545688,
-          59.526825
+          26.545687,
+          59.526848
         ]
       },
       "properties": {
@@ -808,7 +790,7 @@
         "sog": 0.0,
         "cog": 351.3,
         "heading": 30,
-        "timestamp": "1779062323263"
+        "timestamp": "1779066643297"
       }
     },
     {
@@ -816,8 +798,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.649362,
-          59.465495
+          24.719848,
+          59.457728
+        ]
+      },
+      "properties": {
+        "mmsi": 276675000,
+        "name": "AHTO-25",
+        "sog": 0.0,
+        "cog": 259.1,
+        "heading": 186,
+        "timestamp": "1779066771005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.649368,
+          59.465485
         ]
       },
       "properties": {
@@ -826,7 +826,7 @@
         "sog": 0.0,
         "cog": 304.0,
         "heading": 511,
-        "timestamp": "1779062319144"
+        "timestamp": "1779066640586"
       }
     },
     {
@@ -834,17 +834,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.719782,
-          59.457748
+          26.936135,
+          60.472318
         ]
       },
       "properties": {
-        "mmsi": 276675000,
-        "name": "AHTO-25",
+        "mmsi": 230695000,
+        "name": "PRIMA KING",
         "sog": 0.0,
-        "cog": 219.0,
-        "heading": 186,
-        "timestamp": "1779062450128"
+        "cog": 20.9,
+        "heading": 106,
+        "timestamp": "1779066715982"
       }
     },
     {
@@ -852,17 +852,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.706343,
-          59.833843
+          25.706587,
+          59.833248
         ]
       },
       "properties": {
         "mmsi": 249258000,
         "name": "CAPE BYRON",
-        "sog": 0.0,
-        "cog": 343.6,
-        "heading": 249,
-        "timestamp": "1779062288695"
+        "sog": 0.1,
+        "cog": 203.1,
+        "heading": 270,
+        "timestamp": "1779066791645"
       }
     },
     {
@@ -870,8 +870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.96388,
-          60.460727
+          26.963895,
+          60.46072
         ]
       },
       "properties": {
@@ -880,7 +880,7 @@
         "sog": 0.0,
         "cog": 360.0,
         "heading": 511,
-        "timestamp": "1779062456511"
+        "timestamp": "1779066785003"
       }
     },
     {
@@ -888,8 +888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.960237,
-          60.169848
+          24.960215,
+          60.169853
         ]
       },
       "properties": {
@@ -898,7 +898,7 @@
         "sog": 0.0,
         "cog": 255.0,
         "heading": 284,
-        "timestamp": "1779062437551"
+        "timestamp": "1779066758201"
       }
     },
     {
@@ -906,17 +906,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.981728,
-          60.148448
+          24.981713,
+          60.14845
         ]
       },
       "properties": {
         "mmsi": 230014710,
         "name": "AXEL VON FERSEN",
         "sog": 0.0,
-        "cog": 83.5,
+        "cog": 132.8,
         "heading": 203,
-        "timestamp": "1779062456423"
+        "timestamp": "1779066776469"
       }
     },
     {
@@ -924,8 +924,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.928412,
-          60.160263
+          24.928387,
+          60.160283
         ]
       },
       "properties": {
@@ -934,7 +934,7 @@
         "sog": 0.0,
         "cog": 26.7,
         "heading": 103,
-        "timestamp": "1779062341448"
+        "timestamp": "1779066661589"
       }
     },
     {
@@ -942,17 +942,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.702395,
-          59.456357
+          26.796423,
+          60.00923
+        ]
+      },
+      "properties": {
+        "mmsi": 352003109,
+        "name": "BAILIAN STAR",
+        "sog": 9.9,
+        "cog": 277.2,
+        "heading": 278,
+        "timestamp": "1779066790346"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.702397,
+          59.456342
         ]
       },
       "properties": {
         "mmsi": 212198000,
         "name": "MARJATTA",
         "sog": 0.0,
-        "cog": 293.4,
+        "cog": 332.1,
         "heading": 244,
-        "timestamp": "1779062354498"
+        "timestamp": "1779066676960"
       }
     },
     {
@@ -960,17 +978,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.298245,
-          59.702385
+          24.846085,
+          59.760462
         ]
       },
       "properties": {
         "mmsi": 257918000,
         "name": "SILVER STORM",
-        "sog": 14.1,
-        "cog": 74.8,
-        "heading": 73,
-        "timestamp": "1779062455758"
+        "sog": 13.9,
+        "cog": 76.0,
+        "heading": 74,
+        "timestamp": "1779066790206"
       }
     },
     {
@@ -978,8 +996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.44528,
-          60.275253
+          26.445283,
+          60.275243
         ]
       },
       "properties": {
@@ -988,7 +1006,7 @@
         "sog": 0.0,
         "cog": 349.4,
         "heading": 511,
-        "timestamp": "1779062448331"
+        "timestamp": "1779066788919"
       }
     },
     {
@@ -996,17 +1014,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.556862,
-          60.311898
+          25.55684,
+          60.31191
         ]
       },
       "properties": {
         "mmsi": 538005419,
         "name": "STI MERAUX",
         "sog": 0.0,
-        "cog": 255.0,
+        "cog": 356.4,
         "heading": 308,
-        "timestamp": "1779062318815"
+        "timestamp": "1779066638812"
       }
     },
     {
@@ -1014,17 +1032,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.717958,
-          59.457833
+          24.71798,
+          59.457785
         ]
       },
       "properties": {
         "mmsi": 276798000,
         "name": "JAKOB PREI",
         "sog": 0.0,
-        "cog": 340.9,
+        "cog": 238.5,
         "heading": 122,
-        "timestamp": "1779062311710"
+        "timestamp": "1779066651208"
       }
     },
     {
@@ -1032,17 +1050,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.927743,
-          59.929847
+          25.445062,
+          59.88306
         ]
       },
       "properties": {
         "mmsi": 667002025,
         "name": "AILANA",
-        "sog": 11.6,
-        "cog": 259.7,
-        "heading": 261,
-        "timestamp": "1779062448444"
+        "sog": 12.7,
+        "cog": 263.7,
+        "heading": 264,
+        "timestamp": "1779066782800"
       }
     },
     {
@@ -1050,17 +1068,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.945712,
-          60.477732
+          26.945678,
+          60.477777
         ]
       },
       "properties": {
         "mmsi": 230245000,
         "name": "FENNICA",
-        "sog": 1.0,
+        "sog": 0.2,
         "cog": 360.0,
         "heading": 296,
-        "timestamp": "1779062452094"
+        "timestamp": "1779066725020"
       }
     },
     {
@@ -1068,17 +1086,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.951412,
-          60.473583
+          26.951387,
+          60.473578
         ]
       },
       "properties": {
         "mmsi": 230302000,
         "name": "MERIKARHU",
-        "sog": 0.0,
+        "sog": 0.1,
         "cog": 350.9,
         "heading": 222,
-        "timestamp": "1779062421364"
+        "timestamp": "1779066740229"
       }
     },
     {
@@ -1086,17 +1104,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.677783,
-          60.113833
+          24.677938,
+          60.113807
         ]
       },
       "properties": {
         "mmsi": 230129610,
         "name": "SWEET HOPE",
-        "sog": 0.1,
-        "cog": 277.0,
-        "heading": 8,
-        "timestamp": "1779062339585"
+        "sog": 0.0,
+        "cog": 9.9,
+        "heading": 343,
+        "timestamp": "1779066666483"
       }
     },
     {
@@ -1104,17 +1122,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.721618,
-          59.838898
+          25.722048,
+          59.838115
         ]
       },
       "properties": {
         "mmsi": 314001082,
         "name": "BALOSA",
-        "sog": 0.1,
-        "cog": 261.4,
-        "heading": 236,
-        "timestamp": "1779062367390"
+        "sog": 0.0,
+        "cog": 360.0,
+        "heading": 256,
+        "timestamp": "1779066706536"
       }
     },
     {
@@ -1122,305 +1140,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.07514,
-          59.895325
+          26.074883,
+          59.895008
         ]
       },
       "properties": {
         "mmsi": 667002327,
         "name": "FULGER",
-        "sog": 0.5,
-        "cog": 236.6,
-        "heading": 299,
-        "timestamp": "1779062424641"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.185043,
-          59.870802
-        ]
-      },
-      "properties": {
-        "mmsi": 477477500,
-        "name": "TIGER PIONEER",
-        "sog": 11.4,
-        "cog": 263.5,
-        "heading": 264,
-        "timestamp": "1779062458040"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.704475,
-          59.456542
-        ]
-      },
-      "properties": {
-        "mmsi": 230989380,
-        "name": "TRITON",
-        "sog": 0.0,
-        "cog": 345.6,
-        "heading": 213,
-        "timestamp": "1779062396859"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.258828,
-          60.410125
-        ]
-      },
-      "properties": {
-        "mmsi": 255807000,
-        "name": "JSP MOEN",
-        "sog": 0.0,
-        "cog": 280.1,
-        "heading": 313,
-        "timestamp": "1779062414955"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.901853,
-          59.85361
-        ]
-      },
-      "properties": {
-        "mmsi": 414585000,
-        "name": "FEI JING",
-        "sog": 0.2,
-        "cog": 314.2,
-        "heading": 248,
-        "timestamp": "1779062315332"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.018032,
-          59.852297
-        ]
-      },
-      "properties": {
-        "mmsi": 538008971,
-        "name": "DEVBULK SERVET",
-        "sog": 12.4,
-        "cog": 257.7,
-        "heading": 257,
-        "timestamp": "1779062456753"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.555058,
-          60.31373
-        ]
-      },
-      "properties": {
-        "mmsi": 241455000,
-        "name": "ELIAS TSAKOS",
-        "sog": 0.0,
-        "cog": 296.0,
-        "heading": 128,
-        "timestamp": "1779062303440"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.706885,
-          59.458773
-        ]
-      },
-      "properties": {
-        "mmsi": 259859000,
-        "name": "HALTBAKK COMABAR",
-        "sog": 0.0,
-        "cog": 189.2,
-        "heading": 511,
-        "timestamp": "1779062393897"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.544427,
-          59.524432
-        ]
-      },
-      "properties": {
-        "mmsi": 212838000,
-        "name": "VAESTERBOTTEN",
-        "sog": 0.0,
-        "cog": 103.4,
-        "heading": 22,
-        "timestamp": "1779062294033"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.077683,
-          59.33448
-        ]
-      },
-      "properties": {
-        "mmsi": 374134000,
-        "name": "IZUMO HERMES",
-        "sog": 0.0,
-        "cog": 205.2,
-        "heading": 182,
-        "timestamp": "1779062361708"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.753832,
-          59.647227
-        ]
-      },
-      "properties": {
-        "mmsi": 276013230,
-        "name": "SAR SLAVA KAESI",
-        "sog": 0.0,
-        "cog": 360.0,
-        "heading": 511,
-        "timestamp": "1779062452860"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.993735,
-          59.87052
-        ]
-      },
-      "properties": {
-        "mmsi": 636022519,
-        "name": "CAPE LINA",
-        "sog": 0.1,
-        "cog": 153.9,
-        "heading": 196,
-        "timestamp": "1779062382805"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.971228,
-          60.169027
-        ]
-      },
-      "properties": {
-        "mmsi": 230291000,
-        "name": "VOIMA",
-        "sog": 0.0,
-        "cog": 81.1,
-        "heading": 511,
-        "timestamp": "1779062453003"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.030183,
-          59.664193
-        ]
-      },
-      "properties": {
-        "mmsi": 667002359,
-        "name": "NACHOS",
-        "sog": 9.1,
-        "cog": 69.7,
-        "heading": 67,
-        "timestamp": "1779062457008"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.025143,
-          59.854733
-        ]
-      },
-      "properties": {
-        "mmsi": 667001255,
-        "name": "CENTURION",
-        "sog": 0.1,
-        "cog": 360.0,
-        "heading": 351,
-        "timestamp": "1779062301592"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.347838,
-          60.017468
-        ]
-      },
-      "properties": {
-        "mmsi": 230059740,
-        "name": "RESCUE AKTIA",
-        "sog": 0.1,
-        "cog": 95.2,
-        "heading": 270,
-        "timestamp": "1779062453821"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.961835,
-          60.461395
-        ]
-      },
-      "properties": {
-        "mmsi": 230018360,
-        "name": "RESCUE KOTKA",
-        "sog": 0.0,
-        "cog": 311.8,
-        "heading": 297,
-        "timestamp": "1779062454737"
+        "sog": 0.4,
+        "cog": 336.8,
+        "heading": 307,
+        "timestamp": "1779066745532"
       }
     },
     {
@@ -1429,7 +1159,259 @@
         "type": "Point",
         "coordinates": [
           24.704503,
-          59.45857
+          59.456542
+        ]
+      },
+      "properties": {
+        "mmsi": 230989380,
+        "name": "TRITON",
+        "sog": 0.0,
+        "cog": 299.9,
+        "heading": 214,
+        "timestamp": "1779066716450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.258883,
+          60.410108
+        ]
+      },
+      "properties": {
+        "mmsi": 255807000,
+        "name": "JSP MOEN",
+        "sog": 0.0,
+        "cog": 280.1,
+        "heading": 313,
+        "timestamp": "1779066547745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.538852,
+          59.799563
+        ]
+      },
+      "properties": {
+        "mmsi": 538008971,
+        "name": "DEVBULK SERVET",
+        "sog": 12.6,
+        "cog": 258.5,
+        "heading": 258,
+        "timestamp": "1779066785495"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.902075,
+          59.852495
+        ]
+      },
+      "properties": {
+        "mmsi": 414585000,
+        "name": "FEI JING",
+        "sog": 1.6,
+        "cog": 170.8,
+        "heading": 281,
+        "timestamp": "1779066787302"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.555055,
+          60.313687
+        ]
+      },
+      "properties": {
+        "mmsi": 241455000,
+        "name": "ELIAS TSAKOS",
+        "sog": 0.1,
+        "cog": 342.0,
+        "heading": 128,
+        "timestamp": "1779066623450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.706868,
+          59.4588
+        ]
+      },
+      "properties": {
+        "mmsi": 259859000,
+        "name": "HALTBAKK COMABAR",
+        "sog": 0.0,
+        "cog": 329.1,
+        "heading": 511,
+        "timestamp": "1779066723442"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.54443,
+          59.524432
+        ]
+      },
+      "properties": {
+        "mmsi": 212838000,
+        "name": "VAESTERBOTTEN",
+        "sog": 0.0,
+        "cog": 306.2,
+        "heading": 22,
+        "timestamp": "1779066613273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.077688,
+          59.334475
+        ]
+      },
+      "properties": {
+        "mmsi": 374134000,
+        "name": "IZUMO HERMES",
+        "sog": 0.0,
+        "cog": 2.5,
+        "heading": 182,
+        "timestamp": "1779066681696"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.753827,
+          59.647225
+        ]
+      },
+      "properties": {
+        "mmsi": 276013230,
+        "name": "SAR SLAVA KAESI",
+        "sog": 0.1,
+        "cog": 360.0,
+        "heading": 511,
+        "timestamp": "1779066792476"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.994523,
+          59.870533
+        ]
+      },
+      "properties": {
+        "mmsi": 636022519,
+        "name": "CAPE LINA",
+        "sog": 0.5,
+        "cog": 351.4,
+        "heading": 209,
+        "timestamp": "1779066787947"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.971208,
+          60.169033
+        ]
+      },
+      "properties": {
+        "mmsi": 230291000,
+        "name": "VOIMA",
+        "sog": 0.0,
+        "cog": 22.3,
+        "heading": 511,
+        "timestamp": "1779066774650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.378513,
+          59.719365
+        ]
+      },
+      "properties": {
+        "mmsi": 667002359,
+        "name": "NACHOS",
+        "sog": 9.1,
+        "cog": 76.4,
+        "heading": 75,
+        "timestamp": "1779066786287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.961812,
+          60.461393
+        ]
+      },
+      "properties": {
+        "mmsi": 230018360,
+        "name": "RESCUE KOTKA",
+        "sog": 0.0,
+        "cog": 288.5,
+        "heading": 295,
+        "timestamp": "1779066784348"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.347818,
+          60.017475
+        ]
+      },
+      "properties": {
+        "mmsi": 230059740,
+        "name": "RESCUE AKTIA",
+        "sog": 0.0,
+        "cog": 98.2,
+        "heading": 270,
+        "timestamp": "1779066783260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.704482,
+          59.458567
         ]
       },
       "properties": {
@@ -1438,43 +1420,7 @@
         "sog": 0.0,
         "cog": 214.2,
         "heading": 301,
-        "timestamp": "1779062405150"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.767495,
-          59.441768
-        ]
-      },
-      "properties": {
-        "mmsi": 299999999,
-        "name": "TESTSHIP",
-        "sog": 0.0,
-        "cog": 146.7,
-        "heading": 190,
-        "timestamp": "1779062384962"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.499905,
-          60.015987
-        ]
-      },
-      "properties": {
-        "mmsi": 258152000,
-        "name": "NORDSTRAUM",
-        "sog": 0.0,
-        "cog": 174.4,
-        "heading": 278,
-        "timestamp": "1779062344483"
+        "timestamp": "1779066727173"
       }
     },
     {
@@ -1490,9 +1436,9 @@
         "mmsi": 245226000,
         "name": "FLEVOBORG",
         "sog": 0.0,
-        "cog": 189.0,
-        "heading": 1,
-        "timestamp": "1779062456706"
+        "cog": 44.0,
+        "heading": 2,
+        "timestamp": "1779066779298"
       }
     },
     {
@@ -1500,17 +1446,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.723363,
-          59.672187
+          24.762905,
+          59.445508
         ]
       },
       "properties": {
         "mmsi": 230705000,
         "name": "VIKING XPRS",
-        "sog": 17.4,
-        "cog": 211.0,
-        "heading": 211,
-        "timestamp": "1779062454737"
+        "sog": 0.0,
+        "cog": 186.2,
+        "heading": 232,
+        "timestamp": "1779066777846"
       }
     },
     {
@@ -1528,7 +1474,7 @@
         "sog": 0.0,
         "cog": 0.0,
         "heading": 511,
-        "timestamp": "1779061967937"
+        "timestamp": "1779066653148"
       }
     },
     {
@@ -1536,17 +1482,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.445552,
-          60.275402
+          25.499733,
+          60.015913
+        ]
+      },
+      "properties": {
+        "mmsi": 258152000,
+        "name": "NORDSTRAUM",
+        "sog": 0.1,
+        "cog": 187.7,
+        "heading": 285,
+        "timestamp": "1779066665967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.76749,
+          59.441753
+        ]
+      },
+      "properties": {
+        "mmsi": 299999999,
+        "name": "TESTSHIP",
+        "sog": 0.0,
+        "cog": 272.0,
+        "heading": 197,
+        "timestamp": "1779066705068"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.431873,
+          60.27218
         ]
       },
       "properties": {
         "mmsi": 230193440,
         "name": "L253",
-        "sog": 0.0,
-        "cog": 216.9,
+        "sog": 9.9,
+        "cog": 200.1,
         "heading": 511,
-        "timestamp": "1779062450814"
+        "timestamp": "1779066788919"
       }
     },
     {
@@ -1554,8 +1536,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.187922,
-          60.215102
+          25.18789,
+          60.215117
         ]
       },
       "properties": {
@@ -1564,7 +1546,7 @@
         "sog": 0.0,
         "cog": 68.4,
         "heading": 140,
-        "timestamp": "1779062402375"
+        "timestamp": "1779066722366"
       }
     },
     {
@@ -1572,17 +1554,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.794835,
-          59.558143
+          24.794813,
+          59.558165
         ]
       },
       "properties": {
         "mmsi": 276513000,
         "name": "AHTO-17",
         "sog": 0.0,
-        "cog": 294.3,
-        "heading": 271,
-        "timestamp": "1779062326501"
+        "cog": 349.2,
+        "heading": 272,
+        "timestamp": "1779066645933"
       }
     },
     {
@@ -1590,17 +1572,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.24078,
-          59.927343
+          26.032637,
+          59.815927
         ]
       },
       "properties": {
         "mmsi": 374357000,
         "name": "ARINA",
-        "sog": 7.7,
-        "cog": 210.4,
-        "heading": 210,
-        "timestamp": "1779062451782"
+        "sog": 7.5,
+        "cog": 230.6,
+        "heading": 228,
+        "timestamp": "1779066791820"
       }
     },
     {
@@ -1608,35 +1590,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.07941,
-          59.881332
-        ]
-      },
-      "properties": {
-        "mmsi": 636016692,
-        "name": "HANNAH",
-        "sog": 1.4,
-        "cog": 291.4,
-        "heading": 302,
-        "timestamp": "1779062397979"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.650302,
-          59.463597
+          24.650303,
+          59.463595
         ]
       },
       "properties": {
         "mmsi": 244109000,
         "name": "WARNOWBORG",
         "sog": 0.0,
-        "cog": 96.2,
+        "cog": 353.4,
         "heading": 211,
-        "timestamp": "1779062451951"
+        "timestamp": "1779066792382"
       }
     },
     {
@@ -1644,8 +1608,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.623738,
-          60.205823
+          25.623668,
+          60.205828
         ]
       },
       "properties": {
@@ -1653,8 +1617,8 @@
         "name": "L246",
         "sog": 0.0,
         "cog": 217.4,
-        "heading": 158,
-        "timestamp": "1779062449064"
+        "heading": 159,
+        "timestamp": "1779066790160"
       }
     },
     {
@@ -1662,17 +1626,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.827467,
-          59.848315
+          25.828318,
+          59.847555
         ]
       },
       "properties": {
         "mmsi": 352005847,
         "name": "BYZANTIUM",
-        "sog": 0.0,
-        "cog": 138.0,
-        "heading": 235,
-        "timestamp": "1779062406708"
+        "sog": 0.1,
+        "cog": 10.4,
+        "heading": 261,
+        "timestamp": "1779066730094"
       }
     },
     {
@@ -1680,8 +1644,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.623835,
-          60.205683
+          26.445408,
+          60.275222
+        ]
+      },
+      "properties": {
+        "mmsi": 230060890,
+        "name": "PILOT L150",
+        "sog": 0.0,
+        "cog": 222.1,
+        "heading": 511,
+        "timestamp": "1779066792382"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.623848,
+          60.205685
         ]
       },
       "properties": {
@@ -1690,7 +1672,7 @@
         "sog": 0.0,
         "cog": 338.9,
         "heading": 160,
-        "timestamp": "1779062449974"
+        "timestamp": "1779066790440"
       }
     },
     {
@@ -1698,17 +1680,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.961592,
-          60.170385
+          24.961577,
+          60.170395
         ]
       },
       "properties": {
         "mmsi": 230998670,
         "name": "ASTRID",
         "sog": 0.0,
-        "cog": 345.1,
-        "heading": 284,
-        "timestamp": "1779062314753"
+        "cog": 340.6,
+        "heading": 285,
+        "timestamp": "1779066634924"
       }
     },
     {
@@ -1716,17 +1698,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.940673,
-          59.837035
+          25.941157,
+          59.83638
         ]
       },
       "properties": {
         "mmsi": 667002271,
         "name": "STILGAR",
         "sog": 0.1,
-        "cog": 136.8,
-        "heading": 244,
-        "timestamp": "1779062349177"
+        "cog": 136.1,
+        "heading": 263,
+        "timestamp": "1779066669163"
       }
     },
     {
@@ -1734,7 +1716,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.717595,
+          24.717548,
           59.457972
         ]
       },
@@ -1743,8 +1725,8 @@
         "name": "AHTO-28",
         "sog": 0.0,
         "cog": 223.0,
-        "heading": 33,
-        "timestamp": "1779062448284"
+        "heading": 35,
+        "timestamp": "1779066788228"
       }
     },
     {
@@ -1752,8 +1734,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.65121,
-          59.46494
+          24.651202,
+          59.464967
         ]
       },
       "properties": {
@@ -1762,7 +1744,7 @@
         "sog": 0.0,
         "cog": 9.3,
         "heading": 300,
-        "timestamp": "1779062340909"
+        "timestamp": "1779066662057"
       }
     },
     {
@@ -1770,17 +1752,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.980083,
-          60.167415
+          24.980072,
+          60.167442
         ]
       },
       "properties": {
         "mmsi": 230112370,
         "name": "HESSU",
         "sog": 0.0,
-        "cog": 336.9,
-        "heading": 227,
-        "timestamp": "1779062310268"
+        "cog": 320.1,
+        "heading": 225,
+        "timestamp": "1779066630707"
       }
     },
     {
@@ -1788,43 +1770,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.947243,
-          60.471248
-        ]
-      },
-      "properties": {
-        "mmsi": 230192000,
-        "name": "MERIKOTKA",
-        "sog": 0.3,
-        "cog": 109.8,
-        "heading": 511,
-        "timestamp": "1779062321682"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.809265,
-          59.828122
-        ]
-      },
-      "properties": {
-        "mmsi": 613741301,
-        "name": "NOSU",
-        "sog": 0.1,
-        "cog": 156.2,
-        "heading": 249,
-        "timestamp": "1779062387192"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.012307,
+          25.012298,
           59.637243
         ]
       },
@@ -1832,9 +1778,9 @@
         "mmsi": 276810000,
         "name": "WRANGO",
         "sog": 0.0,
-        "cog": 64.4,
+        "cog": 317.6,
         "heading": 290,
-        "timestamp": "1779062377424"
+        "timestamp": "1779066696281"
       }
     },
     {
@@ -1842,17 +1788,53 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.969928,
-          60.168817
+          26.947165,
+          60.471268
+        ]
+      },
+      "properties": {
+        "mmsi": 230192000,
+        "name": "MERIKOTKA",
+        "sog": 0.1,
+        "cog": 0.0,
+        "heading": 511,
+        "timestamp": "1779066646272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.809398,
+          59.827503
+        ]
+      },
+      "properties": {
+        "mmsi": 613741301,
+        "name": "NOSU",
+        "sog": 0.2,
+        "cog": 181.2,
+        "heading": 266,
+        "timestamp": "1779066707159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.969993,
+          60.168738
         ]
       },
       "properties": {
         "mmsi": 230046990,
         "name": "MT5300",
         "sog": 0.0,
-        "cog": 312.5,
+        "cog": 228.6,
         "heading": 511,
-        "timestamp": "1779062452290"
+        "timestamp": "1779066792285"
       }
     },
     {
@@ -1860,17 +1842,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.983878,
-          60.149323
+          24.983893,
+          60.149308
         ]
       },
       "properties": {
         "mmsi": 230108610,
         "name": "SUOKKI",
         "sog": 0.0,
-        "cog": 298.9,
-        "heading": 213,
-        "timestamp": "1779062293132"
+        "cog": 295.8,
+        "heading": 214,
+        "timestamp": "1779066791266"
       }
     },
     {
@@ -1878,17 +1860,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.964988,
-          60.169667
+          24.965002,
+          60.169662
         ]
       },
       "properties": {
         "mmsi": 230298000,
         "name": "MUIKKU",
         "sog": 0.0,
-        "cog": 260.4,
+        "cog": 257.1,
         "heading": 511,
-        "timestamp": "1779062429084"
+        "timestamp": "1779066568717"
       }
     },
     {
@@ -1904,9 +1886,9 @@
         "mmsi": 230661000,
         "name": "POLARIS",
         "sog": 0.0,
-        "cog": 275.0,
+        "cog": 95.9,
         "heading": 241,
-        "timestamp": "1779062219689"
+        "timestamp": "1779066788919"
       }
     },
     {
@@ -1914,17 +1896,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.804427,
-          59.593135
+          24.804017,
+          59.59092
         ]
       },
       "properties": {
         "mmsi": 249803000,
         "name": "STOC NIKE",
-        "sog": 0.1,
-        "cog": 322.8,
-        "heading": 216,
-        "timestamp": "1779062423923"
+        "sog": 0.7,
+        "cog": 140.2,
+        "heading": 131,
+        "timestamp": "1779066792235"
       }
     },
     {
@@ -1932,8 +1914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.197883,
-          60.220882
+          25.197927,
+          60.220867
         ]
       },
       "properties": {
@@ -1941,8 +1923,8 @@
         "name": "CASTOR",
         "sog": 0.0,
         "cog": 70.0,
-        "heading": 42,
-        "timestamp": "1779062456282"
+        "heading": 41,
+        "timestamp": "1779066786769"
       }
     },
     {
@@ -1950,8 +1932,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.198163,
-          60.221092
+          25.19814,
+          60.221087
         ]
       },
       "properties": {
@@ -1960,7 +1942,7 @@
         "sog": 0.0,
         "cog": 49.7,
         "heading": 221,
-        "timestamp": "1779062378917"
+        "timestamp": "1779066519051"
       }
     },
     {
@@ -1968,35 +1950,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.933613,
-          59.827892
-        ]
-      },
-      "properties": {
-        "mmsi": 352980787,
-        "name": "BARON I",
-        "sog": 0.1,
-        "cog": 360.0,
-        "heading": 260,
-        "timestamp": "1779062441756"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.95127,
-          60.474618
+          26.9513,
+          60.474608
         ]
       },
       "properties": {
         "mmsi": 230992970,
         "name": "VIIKARI",
-        "sog": 0.1,
+        "sog": 0.0,
         "cog": 170.0,
         "heading": 285,
-        "timestamp": "1779062452532"
+        "timestamp": "1779066792805"
       }
     },
     {
@@ -2004,8 +1968,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.261267,
-          60.402893
+          25.9336,
+          59.827657
+        ]
+      },
+      "properties": {
+        "mmsi": 352980787,
+        "name": "BARON I",
+        "sog": 0.7,
+        "cog": 360.0,
+        "heading": 268,
+        "timestamp": "1779066761922"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.261175,
+          60.402887
         ]
       },
       "properties": {
@@ -2013,8 +1995,8 @@
         "name": "GRISSLAN",
         "sog": 0.0,
         "cog": 309.7,
-        "heading": 30,
-        "timestamp": "1779062424353"
+        "heading": 31,
+        "timestamp": "1779066744815"
       }
     },
     {
@@ -2022,35 +2004,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.980392,
-          60.167392
-        ]
-      },
-      "properties": {
-        "mmsi": 230108590,
-        "name": "EHRENSVAERD",
-        "sog": 0.0,
-        "cog": 0.1,
-        "heading": 57,
-        "timestamp": "1779062301826"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.901608,
-          60.16178
+          24.901607,
+          60.161778
         ]
       },
       "properties": {
         "mmsi": 230145000,
         "name": "ARANDA",
         "sog": 0.0,
-        "cog": 108.0,
+        "cog": 106.5,
         "heading": 323,
-        "timestamp": "1779062315971"
+        "timestamp": "1779066632721"
       }
     },
     {
@@ -2068,7 +2032,7 @@
         "sog": 0.0,
         "cog": 0.0,
         "heading": 511,
-        "timestamp": "1779062456376"
+        "timestamp": "1779066786427"
       }
     },
     {
@@ -2076,17 +2040,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.945293,
-          60.477663
+          24.980285,
+          60.167362
         ]
       },
       "properties": {
-        "mmsi": 230275000,
-        "name": "NORDICA",
+        "mmsi": 230108590,
+        "name": "EHRENSVAERD",
         "sog": 0.0,
-        "cog": 330.2,
-        "heading": 296,
-        "timestamp": "1779062457644"
+        "cog": 0.1,
+        "heading": 55,
+        "timestamp": "1779066441831"
       }
     },
     {
@@ -2094,8 +2058,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.927767,
-          60.160345
+          24.927753,
+          60.160363
         ]
       },
       "properties": {
@@ -2104,7 +2068,7 @@
         "sog": 0.0,
         "cog": 128.3,
         "heading": 103,
-        "timestamp": "1779062379800"
+        "timestamp": "1779066695694"
       }
     },
     {
@@ -2112,8 +2076,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.079168,
-          59.334833
+          26.94529,
+          60.47767
+        ]
+      },
+      "properties": {
+        "mmsi": 230275000,
+        "name": "NORDICA",
+        "sog": 0.0,
+        "cog": 311.8,
+        "heading": 296,
+        "timestamp": "1779066777613"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.079127,
+          59.334838
         ]
       },
       "properties": {
@@ -2121,8 +2103,8 @@
         "name": "HELIOS",
         "sog": 0.0,
         "cog": 358.7,
-        "heading": 91,
-        "timestamp": "1779062212207"
+        "heading": 90,
+        "timestamp": "1779066530537"
       }
     },
     {
@@ -2130,7 +2112,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.752393,
+          24.752442,
           59.447753
         ]
       },
@@ -2140,7 +2122,7 @@
         "sog": 0.0,
         "cog": 132.4,
         "heading": 176,
-        "timestamp": "1779062285833"
+        "timestamp": "1779066785818"
       }
     },
     {
@@ -2148,35 +2130,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.942658,
-          59.50096
-        ]
-      },
-      "properties": {
-        "mmsi": 276342000,
-        "name": "VIIKING",
-        "sog": 0.0,
-        "cog": 321.4,
-        "heading": 511,
-        "timestamp": "1779062455758"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          25.835225,
-          60.288147
+          25.83518,
+          60.288127
         ]
       },
       "properties": {
         "mmsi": 230984450,
         "name": "ALEXANDRA",
         "sog": 0.0,
-        "cog": 285.7,
-        "heading": 261,
-        "timestamp": "1779062427876"
+        "cog": 356.4,
+        "heading": 262,
+        "timestamp": "1779066748263"
       }
     },
     {
@@ -2184,8 +2148,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.552263,
-          60.310498
+          24.942705,
+          59.501025
+        ]
+      },
+      "properties": {
+        "mmsi": 276342000,
+        "name": "VIIKING",
+        "sog": 0.0,
+        "cog": 330.2,
+        "heading": 511,
+        "timestamp": "1779066784862"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.552237,
+          60.310512
         ]
       },
       "properties": {
@@ -2194,7 +2176,7 @@
         "sog": 0.0,
         "cog": 329.8,
         "heading": 180,
-        "timestamp": "1779062453874"
+        "timestamp": "1779066783927"
       }
     },
     {
@@ -2202,8 +2184,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.93929,
-          59.498327
+          24.964372,
+          60.169608
+        ]
+      },
+      "properties": {
+        "mmsi": 230091080,
+        "name": "PILOT L153",
+        "sog": 0.0,
+        "cog": 85.9,
+        "heading": 179,
+        "timestamp": "1779066761593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.962482,
+          60.176287
+        ]
+      },
+      "properties": {
+        "mmsi": 230087600,
+        "name": "HELSINKI",
+        "sog": 0.0,
+        "cog": 297.1,
+        "heading": 230,
+        "timestamp": "1779066788321"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.889215,
+          60.155595
+        ]
+      },
+      "properties": {
+        "mmsi": 230987940,
+        "name": "JOANNA SATURNA",
+        "sog": 0.0,
+        "cog": 325.0,
+        "heading": 74,
+        "timestamp": "1779066658745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.939298,
+          59.498355
         ]
       },
       "properties": {
@@ -2212,7 +2248,7 @@
         "sog": 0.0,
         "cog": 360.0,
         "heading": 511,
-        "timestamp": "1779062448542"
+        "timestamp": "1779066788321"
       }
     },
     {
@@ -2220,17 +2256,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.964388,
-          60.169607
+          25.55227,
+          60.310935
         ]
       },
       "properties": {
-        "mmsi": 230091080,
-        "name": "PILOT L153",
+        "mmsi": 230286000,
+        "name": "ESKO",
         "sog": 0.0,
-        "cog": 85.9,
-        "heading": 178,
-        "timestamp": "1779062441955"
+        "cog": 262.7,
+        "heading": 181,
+        "timestamp": "1779066786427"
       }
     },
     {
@@ -2238,44 +2274,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.962487,
-          60.1763
-        ]
-      },
-      "properties": {
-        "mmsi": 230087600,
-        "name": "HELSINKI",
-        "sog": 0.0,
-        "cog": 352.8,
-        "heading": 231,
-        "timestamp": "1779062457411"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.889238,
-          60.155585
-        ]
-      },
-      "properties": {
-        "mmsi": 230987940,
-        "name": "JOANNA SATURNA",
-        "sog": 0.0,
-        "cog": 7.3,
-        "heading": 77,
-        "timestamp": "1779062338529"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.961128,
-          60.159987
+          24.96117,
+          60.16
         ]
       },
       "properties": {
@@ -2284,7 +2284,7 @@
         "sog": 0.0,
         "cog": 241.0,
         "heading": 325,
-        "timestamp": "1779062441448"
+        "timestamp": "1779066761350"
       }
     },
     {
@@ -2292,17 +2292,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.552242,
-          60.310943
+          24.720847,
+          59.458608
         ]
       },
       "properties": {
-        "mmsi": 230286000,
-        "name": "ESKO",
-        "sog": 0.0,
-        "cog": 276.3,
-        "heading": 181,
-        "timestamp": "1779062446290"
+        "mmsi": 276784000,
+        "name": "AHTO-01",
+        "sog": 0.1,
+        "cog": 169.7,
+        "heading": 215,
+        "timestamp": "1779066718461"
       }
     },
     {
@@ -2310,17 +2310,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.140928,
-          59.79956
+          25.517403,
+          59.837213
         ]
       },
       "properties": {
         "mmsi": 273298390,
         "name": "GEN. CHERNYAKHOVSKY",
-        "sog": 9.5,
-        "cog": 78.6,
-        "heading": 77,
-        "timestamp": "1779062449621"
+        "sog": 9.3,
+        "cog": 80.1,
+        "heading": 75,
+        "timestamp": "1779066791027"
       }
     },
     {
@@ -2328,17 +2328,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.914783,
-          60.147995
+          24.91479,
+          60.147998
         ]
       },
       "properties": {
         "mmsi": 276829000,
         "name": "MEGASTAR",
-        "sog": 0.1,
-        "cog": 351.5,
+        "sog": 0.0,
+        "cog": 31.8,
         "heading": 209,
-        "timestamp": "1779062315098"
+        "timestamp": "1779066635065"
       }
     },
     {
@@ -2346,8 +2346,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.958583,
-          60.472562
+          24.983432,
+          60.146007
+        ]
+      },
+      "properties": {
+        "mmsi": 230169030,
+        "name": "RODNY",
+        "sog": 0.0,
+        "cog": 360.0,
+        "heading": 143,
+        "timestamp": "1779066739402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.958618,
+          60.472557
         ]
       },
       "properties": {
@@ -2356,7 +2374,7 @@
         "sog": 0.0,
         "cog": 14.0,
         "heading": 291,
-        "timestamp": "1779062449431"
+        "timestamp": "1779066788322"
       }
     },
     {
@@ -2364,35 +2382,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.983438,
-          60.145953
+          24.721168,
+          59.4591
         ]
       },
       "properties": {
-        "mmsi": 230169030,
-        "name": "RODNY",
-        "sog": 0.0,
-        "cog": 360.0,
-        "heading": 145,
-        "timestamp": "1779062407742"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.720852,
-          59.458603
-        ]
-      },
-      "properties": {
-        "mmsi": 276784000,
-        "name": "AHTO-01",
+        "mmsi": 276014100,
+        "name": "SINILIND",
         "sog": 0.1,
-        "cog": 335.3,
-        "heading": 216,
-        "timestamp": "1779062400072"
+        "cog": 360.0,
+        "heading": 511,
+        "timestamp": "1779066762326"
       }
     },
     {
@@ -2400,17 +2400,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.259332,
-          60.408862
+          26.259313,
+          60.408897
         ]
       },
       "properties": {
         "mmsi": 230091450,
         "name": "KALKKE",
         "sog": 0.0,
-        "cog": 284.1,
-        "heading": 144,
-        "timestamp": "1779062373583"
+        "cog": 294.3,
+        "heading": 145,
+        "timestamp": "1779066693384"
       }
     },
     {
@@ -2418,17 +2418,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.922432,
-          60.160782
+          24.912727,
+          60.14496
         ]
       },
       "properties": {
         "mmsi": 230992650,
         "name": "URSUS",
-        "sog": 0.0,
-        "cog": 0.1,
-        "heading": 175,
-        "timestamp": "1779062351865"
+        "sog": 6.9,
+        "cog": 217.4,
+        "heading": 219,
+        "timestamp": "1779066788759"
       }
     },
     {
@@ -2436,35 +2436,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.72116,
-          59.459087
-        ]
-      },
-      "properties": {
-        "mmsi": 276014100,
-        "name": "SINILIND",
-        "sog": 0.0,
-        "cog": 360.0,
-        "heading": 511,
-        "timestamp": "1779062441401"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.952455,
-          60.474173
+          26.952492,
+          60.47418
         ]
       },
       "properties": {
         "mmsi": 230686000,
         "name": "CALYPSO",
         "sog": 0.0,
-        "cog": 267.7,
+        "cog": 177.6,
         "heading": 220,
-        "timestamp": "1779062455758"
+        "timestamp": "1779066785818"
       }
     },
     {
@@ -2472,17 +2454,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.972565,
-          60.169658
+          24.972582,
+          60.16966
         ]
       },
       "properties": {
         "mmsi": 230290000,
         "name": "URHO",
         "sog": 0.0,
-        "cog": 307.6,
+        "cog": 357.0,
         "heading": 242,
-        "timestamp": "1779062410581"
+        "timestamp": "1779066731199"
       }
     },
     {
@@ -2490,35 +2472,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.009378,
-          60.169137
-        ]
-      },
-      "properties": {
-        "mmsi": 230061040,
-        "name": "SUURSAARI",
-        "sog": 0.0,
-        "cog": 60.2,
-        "heading": 349,
-        "timestamp": "1779062316487"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.905403,
-          60.424908
+          26.905397,
+          60.424872
         ]
       },
       "properties": {
         "mmsi": 276858000,
         "name": "SELENE",
-        "sog": 0.4,
+        "sog": 0.1,
         "cog": 137.1,
-        "heading": 51,
-        "timestamp": "1779062448963"
+        "heading": 52,
+        "timestamp": "1779066789527"
       }
     },
     {
@@ -2526,8 +2490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.552288,
-          60.31134
+          25.552282,
+          60.311358
         ]
       },
       "properties": {
@@ -2536,7 +2500,7 @@
         "sog": 0.0,
         "cog": 247.5,
         "heading": 180,
-        "timestamp": "1779062452143"
+        "timestamp": "1779066782389"
       }
     },
     {
@@ -2544,26 +2508,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.717142,
-          59.458427
-        ]
-      },
-      "properties": {
-        "mmsi": 276158000,
-        "name": "TARMO",
-        "sog": 0.0,
-        "cog": 360.0,
-        "heading": 210,
-        "timestamp": "1779062438484"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.250243,
-          60.41999
+          26.250248,
+          60.419973
         ]
       },
       "properties": {
@@ -2572,7 +2518,7 @@
         "sog": 0.0,
         "cog": 284.4,
         "heading": 285,
-        "timestamp": "1779062392964"
+        "timestamp": "1779066718108"
       }
     },
     {
@@ -2580,7 +2526,43 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.96215,
+          24.71711,
+          59.458432
+        ]
+      },
+      "properties": {
+        "mmsi": 276158000,
+        "name": "TARMO",
+        "sog": 0.0,
+        "cog": 360.0,
+        "heading": 209,
+        "timestamp": "1779066758248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.009375,
+          60.169145
+        ]
+      },
+      "properties": {
+        "mmsi": 230061040,
+        "name": "SUURSAARI",
+        "sog": 0.0,
+        "cog": 60.2,
+        "heading": 349,
+        "timestamp": "1779066636903"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.96214,
           60.1712
         ]
       },
@@ -2588,9 +2570,9 @@
         "mmsi": 230108270,
         "name": "VALBORG",
         "sog": 0.0,
-        "cog": 276.0,
+        "cog": 317.0,
         "heading": 511,
-        "timestamp": "1779062278207"
+        "timestamp": "1779066778516"
       }
     },
     {
@@ -2598,17 +2580,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.199137,
-          60.210175
+          25.101377,
+          59.935258
         ]
       },
       "properties": {
         "mmsi": 230685000,
         "name": "FINBO CARGO",
-        "sog": 3.9,
-        "cog": 62.6,
-        "heading": 231,
-        "timestamp": "1779062456189"
+        "sog": 16.8,
+        "cog": 191.7,
+        "heading": 192,
+        "timestamp": "1779066789925"
       }
     },
     {
@@ -2616,17 +2598,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.078157,
-          59.334877
+          24.078135,
+          59.334873
         ]
       },
       "properties": {
         "mmsi": 276752000,
         "name": "AHTO-27",
         "sog": 0.0,
-        "cog": 60.2,
+        "cog": 254.6,
         "heading": 511,
-        "timestamp": "1779062399675"
+        "timestamp": "1779066759886"
       }
     },
     {
@@ -2634,7 +2616,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.961955,
+          24.961948,
           60.170682
         ]
       },
@@ -2642,9 +2624,9 @@
         "mmsi": 230991880,
         "name": "SVANHILD",
         "sog": 0.0,
-        "cog": 11.3,
-        "heading": 196,
-        "timestamp": "1779062389417"
+        "cog": 317.0,
+        "heading": 195,
+        "timestamp": "1779066709561"
       }
     },
     {
@@ -2652,8 +2634,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.082533,
-          59.332773
+          24.082525,
+          59.33278
         ]
       },
       "properties": {
@@ -2662,7 +2644,7 @@
         "sog": 0.0,
         "cog": 291.0,
         "heading": 333,
-        "timestamp": "1779062129464"
+        "timestamp": "1779066450870"
       }
     },
     {
@@ -2670,17 +2652,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.723542,
-          59.45828
+          24.723525,
+          59.458298
         ]
       },
       "properties": {
         "mmsi": 230991670,
         "name": "AJO",
         "sog": 0.0,
-        "cog": 78.5,
-        "heading": 310,
-        "timestamp": "1779062456376"
+        "cog": 311.6,
+        "heading": 311,
+        "timestamp": "1779066786427"
       }
     },
     {
@@ -2688,17 +2670,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.252938,
-          60.40266
+          26.25298,
+          60.402633
         ]
       },
       "properties": {
         "mmsi": 230994810,
         "name": "RESCUE DEGERBY",
         "sog": 0.0,
-        "cog": 314.2,
-        "heading": 298,
-        "timestamp": "1779062450080"
+        "cog": 301.7,
+        "heading": 299,
+        "timestamp": "1779066789153"
       }
     },
     {
@@ -2706,26 +2688,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.184,
-          60.206127
-        ]
-      },
-      "properties": {
-        "mmsi": 230111190,
-        "name": "MERIHOYLA",
-        "sog": 0.0,
-        "cog": 30.9,
-        "heading": 511,
-        "timestamp": "1779062401861"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.543692,
-          59.523427
+          26.54369,
+          59.523433
         ]
       },
       "properties": {
@@ -2734,7 +2698,7 @@
         "sog": 0.0,
         "cog": 271.7,
         "heading": 322,
-        "timestamp": "1779062341240"
+        "timestamp": "1779066732157"
       }
     },
     {
@@ -2742,8 +2706,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.939417,
-          59.497863
+          25.18402,
+          60.206113
+        ]
+      },
+      "properties": {
+        "mmsi": 230111190,
+        "name": "MERIHOYLA",
+        "sog": 0.0,
+        "cog": 353.8,
+        "heading": 511,
+        "timestamp": "1779066541636"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.939428,
+          59.497873
         ]
       },
       "properties": {
@@ -2752,7 +2734,7 @@
         "sog": 0.0,
         "cog": 53.3,
         "heading": 301,
-        "timestamp": "1779062352146"
+        "timestamp": "1779066673703"
       }
     },
     {
@@ -2760,17 +2742,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.08148,
-          60.156243
+          25.0815,
+          60.15624
         ]
       },
       "properties": {
         "mmsi": 230939100,
         "name": "RESCUE RAUTAUOMA",
         "sog": 0.0,
-        "cog": 305.9,
-        "heading": 131,
-        "timestamp": "1779062454737"
+        "cog": 312.6,
+        "heading": 132,
+        "timestamp": "1779066784348"
       }
     },
     {
@@ -2778,17 +2760,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.930975,
-          60.150727
+          24.930998,
+          60.1508
         ]
       },
       "properties": {
         "mmsi": 230940290,
         "name": "KAHMARI 2",
-        "sog": 0.2,
-        "cog": 296.8,
-        "heading": 303,
-        "timestamp": "1779062450031"
+        "sog": 0.1,
+        "cog": 349.7,
+        "heading": 294,
+        "timestamp": "1779066789246"
       }
     },
     {
@@ -2796,7 +2778,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.96313,
+          24.963127,
           60.176103
         ]
       },
@@ -2804,9 +2786,9 @@
         "mmsi": 230024660,
         "name": "TOR",
         "sog": 0.0,
-        "cog": 5.7,
-        "heading": 49,
-        "timestamp": "1779062375145"
+        "cog": 343.2,
+        "heading": 48,
+        "timestamp": "1779066694243"
       }
     },
     {
@@ -2814,17 +2796,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.96925,
-          60.168882
+          24.969238,
+          60.168885
         ]
       },
       "properties": {
         "mmsi": 230994270,
         "name": "RESCUE JENNY WIHURI",
         "sog": 0.0,
-        "cog": 42.7,
-        "heading": 115,
-        "timestamp": "1779062286813"
+        "cog": 327.8,
+        "heading": 114,
+        "timestamp": "1779066787661"
       }
     },
     {
@@ -2832,8 +2814,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.661923,
-          60.389325
+          25.66195,
+          60.389337
         ]
       },
       "properties": {
@@ -2842,7 +2824,7 @@
         "sog": 0.0,
         "cog": 314.4,
         "heading": 336,
-        "timestamp": "1779062456423"
+        "timestamp": "1779066776263"
       }
     },
     {
@@ -2850,35 +2832,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.932688,
-          60.149073
-        ]
-      },
-      "properties": {
-        "mmsi": 230093590,
-        "name": "EIJA",
-        "sog": 2.1,
-        "cog": 170.2,
-        "heading": 161,
-        "timestamp": "1779062455226"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          26.25307,
-          60.407275
+          26.253032,
+          60.407303
         ]
       },
       "properties": {
         "mmsi": 230025060,
         "name": "ROCKMATE",
         "sog": 0.0,
-        "cog": 332.9,
+        "cog": 345.0,
         "heading": 256,
-        "timestamp": "1779062453329"
+        "timestamp": "1779066784909"
       }
     },
     {
@@ -2886,17 +2850,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.717913,
-          59.458287
+          24.717962,
+          59.458263
         ]
       },
       "properties": {
         "mmsi": 276415000,
         "name": "EVA 316",
         "sog": 0.0,
-        "cog": 183.0,
-        "heading": 212,
-        "timestamp": "1779062409715"
+        "cog": 342.0,
+        "heading": 213,
+        "timestamp": "1779066730872"
       }
     },
     {
@@ -2904,17 +2868,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.974503,
-          60.105207
+          24.97454,
+          60.105173
         ]
       },
       "properties": {
         "mmsi": 230033880,
         "name": "PILOT L238",
         "sog": 0.0,
-        "cog": 238.9,
-        "heading": 27,
-        "timestamp": "1779062448046"
+        "cog": 317.8,
+        "heading": 25,
+        "timestamp": "1779066788572"
       }
     },
     {
@@ -2922,8 +2886,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.940368,
-          59.497223
+          24.876355,
+          60.068737
+        ]
+      },
+      "properties": {
+        "mmsi": 230093590,
+        "name": "EIJA",
+        "sog": 3.6,
+        "cog": 198.2,
+        "heading": 192,
+        "timestamp": "1779066783460"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94046,
+          59.497218
         ]
       },
       "properties": {
@@ -2932,7 +2914,7 @@
         "sog": 0.0,
         "cog": 156.9,
         "heading": 193,
-        "timestamp": "1779062449790"
+        "timestamp": "1779066789059"
       }
     },
     {
@@ -2940,17 +2922,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.652808,
-          59.46154
+          24.652877,
+          59.461522
         ]
       },
       "properties": {
         "mmsi": 246797000,
         "name": "ANDESBORG",
         "sog": 0.0,
-        "cog": 95.1,
+        "cog": 88.7,
         "heading": 511,
-        "timestamp": "1779062383660"
+        "timestamp": "1779066779787"
       }
     },
     {
@@ -2958,17 +2940,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.657793,
-          59.459953
+          24.657773,
+          59.459952
         ]
       },
       "properties": {
         "mmsi": 246555000,
         "name": "DOGGERSBANK",
         "sog": 0.0,
-        "cog": 95.9,
+        "cog": 120.5,
         "heading": 121,
-        "timestamp": "1779062392542"
+        "timestamp": "1779066711856"
       }
     },
     {
@@ -2976,17 +2958,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.710965,
-          59.460938
+          24.710963,
+          59.46092
         ]
       },
       "properties": {
         "mmsi": 210051000,
         "name": "RINA",
         "sog": 0.0,
-        "cog": 308.6,
+        "cog": 357.1,
         "heading": 511,
-        "timestamp": "1779062386748"
+        "timestamp": "1779066709418"
       }
     },
     {
@@ -2994,17 +2976,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.924262,
-          60.161053
+          24.924292,
+          60.161062
         ]
       },
       "properties": {
         "mmsi": 230941940,
         "name": "VARTIOLAIVA 55",
         "sog": 0.0,
-        "cog": 124.1,
-        "heading": 315,
-        "timestamp": "1779062230305"
+        "cog": 121.0,
+        "heading": 314,
+        "timestamp": "1779066438296"
       }
     },
     {
@@ -3012,17 +2994,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.672467,
-          59.450667
+          24.672483,
+          59.450633
         ]
       },
       "properties": {
         "mmsi": 276636000,
         "name": "ARKTURUS",
         "sog": 0.0,
-        "cog": 38.4,
+        "cog": 219.5,
         "heading": 133,
-        "timestamp": "1779062450238"
+        "timestamp": "1779066790934"
       }
     },
     {
@@ -3030,8 +3012,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.969823,
-          60.168785
+          24.969858,
+          60.168765
         ]
       },
       "properties": {
@@ -3039,8 +3021,8 @@
         "name": "MT1310",
         "sog": 102.3,
         "cog": 360.0,
-        "heading": 114,
-        "timestamp": "1779062449861"
+        "heading": 115,
+        "timestamp": "1779066790980"
       }
     },
     {
@@ -3048,17 +3030,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.719367,
-          59.457403
+          24.719395,
+          59.457405
         ]
       },
       "properties": {
         "mmsi": 276432000,
         "name": "EVA-318",
-        "sog": 0.0,
+        "sog": 0.1,
         "cog": 136.7,
         "heading": 202,
-        "timestamp": "1779062137385"
+        "timestamp": "1779066280747"
       }
     },
     {
@@ -3066,17 +3048,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.70313,
-          59.457548
+          24.703137,
+          59.457568
         ]
       },
       "properties": {
         "mmsi": 276835000,
         "name": "TORVIK",
         "sog": 0.0,
-        "cog": 119.8,
+        "cog": 327.4,
         "heading": 511,
-        "timestamp": "1779062452767"
+        "timestamp": "1779066792011"
       }
     },
     {
@@ -3094,7 +3076,7 @@
         "sog": 0.0,
         "cog": 0.0,
         "heading": 511,
-        "timestamp": "1779062452485"
+        "timestamp": "1779066792805"
       }
     },
     {
@@ -3102,26 +3084,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.708378,
-          59.457945
-        ]
-      },
-      "properties": {
-        "mmsi": 276260000,
-        "name": "NAFTA",
-        "sog": 0.0,
-        "cog": 125.5,
-        "heading": 254,
-        "timestamp": "1779062449064"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.720015,
-          59.45794
+          24.720005,
+          59.457947
         ]
       },
       "properties": {
@@ -3130,7 +3094,7 @@
         "sog": 0.0,
         "cog": 127.4,
         "heading": 32,
-        "timestamp": "1779062400863"
+        "timestamp": "1779066540981"
       }
     },
     {
@@ -3138,17 +3102,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.248455,
-          60.420337
+          24.70841,
+          59.457957
+        ]
+      },
+      "properties": {
+        "mmsi": 276260000,
+        "name": "NAFTA",
+        "sog": 0.0,
+        "cog": 350.1,
+        "heading": 252,
+        "timestamp": "1779066787708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.248432,
+          60.420352
         ]
       },
       "properties": {
         "mmsi": 230955000,
         "name": "CARMEL",
         "sog": 0.0,
-        "cog": 275.7,
+        "cog": 306.0,
         "heading": 159,
-        "timestamp": "1779062420637"
+        "timestamp": "1779066739210"
       }
     },
     {
@@ -3156,17 +3138,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.485947,
-          60.007272
+          25.485915,
+          60.007338
         ]
       },
       "properties": {
         "mmsi": 257206000,
         "name": "GERDA",
         "sog": 0.1,
-        "cog": 240.5,
-        "heading": 273,
-        "timestamp": "1779062416960"
+        "cog": 324.8,
+        "heading": 266,
+        "timestamp": "1779066736999"
       }
     },
     {
@@ -3174,8 +3156,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.773873,
-          59.449013
+          24.583705,
+          59.751618
+        ]
+      },
+      "properties": {
+        "mmsi": 230618000,
+        "name": "FINNSEA",
+        "sog": 17.6,
+        "cog": 72.1,
+        "heading": 70,
+        "timestamp": "1779066788619"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71217,
+          59.458602
+        ]
+      },
+      "properties": {
+        "mmsi": 275304000,
+        "name": "ROMANTIKA",
+        "sog": 0.0,
+        "cog": 172.4,
+        "heading": 74,
+        "timestamp": "1779066708902"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.773877,
+          59.44898
         ]
       },
       "properties": {
@@ -3184,7 +3202,7 @@
         "sog": 0.0,
         "cog": 81.0,
         "heading": 102,
-        "timestamp": "1779062368668"
+        "timestamp": "1779066678162"
       }
     },
     {
@@ -3192,44 +3210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.76852,
-          59.444768
-        ]
-      },
-      "properties": {
-        "mmsi": 276519000,
-        "name": "VICTORIA 1",
-        "sog": 0.0,
-        "cog": 148.5,
-        "heading": 223,
-        "timestamp": "1779062307842"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.712177,
-          59.458597
-        ]
-      },
-      "properties": {
-        "mmsi": 275304000,
-        "name": "ROMANTIKA",
-        "sog": 0.0,
-        "cog": 177.5,
-        "heading": 74,
-        "timestamp": "1779062388041"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.66042,
-          59.45855
+          24.660413,
+          59.458572
         ]
       },
       "properties": {
@@ -3238,7 +3220,7 @@
         "sog": 0.0,
         "cog": 116.9,
         "heading": 210,
-        "timestamp": "1779062415568"
+        "timestamp": "1779066736529"
       }
     },
     {
@@ -3246,17 +3228,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.132767,
-          59.893435
+          24.768523,
+          59.44477
         ]
       },
       "properties": {
-        "mmsi": 636019971,
-        "name": "KILIAN OLDENDORFF",
-        "sog": 0.7,
-        "cog": 331.4,
-        "heading": 332,
-        "timestamp": "1779062456706"
+        "mmsi": 276519000,
+        "name": "VICTORIA 1",
+        "sog": 0.0,
+        "cog": 282.5,
+        "heading": 223,
+        "timestamp": "1779066628365"
       }
     },
     {
@@ -3264,8 +3246,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.647515,
-          59.463745
+          24.647485,
+          59.46376
         ]
       },
       "properties": {
@@ -3274,7 +3256,7 @@
         "sog": 0.0,
         "cog": 59.2,
         "heading": 182,
-        "timestamp": "1779062408771"
+        "timestamp": "1779066729549"
       }
     }
   ]
