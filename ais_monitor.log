@@ -181787,3 +181787,14 @@
 2026-07-25 21:33:26,698 - INFO - Saved positions, cleaned 178 old records
 2026-07-25 21:33:26,714 - INFO - Exported GeoJSON to out (trails: 184)
 2026-07-25 21:33:26,714 - INFO - No breaches detected
+2026-07-25 21:56:17,279 - INFO - Loaded geofence: piiratud
+2026-07-25 21:56:17,280 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-07-25 21:56:17,280 - INFO - --- Starting check ---
+2026-07-25 21:56:17,280 - INFO - Fetching vessel metadata...
+2026-07-25 21:56:18,160 - INFO - Loaded metadata for 915 vessels
+2026-07-25 21:56:18,161 - INFO - Fetching AIS data...
+2026-07-25 21:56:18,851 - INFO - Found 181 vessels in Gulf of Finland
+2026-07-25 21:56:18,886 - INFO - Saved positions, cleaned 179 old records
+2026-07-25 21:56:18,887 - WARNING - BREACH: SEELAND (MMSI 255806522) in restricted area (speed: 8.2 knots)
+2026-07-25 21:56:18,899 - INFO - Exported GeoJSON to out (trails: 184)
+2026-07-25 21:56:19,970 - INFO - Alert sent for MMSI 255806522
