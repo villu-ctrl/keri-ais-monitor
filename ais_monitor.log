@@ -184856,3 +184856,13 @@
 2026-08-02 23:26:37,697 - INFO - Fetching AIS data...
 2026-08-02 23:26:37,801 - ERROR - Error fetching AIS: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/locations
 2026-08-02 23:26:37,802 - INFO - No vessels found
+2026-08-02 23:48:09,119 - INFO - Loaded geofence: piiratud
+2026-08-02 23:48:09,120 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-08-02 23:48:09,120 - INFO - --- Starting check ---
+2026-08-02 23:48:09,120 - INFO - Fetching vessel metadata...
+2026-08-02 23:48:09,542 - INFO - Loaded metadata for 927 vessels
+2026-08-02 23:48:09,543 - INFO - Fetching AIS data...
+2026-08-02 23:48:09,744 - INFO - Found 163 vessels in Gulf of Finland
+2026-08-02 23:48:09,752 - INFO - Saved positions, cleaned 326 old records
+2026-08-02 23:48:09,766 - INFO - Exported GeoJSON to out (trails: 166)
+2026-08-02 23:48:09,767 - INFO - No breaches detected
