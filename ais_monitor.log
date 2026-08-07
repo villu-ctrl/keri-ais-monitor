@@ -185830,3 +185830,14 @@
 2026-08-07 21:01:45,726 - INFO - Found 171 vessels in Gulf of Finland
 2026-08-07 21:01:45,744 - INFO - Exported GeoJSON to out (trails: 173)
 2026-08-07 21:01:45,744 - INFO - No breaches detected
+2026-08-07 21:47:49,237 - INFO - Loaded geofence: piiratud
+2026-08-07 21:47:49,238 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-08-07 21:47:49,238 - INFO - --- Starting check ---
+2026-08-07 21:47:49,238 - INFO - Fetching vessel metadata...
+2026-08-07 21:47:49,574 - INFO - Loaded metadata for 880 vessels
+2026-08-07 21:47:49,575 - INFO - Fetching AIS data...
+2026-08-07 21:47:49,703 - INFO - Found 174 vessels in Gulf of Finland
+2026-08-07 21:47:49,710 - INFO - Saved positions, cleaned 171 old records
+2026-08-07 21:47:49,711 - WARNING - BREACH: VAESTERBOTTEN (MMSI 212838000) in restricted area (speed: 9.7 knots)
+2026-08-07 21:47:49,722 - INFO - Exported GeoJSON to out (trails: 173)
+2026-08-07 21:47:51,235 - INFO - Alert sent for MMSI 212838000
