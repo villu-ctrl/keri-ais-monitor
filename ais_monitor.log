@@ -185783,3 +185783,11 @@
 2026-08-07 17:05:10,407 - INFO - Saved positions, cleaned 166 old records
 2026-08-07 17:05:10,419 - INFO - Exported GeoJSON to out (trails: 172)
 2026-08-07 17:05:10,420 - INFO - No breaches detected
+2026-08-07 17:55:37,665 - INFO - Loaded geofence: piiratud
+2026-08-07 17:55:37,665 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-08-07 17:55:37,666 - INFO - --- Starting check ---
+2026-08-07 17:55:37,666 - INFO - Fetching vessel metadata...
+2026-08-07 17:55:37,765 - ERROR - Error fetching vessel metadata: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/vessels
+2026-08-07 17:55:37,765 - INFO - Fetching AIS data...
+2026-08-07 17:55:37,800 - ERROR - Error fetching AIS: 403 Client Error: Forbidden for url: https://meri.digitraffic.fi/api/ais/v1/locations
+2026-08-07 17:55:37,801 - INFO - No vessels found
