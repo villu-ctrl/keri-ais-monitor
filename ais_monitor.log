@@ -186015,3 +186015,14 @@
 2026-08-08 11:35:48,144 - INFO - Saved positions, cleaned 181 old records
 2026-08-08 11:35:48,158 - INFO - Exported GeoJSON to out (trails: 182)
 2026-08-08 11:35:48,159 - INFO - No breaches detected
+2026-08-08 11:57:26,900 - INFO - Loaded geofence: piiratud
+2026-08-08 11:57:26,901 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-08-08 11:57:26,901 - INFO - --- Starting check ---
+2026-08-08 11:57:26,901 - INFO - Fetching vessel metadata...
+2026-08-08 11:57:27,087 - INFO - Loaded metadata for 821 vessels
+2026-08-08 11:57:27,087 - INFO - Fetching AIS data...
+2026-08-08 11:57:27,325 - INFO - Found 177 vessels in Gulf of Finland
+2026-08-08 11:57:27,334 - INFO - Saved positions, cleaned 180 old records
+2026-08-08 11:57:27,336 - WARNING - BREACH: BELLINGSHAUSEN (MMSI 276850000) in restricted area (speed: 1.8 knots)
+2026-08-08 11:57:27,348 - INFO - Exported GeoJSON to out (trails: 183)
+2026-08-08 11:57:28,548 - INFO - Alert sent for MMSI 276850000
