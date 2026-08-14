@@ -187616,3 +187616,14 @@
 2026-08-14 14:28:20,986 - INFO - Saved positions, cleaned 387 old records
 2026-08-14 14:28:21,000 - INFO - Exported GeoJSON to out (trails: 193)
 2026-08-14 14:28:21,000 - INFO - No breaches detected
+2026-08-14 15:21:14,370 - INFO - Loaded geofence: piiratud
+2026-08-14 15:21:14,374 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-08-14 15:21:14,375 - INFO - --- Starting check ---
+2026-08-14 15:21:14,375 - INFO - Fetching vessel metadata...
+2026-08-14 15:21:14,833 - INFO - Loaded metadata for 1206 vessels
+2026-08-14 15:21:14,834 - INFO - Fetching AIS data...
+2026-08-14 15:21:14,985 - INFO - Found 195 vessels in Gulf of Finland
+2026-08-14 15:21:14,992 - INFO - Saved positions, cleaned 193 old records
+2026-08-14 15:21:14,993 - WARNING - BREACH: SWE-FREIGHTER (MMSI 210547000) in restricted area (speed: 11.3 knots)
+2026-08-14 15:21:15,005 - INFO - Exported GeoJSON to out (trails: 195)
+2026-08-14 15:21:16,612 - INFO - Alert sent for MMSI 210547000
