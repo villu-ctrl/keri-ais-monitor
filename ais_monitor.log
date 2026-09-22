@@ -196639,3 +196639,16 @@
 2026-09-22 14:49:56,528 - INFO - Saved positions, cleaned 221 old records
 2026-09-22 14:49:56,531 - INFO - Exported GeoJSON to out (trails: 0)
 2026-09-22 14:49:56,532 - INFO - No breaches detected
+2026-09-22 18:20:36,425 - INFO - Loaded geofence: piiratud
+2026-09-22 18:20:36,426 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-09-22 18:20:36,426 - INFO - --- Starting check ---
+2026-09-22 18:20:36,426 - INFO - Fetching vessel metadata...
+2026-09-22 18:20:36,776 - INFO - Loaded metadata for 1007 vessels
+2026-09-22 18:20:36,777 - INFO - Fetching AIS data...
+2026-09-22 18:20:36,923 - INFO - Found 214 vessels in Gulf of Finland
+2026-09-22 18:20:36,929 - INFO - Saved positions, cleaned 220 old records
+2026-09-22 18:20:36,930 - WARNING - BREACH: LETTLAND (MMSI 255806245) in restricted area (speed: 10.8 knots)
+2026-09-22 18:20:36,930 - WARNING - BREACH: SWE-FREIGHTER (MMSI 210547000) in restricted area (speed: 11.4 knots)
+2026-09-22 18:20:36,933 - INFO - Exported GeoJSON to out (trails: 0)
+2026-09-22 18:20:40,319 - INFO - Alert sent for MMSI 255806245
+2026-09-22 18:20:42,321 - INFO - Alert sent for MMSI 210547000
