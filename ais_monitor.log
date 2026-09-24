@@ -197149,3 +197149,14 @@
 2026-09-23 23:56:21,943 - INFO - Saved positions, cleaned 203 old records
 2026-09-23 23:56:21,975 - INFO - Exported GeoJSON to out (trails: 219)
 2026-09-23 23:56:21,975 - INFO - No breaches detected
+2026-09-24 00:24:30,494 - INFO - Loaded geofence: piiratud
+2026-09-24 00:24:30,495 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-09-24 00:24:30,495 - INFO - --- Starting check ---
+2026-09-24 00:24:30,495 - INFO - Fetching vessel metadata...
+2026-09-24 00:24:30,587 - INFO - Loaded metadata for 1062 vessels
+2026-09-24 00:24:30,587 - INFO - Fetching AIS data...
+2026-09-24 00:24:30,669 - INFO - Found 211 vessels in Gulf of Finland
+2026-09-24 00:24:30,678 - INFO - Saved positions, cleaned 410 old records
+2026-09-24 00:24:30,681 - WARNING - BREACH: LAPPLAND (MMSI 255806291) in restricted area (speed: 10.5 knots)
+2026-09-24 00:24:30,708 - INFO - Exported GeoJSON to out (trails: 219)
+2026-09-24 00:24:32,602 - INFO - Alert sent for MMSI 255806291
