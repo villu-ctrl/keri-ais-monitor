@@ -200322,3 +200322,14 @@
 2026-09-26 14:25:47,185 - INFO - Saved positions, cleaned 210 old records
 2026-09-26 14:25:47,215 - INFO - Exported GeoJSON to out (trails: 222)
 2026-09-26 14:25:47,215 - INFO - No breaches detected
+2026-09-26 14:34:11,730 - INFO - Loaded geofence: piiratud
+2026-09-26 14:34:11,730 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-09-26 14:34:11,730 - INFO - --- Starting check ---
+2026-09-26 14:34:11,730 - INFO - Fetching vessel metadata...
+2026-09-26 14:34:12,080 - INFO - Loaded metadata for 831 vessels
+2026-09-26 14:34:12,081 - INFO - Fetching AIS data...
+2026-09-26 14:34:12,504 - INFO - Found 212 vessels in Gulf of Finland
+2026-09-26 14:34:12,621 - INFO - Saved positions, cleaned 212 old records
+2026-09-26 14:34:12,622 - WARNING - BREACH: ALAND (MMSI 255802540) in restricted area (speed: 10.5 knots)
+2026-09-26 14:34:12,643 - INFO - Exported GeoJSON to out (trails: 222)
+2026-09-26 14:34:13,657 - INFO - Alert sent for MMSI 255802540
