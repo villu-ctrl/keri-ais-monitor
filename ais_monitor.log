@@ -211725,3 +211725,14 @@
 2026-11-02 07:52:04,247 - INFO - Saved positions, cleaned 204 old records
 2026-11-02 07:52:04,267 - INFO - Exported GeoJSON to out (trails: 227)
 2026-11-02 07:52:04,267 - INFO - No breaches detected
+2026-11-02 07:58:01,440 - INFO - Loaded geofence: piiratud
+2026-11-02 07:58:01,444 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-11-02 07:58:01,444 - INFO - --- Starting check ---
+2026-11-02 07:58:01,444 - INFO - Fetching vessel metadata...
+2026-11-02 07:58:01,662 - INFO - Loaded metadata for 861 vessels
+2026-11-02 07:58:01,662 - INFO - Fetching AIS data...
+2026-11-02 07:58:01,991 - INFO - Found 216 vessels in Gulf of Finland
+2026-11-02 07:58:02,007 - INFO - Saved positions, cleaned 205 old records
+2026-11-02 07:58:02,008 - WARNING - BREACH: ALESSANDRA LEHMANN (MMSI 304677000) in restricted area (speed: 10.2 knots)
+2026-11-02 07:58:02,026 - INFO - Exported GeoJSON to out (trails: 227)
+2026-11-02 07:58:04,664 - INFO - Alert sent for MMSI 304677000
