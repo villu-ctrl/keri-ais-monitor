@@ -241444,3 +241444,14 @@
 2026-11-17 16:42:03,185 - INFO - Saved positions, cleaned 220 old records
 2026-11-17 16:42:03,215 - INFO - Exported GeoJSON to out (trails: 229)
 2026-11-17 16:42:03,216 - INFO - No breaches detected
+2026-11-17 16:48:02,287 - INFO - Loaded geofence: piiratud
+2026-11-17 16:48:02,290 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-11-17 16:48:02,290 - INFO - --- Starting check ---
+2026-11-17 16:48:02,290 - INFO - Fetching vessel metadata...
+2026-11-17 16:48:02,638 - INFO - Loaded metadata for 842 vessels
+2026-11-17 16:48:02,639 - INFO - Fetching AIS data...
+2026-11-17 16:48:02,829 - INFO - Found 206 vessels in Gulf of Finland
+2026-11-17 16:48:02,840 - INFO - Saved positions, cleaned 222 old records
+2026-11-17 16:48:02,840 - WARNING - BREACH: THOR (MMSI 219996000) in restricted area (speed: 4.8 knots)
+2026-11-17 16:48:02,873 - INFO - Exported GeoJSON to out (trails: 230)
+2026-11-17 16:48:04,222 - INFO - Alert sent for MMSI 219996000
