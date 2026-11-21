@@ -247932,3 +247932,14 @@
 2026-11-21 01:00:10,444 - INFO - Saved positions, cleaned 186 old records
 2026-11-21 01:00:10,462 - INFO - Exported GeoJSON to out (trails: 200)
 2026-11-21 01:00:10,462 - INFO - No breaches detected
+2026-11-21 01:13:09,979 - INFO - Loaded geofence: piiratud
+2026-11-21 01:13:09,984 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-11-21 01:13:09,985 - INFO - --- Starting check ---
+2026-11-21 01:13:09,985 - INFO - Fetching vessel metadata...
+2026-11-21 01:13:10,117 - INFO - Loaded metadata for 818 vessels
+2026-11-21 01:13:10,118 - INFO - Fetching AIS data...
+2026-11-21 01:13:10,428 - INFO - Found 191 vessels in Gulf of Finland
+2026-11-21 01:13:10,436 - INFO - Saved positions, cleaned 190 old records
+2026-11-21 01:13:10,436 - WARNING - BREACH: SWE-TRADER (MMSI 212179000) in restricted area (speed: 10.9 knots)
+2026-11-21 01:13:10,463 - INFO - Exported GeoJSON to out (trails: 200)
+2026-11-21 01:13:11,461 - INFO - Alert sent for MMSI 212179000
