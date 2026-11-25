@@ -255797,3 +255797,13 @@
 2026-11-25 03:37:21,835 - INFO - Saved positions, cleaned 180 old records
 2026-11-25 03:37:21,855 - INFO - Exported GeoJSON to out (trails: 193)
 2026-11-25 03:37:21,855 - INFO - No breaches detected
+2026-11-25 03:43:24,582 - INFO - Loaded geofence: piiratud
+2026-11-25 03:43:24,591 - INFO - Database ready: /home/runner/work/keri-ais-monitor/keri-ais-monitor/ais_trails.db
+2026-11-25 03:43:24,592 - INFO - --- Starting check ---
+2026-11-25 03:43:24,592 - INFO - Fetching vessel metadata...
+2026-11-25 03:43:24,698 - INFO - Loaded metadata for 763 vessels
+2026-11-25 03:43:24,698 - INFO - Fetching AIS data...
+2026-11-25 03:43:24,792 - INFO - Found 184 vessels in Gulf of Finland
+2026-11-25 03:43:24,796 - WARNING - BREACH: ECO KHAMSIN (MMSI 249537000) in restricted area (speed: 4.4 knots)
+2026-11-25 03:43:24,814 - INFO - Exported GeoJSON to out (trails: 193)
+2026-11-25 03:43:25,534 - INFO - Alert sent for MMSI 249537000
